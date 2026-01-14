@@ -1,0 +1,25 @@
+
+
+1755674937.321651603  Node Startup
+1755674978.814732313 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755674978.954911947 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.023000 -0.011385 -0.204096]
+1755674979.549871206 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755674988.276711796 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (DualSense Wireless Controller). deadzone_: 0.050000.
+1755674994.309166431 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /connected_clients] Client connected.  1 clients total.
+1755674995.339254856 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /client_count, /kelpie/leg_control/joint_states, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755674995.354357719 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /client_count, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755674995.376591920 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /client_count, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /connected_clients, /kelpie/leg_control/currents] [Client 0] Subscribed to /kelpie/battery/voltage
+1755674995.398132801 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /client_count, /kelpie/leg_control/joint_states, /kelpie/imu, /kelpie/battery/voltage, /connected_clients, /kelpie/leg_control/currents] [Client 0] Subscribed to /kelpie/imu
+1755674997.606472730 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] BattVol0.0
+1755674997.610383987 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] 
+Command is: <gait_controller.Command.Command object at 0xffff84337af0>
+
+1755674997.616112709 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.027000 -0.011385 -0.204096]
+1755674997.621241092 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.027000 -0.011385 -0.204096]
+1755674997.626238822 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.023000 -0.011385 -0.204096]
+1755674997.631891250 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.023000 -0.011385 -0.204096]
+1755674997.637875318 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] Manual Control deactivated. Now accepting external commands
+1755674997.645800352 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.027000 -0.011385 -0.204096]
+1755674997.652028560 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.027000 -0.011385 -0.204096]
+1755674997.657212257 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.023000 -0.011385 -0.204096]
+1755674997.662388801 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input, /kelpie/imu, /kelpie/battery/voltage] target coordinate: [0.023000 -0.011385 -0.204096]

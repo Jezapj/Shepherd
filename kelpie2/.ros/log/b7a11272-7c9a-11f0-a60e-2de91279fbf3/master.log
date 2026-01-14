@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 2025-08-19 11:20:42,425: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-08-19 11:20:42,425: Starting ROS Master Node
+[xmlrpc][INFO] 2025-08-19 11:20:42,427: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-08-19 11:20:42,428: Started XML-RPC server [http://kelpie2:11311/]
+[rosmaster.master][INFO] 2025-08-19 11:20:42,429: Master initialized: port[11311], uri[http://kelpie2:11311/]
+[xmlrpc][INFO] 2025-08-19 11:20:42,429: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-08-19 11:20:42,541: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-08-19 11:20:42,544: +PARAM [/roslaunch/uris/host_kelpie2__33643] by /roslaunch
+[rosmaster.master][INFO] 2025-08-19 11:20:42,769: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-08-19 11:20:42,769: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-08-19 11:20:42,944: +SERVICE [/rosout/get_loggers] /rosout http://kelpie2:39927/
+[rosmaster.master][INFO] 2025-08-19 11:20:42,946: +SERVICE [/rosout/set_logger_level] /rosout http://kelpie2:39927/
+[rosmaster.master][INFO] 2025-08-19 11:20:42,949: +PUB [/rosout_agg] /rosout http://kelpie2:39927/
+[rosmaster.master][INFO] 2025-08-19 11:20:42,957: +SUB [/rosout] /rosout http://kelpie2:39927/
+[rosmaster.master][INFO] 2025-08-19 11:20:53,562: -PUB [/rosout_agg] /rosout http://kelpie2:39927/
+[rosmaster.master][INFO] 2025-08-19 11:20:53,564: -SUB [/rosout] /rosout http://kelpie2:39927/
+[rosmaster.master][INFO] 2025-08-19 11:20:53,566: -SERVICE [/rosout/get_loggers] /rosout rosrpc://kelpie2:59837
+[rosmaster.master][INFO] 2025-08-19 11:20:53,567: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://kelpie2:59837
+[rosmaster.main][INFO] 2025-08-19 11:20:53,614: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-08-19 11:20:53,615: stopping master...
+[rospy.core][INFO] 2025-08-19 11:20:53,615: signal_shutdown [atexit]

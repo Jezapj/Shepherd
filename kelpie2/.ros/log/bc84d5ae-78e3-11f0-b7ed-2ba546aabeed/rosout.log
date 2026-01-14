@@ -1,0 +1,11 @@
+
+
+1755157998.531861527  Node Startup
+1755158016.607332468 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755158016.883897781 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/imu, /kelpie/leg_control/currents, /rosout] Manual robot control active. Currently not accepting external commands
+1755158017.806153297 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755158064.029491662 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/imu, /kelpie/command_input] Manual robot control active. Currently not accepting external commands
+1755158064.189654350 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755158064.840006113 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /client_count, /connected_clients] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755158069.848508119 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /client_count, /connected_clients] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755158074.857769250 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090

@@ -1,0 +1,5 @@
+kelpie_common
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_common/lib/pkgconfig/kelpie_common.pc /home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig/kelpie_common.pc
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_common/lib/python3/dist-packages/kelpie_common/__init__.py /home/kelpie2/Kelpie/kelpie_ws/devel/lib/python3/dist-packages/kelpie_common/__init__.py
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_common/share/kelpie_common/cmake/kelpie_commonConfig.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_common/cmake/kelpie_commonConfig.cmake
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_common/share/kelpie_common/cmake/kelpie_commonConfig-version.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_common/cmake/kelpie_commonConfig-version.cmake

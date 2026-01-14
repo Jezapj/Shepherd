@@ -1,0 +1,182 @@
+[rospy.client][INFO] 2025-08-13 16:24:18,609: init_node, name[/rosbridge_websocket], pid[1411]
+[xmlrpc][INFO] 2025-08-13 16:24:18,610: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-13 16:24:18,611: Started XML-RPC server [http://localhost:40789/]
+[rospy.init][INFO] 2025-08-13 16:24:18,611: ROS Slave URI: [http://localhost:40789/]
+[rospy.impl.masterslave][INFO] 2025-08-13 16:24:18,611: _ready: http://localhost:40789/
+[rospy.registration][INFO] 2025-08-13 16:24:18,613: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-13 16:24:18,614: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-13 16:24:18,712: registered with master
+[rospy.rosout][INFO] 2025-08-13 16:24:18,713: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-13 16:24:18,724: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-13 16:24:18,727: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-13 16:24:18,787: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-13 16:24:19,015: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-13 16:24:25,874: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-13 16:24:26,280: [Client 0] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:24:26,288: [Client 0] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:24:26,297: [Client 0] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:24:26,306: [Client 0] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-13 16:27:05,085: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-13 16:27:05,337: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-13 16:27:08,778: [Client 1] [id: advertise:/kelpie/command_input:1] advertise: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:27:08,789: [Client 1] [id: publish:/kelpie/command_input:2] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:08,798: [Client 1] [id: publish:/kelpie/command_input:3] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:08,807: [Client 1] [id: publish:/kelpie/command_input:4] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,638: [Client 1] [id: publish:/kelpie/command_input:5] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,684: [Client 1] [id: publish:/kelpie/command_input:6] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,725: [Client 1] [id: publish:/kelpie/command_input:7] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,787: [Client 1] [id: publish:/kelpie/command_input:8] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,833: [Client 1] [id: publish:/kelpie/command_input:9] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,880: [Client 1] [id: publish:/kelpie/command_input:10] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:10,934: [Client 1] [id: publish:/kelpie/command_input:11] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:14,714: [Client 1] [id: publish:/kelpie/command_input:12] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:14,724: [Client 1] [id: publish:/kelpie/command_input:13] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:17,379: [Client 1] [id: publish:/kelpie/command_input:14] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:17,389: [Client 1] [id: publish:/kelpie/command_input:15] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:17,398: [Client 1] [id: publish:/kelpie/command_input:16] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:19,098: [Client 1] [id: publish:/kelpie/command_input:17] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:19,144: [Client 1] [id: publish:/kelpie/command_input:18] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:19,206: [Client 1] [id: publish:/kelpie/command_input:19] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:19,216: [Client 1] [id: publish:/kelpie/command_input:20] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:21,245: [Client 1] [id: publish:/kelpie/command_input:21] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:21,286: [Client 1] [id: publish:/kelpie/command_input:22] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:21,365: [Client 1] [id: publish:/kelpie/command_input:23] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:23,229: [Client 1] [id: publish:/kelpie/command_input:24] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:23,274: [Client 1] [id: publish:/kelpie/command_input:25] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:23,317: [Client 1] [id: publish:/kelpie/command_input:26] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:23,368: [Client 1] [id: publish:/kelpie/command_input:27] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:23,405: [Client 1] [id: publish:/kelpie/command_input:28] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:25,069: [Client 1] [id: publish:/kelpie/command_input:29] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:25,133: [Client 1] [id: publish:/kelpie/command_input:30] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:26,677: [Client 1] [id: publish:/kelpie/command_input:31] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:26,741: [Client 1] [id: publish:/kelpie/command_input:32] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:26,751: [Client 1] [id: publish:/kelpie/command_input:33] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:27,565: [Client 1] [id: publish:/kelpie/command_input:34] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:27:27,605: [Client 1] [id: publish:/kelpie/command_input:35] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][INFO] 2025-08-13 16:33:56,342: Client connected.  2 clients total.
+[rosout][ERROR] 2025-08-13 16:33:56,377: [Client 2] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:33:56,388: [Client 2] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:33:56,397: [Client 2] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:33:56,407: [Client 2] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-13 16:34:11,891: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-13 16:34:11,910: Client connected.  2 clients total.
+[rosout][INFO] 2025-08-13 16:34:13,235: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-13 16:34:13,278: Client connected.  2 clients total.
+[rosout][INFO] 2025-08-13 16:34:14,363: [Client 4] Subscribed to /raspicam_node/image/compressed
+[rosout][INFO] 2025-08-13 16:34:15,988: Client disconnected. 1 clients total.
+[rospy.internal][INFO] 2025-08-13 16:34:15,997: topic impl's ref count is zero, deleting topic /raspicam_node/image/compressed...
+[rosout][INFO] 2025-08-13 16:34:16,003: Client connected.  2 clients total.
+[rosout][ERROR] 2025-08-13 16:34:18,030: [Client 5] [id: advertise:/kelpie/command_input:1] advertise: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:34:18,041: [Client 5] [id: publish:/kelpie/command_input:2] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:18,085: [Client 5] [id: publish:/kelpie/command_input:3] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:18,140: [Client 5] [id: publish:/kelpie/command_input:4] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:18,150: [Client 5] [id: publish:/kelpie/command_input:5] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:21,116: [Client 5] [id: publish:/kelpie/command_input:6] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:21,127: [Client 5] [id: publish:/kelpie/command_input:7] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:21,136: [Client 5] [id: publish:/kelpie/command_input:8] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:21,185: [Client 5] [id: publish:/kelpie/command_input:9] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:34:21,196: [Client 5] [id: publish:/kelpie/command_input:10] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][INFO] 2025-08-13 16:34:23,770: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-13 16:34:23,783: Client connected.  2 clients total.
+[rosout][ERROR] 2025-08-13 16:34:23,816: [Client 6] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:34:23,826: [Client 6] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:34:23,835: [Client 6] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:34:23,844: [Client 6] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-13 16:39:10,094: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-13 16:39:10,871: Client connected.  2 clients total.
+[rosout][ERROR] 2025-08-13 16:39:12,728: [Client 7] [id: advertise:/kelpie/command_input:1] advertise: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:39:12,739: [Client 7] [id: publish:/kelpie/command_input:2] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:12,766: [Client 7] [id: publish:/kelpie/command_input:3] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:12,892: [Client 7] [id: publish:/kelpie/command_input:4] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:12,901: [Client 7] [id: publish:/kelpie/command_input:5] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:13,610: [Client 7] [id: publish:/kelpie/command_input:6] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:13,682: [Client 7] [id: publish:/kelpie/command_input:7] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:13,869: [Client 7] [id: publish:/kelpie/command_input:8] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:13,880: [Client 7] [id: publish:/kelpie/command_input:9] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,212: [Client 7] [id: publish:/kelpie/command_input:10] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,267: [Client 7] [id: publish:/kelpie/command_input:11] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,469: [Client 7] [id: publish:/kelpie/command_input:12] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,479: [Client 7] [id: publish:/kelpie/command_input:13] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,567: [Client 7] [id: publish:/kelpie/command_input:14] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,670: [Client 7] [id: publish:/kelpie/command_input:15] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,742: [Client 7] [id: publish:/kelpie/command_input:16] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,761: [Client 7] [id: publish:/kelpie/command_input:17] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,904: [Client 7] [id: publish:/kelpie/command_input:18] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:14,953: [Client 7] [id: publish:/kelpie/command_input:19] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,071: [Client 7] [id: publish:/kelpie/command_input:20] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,083: [Client 7] [id: publish:/kelpie/command_input:21] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,252: [Client 7] [id: publish:/kelpie/command_input:22] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,279: [Client 7] [id: publish:/kelpie/command_input:23] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,407: [Client 7] [id: publish:/kelpie/command_input:24] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,466: [Client 7] [id: publish:/kelpie/command_input:25] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,546: [Client 7] [id: publish:/kelpie/command_input:26] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,597: [Client 7] [id: publish:/kelpie/command_input:27] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,754: [Client 7] [id: publish:/kelpie/command_input:28] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,775: [Client 7] [id: publish:/kelpie/command_input:29] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,906: [Client 7] [id: publish:/kelpie/command_input:30] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:15,954: [Client 7] [id: publish:/kelpie/command_input:31] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,139: [Client 7] [id: publish:/kelpie/command_input:32] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,148: [Client 7] [id: publish:/kelpie/command_input:33] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,253: [Client 7] [id: publish:/kelpie/command_input:34] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,263: [Client 7] [id: publish:/kelpie/command_input:35] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,382: [Client 7] [id: publish:/kelpie/command_input:36] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,425: [Client 7] [id: publish:/kelpie/command_input:37] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,574: [Client 7] [id: publish:/kelpie/command_input:38] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:16,601: [Client 7] [id: publish:/kelpie/command_input:39] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:17,997: [Client 7] [id: publish:/kelpie/command_input:40] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:18,051: [Client 7] [id: publish:/kelpie/command_input:41] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:18,113: [Client 7] [id: publish:/kelpie/command_input:42] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:18,123: [Client 7] [id: publish:/kelpie/command_input:43] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:20,550: [Client 7] [id: publish:/kelpie/command_input:44] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:20,563: [Client 7] [id: publish:/kelpie/command_input:45] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:20,573: [Client 7] [id: publish:/kelpie/command_input:46] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:20,582: [Client 7] [id: publish:/kelpie/command_input:47] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:21,620: [Client 7] [id: publish:/kelpie/command_input:48] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:21,678: [Client 7] [id: publish:/kelpie/command_input:49] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:21,724: [Client 7] [id: publish:/kelpie/command_input:50] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:21,769: [Client 7] [id: publish:/kelpie/command_input:51] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:22,903: [Client 7] [id: publish:/kelpie/command_input:52] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:22,952: [Client 7] [id: publish:/kelpie/command_input:53] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:23,000: [Client 7] [id: publish:/kelpie/command_input:54] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:23,061: [Client 7] [id: publish:/kelpie/command_input:55] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:24,078: [Client 7] [id: publish:/kelpie/command_input:56] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:24,137: [Client 7] [id: publish:/kelpie/command_input:57] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:24,185: [Client 7] [id: publish:/kelpie/command_input:58] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:24,257: [Client 7] [id: publish:/kelpie/command_input:59] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rosout][ERROR] 2025-08-13 16:39:24,268: [Client 7] [id: publish:/kelpie/command_input:60] publish: Cannot infer topic type for topic /kelpie/command_input as it is not yet advertised
+[rospy.impl.masterslave][INFO] 2025-08-13 16:42:01,527: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-13 16:42:01,528: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-13 16:42:01,551: topic[/rosout] removing connection to /rosout
+[rosout][INFO] 2025-08-13 16:44:11,790: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-13 16:44:11,796: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-13 16:44:11,801: signal_shutdown [atexit]

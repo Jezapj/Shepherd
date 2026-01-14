@@ -1,0 +1,58 @@
+[rospy.client][INFO] 2025-08-20 17:29:38,666: init_node, name[/kelpie], pid[1560]
+[xmlrpc][INFO] 2025-08-20 17:29:38,667: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-20 17:29:38,668: Started XML-RPC server [http://kelpie2:40935/]
+[rospy.init][INFO] 2025-08-20 17:29:38,669: ROS Slave URI: [http://kelpie2:40935/]
+[rospy.impl.masterslave][INFO] 2025-08-20 17:29:38,669: _ready: http://kelpie2:40935/
+[rospy.registration][INFO] 2025-08-20 17:29:38,671: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-20 17:29:38,672: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-20 17:29:38,770: registered with master
+[rospy.rosout][INFO] 2025-08-20 17:29:38,770: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-20 17:29:38,783: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-20 17:29:38,787: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-20 17:29:38,823: Creating input listener...
+[rosout][INFO] 2025-08-20 17:29:38,832: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-20 17:29:38,837: Summary of current gait parameters:
+[rosout][INFO] 2025-08-20 17:29:38,841: overlap time: 0.04
+[rosout][INFO] 2025-08-20 17:29:38,845: swing time: 0.07
+[rosout][INFO] 2025-08-20 17:29:38,849: z clearance: 0.08
+[rosout][INFO] 2025-08-20 17:29:38,854: back leg x shift: 0.00
+[rosout][INFO] 2025-08-20 17:29:38,858: front leg x shift: 0.05
+[rosout][INFO] 2025-08-20 17:29:38,863: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-08-20 17:29:38,875: target coordinate: [0.027000 -0.011438 -0.204280]
+[rosout][WARNING] 2025-08-20 17:29:38,880: target coordinate: [0.027000 -0.011438 -0.204280]
+[rosout][WARNING] 2025-08-20 17:29:38,885: target coordinate: [0.023000 -0.011438 -0.204280]
+[rosout][WARNING] 2025-08-20 17:29:38,890: target coordinate: [0.023000 -0.011438 -0.204280]
+[rosout][INFO] 2025-08-20 17:29:38,894: Estopped? 0
+[rosout][INFO] 2025-08-20 17:29:38,898: BattVol0.0
+[rosout][INFO] 2025-08-20 17:29:38,902: 
+Command is: <gait_controller.Command.Command object at 0xffff863f07c0>
+
+[rosout][WARNING] 2025-08-20 17:29:38,908: target coordinate: [0.027000 -0.011398 -0.204142]
+[rosout][WARNING] 2025-08-20 17:29:38,913: target coordinate: [0.027000 -0.011398 -0.204142]
+[rosout][WARNING] 2025-08-20 17:29:38,919: target coordinate: [0.023000 -0.011398 -0.204142]
+[rosout][WARNING] 2025-08-20 17:29:38,924: target coordinate: [0.023000 -0.011398 -0.204142]
+[rosout][INFO] 2025-08-20 17:29:38,929: Manual Control deactivated. Now accepting external commands
+[rosout][WARNING] 2025-08-20 17:29:38,935: target coordinate: [0.027000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:38,940: target coordinate: [0.027000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:38,945: target coordinate: [0.023000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:38,950: target coordinate: [0.023000 -0.011385 -0.204096]
+[rospy.internal][INFO] 2025-08-20 17:29:39,130: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-20 17:29:39,506: topic[/kelpie/leg_control/currents] adding connection to [http://kelpie2:46403/], count 0
+[rospy.internal][INFO] 2025-08-20 17:29:39,514: topic[/kelpie/battery/voltage] adding connection to [http://kelpie2:46403/], count 0
+[rospy.internal][INFO] 2025-08-20 17:29:39,522: topic[/kelpie/imu] adding connection to [http://kelpie2:46403/], count 0
+[rospy.internal][INFO] 2025-08-20 17:29:39,544: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-20 17:29:39,609: topic[/kelpie/command_input] adding connection to [http://kelpie2:46403/], count 0
+[rospy.internal][INFO] 2025-08-20 17:29:55,408: topic[/kelpie/leg_control/joint_states] adding connection to [/rosbridge_websocket], count 1
+[rosout][INFO] 2025-08-20 17:29:57,603: BattVol0.0
+[rosout][INFO] 2025-08-20 17:29:57,607: 
+Command is: <gait_controller.Command.Command object at 0xffff84337af0>
+
+[rosout][WARNING] 2025-08-20 17:29:57,612: target coordinate: [0.027000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:57,617: target coordinate: [0.027000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:57,623: target coordinate: [0.023000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:57,628: target coordinate: [0.023000 -0.011385 -0.204096]
+[rosout][INFO] 2025-08-20 17:29:57,633: Manual Control deactivated. Now accepting external commands
+[rosout][WARNING] 2025-08-20 17:29:57,641: target coordinate: [0.027000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:57,647: target coordinate: [0.027000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:57,653: target coordinate: [0.023000 -0.011385 -0.204096]
+[rosout][WARNING] 2025-08-20 17:29:57,659: target coordinate: [0.023000 -0.011385 -0.204096]

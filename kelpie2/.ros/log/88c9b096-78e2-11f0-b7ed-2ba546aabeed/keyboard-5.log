@@ -1,0 +1,38 @@
+[rospy.client][INFO] 2025-08-14 17:45:22,621: init_node, name[/keyboard], pid[1590]
+[xmlrpc][INFO] 2025-08-14 17:45:22,622: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:45:22,623: Started XML-RPC server [http://localhost:36423/]
+[rospy.init][INFO] 2025-08-14 17:45:22,623: ROS Slave URI: [http://localhost:36423/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:45:22,624: _ready: http://localhost:36423/
+[rospy.registration][INFO] 2025-08-14 17:45:22,626: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:45:22,626: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 17:45:22,724: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:45:22,725: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:45:22,735: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:45:22,738: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-14 17:45:22,971: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-14 17:45:23,019: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:47:00,789: topic[/kelpie/command_input] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-14 17:47:00,790: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.core][INFO] 2025-08-14 17:47:17,187: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-14 17:47:17,192: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-14 17:47:17,193: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.impl.masterslave][INFO] 2025-08-14 17:47:17,193: signal-2
+[rospy.core][INFO] 2025-08-14 17:47:17,789: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-14 17:47:46,948: init_node, name[/keyboard], pid[2014]
+[xmlrpc][INFO] 2025-08-14 17:47:46,969: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:47:46,970: Started XML-RPC server [http://localhost:41989/]
+[rospy.init][INFO] 2025-08-14 17:47:46,971: ROS Slave URI: [http://localhost:41989/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:47:46,981: _ready: http://localhost:41989/
+[rospy.registration][INFO] 2025-08-14 17:47:47,005: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:47:47,005: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 17:47:47,082: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:47:47,083: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:47:47,106: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:47:47,111: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-14 17:47:47,328: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:47:47,402: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-08-14 17:48:56,657: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-14 17:48:56,662: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-14 17:48:56,663: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.impl.masterslave][INFO] 2025-08-14 17:48:56,664: signal-2
+[rospy.core][INFO] 2025-08-14 17:48:57,259: signal_shutdown [atexit]

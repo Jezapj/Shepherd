@@ -1,0 +1,22 @@
+
+
+1755578706.323343040  Node Startup
+1755578759.182773590 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755578759.167262554 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] front leg x shift: 0.05
+1755578759.733532905 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755578764.723061561 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /connected_clients, /rosout] Client connected.  1 clients total.
+1755578765.568175554 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /client_count, /connected_clients, /kelpie/leg_control/joint_states, /rosout] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755578765.590250492 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /client_count, /connected_clients, /kelpie/leg_control/joint_states, /rosout] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755578765.609773635 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /client_count, /connected_clients, /kelpie/leg_control/joint_states, /rosout, /kelpie/battery/voltage] [Client 0] Subscribed to /kelpie/battery/voltage
+1755578765.629623889 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /client_count, /connected_clients, /kelpie/leg_control/joint_states, /rosout, /kelpie/battery/voltage, /kelpie/imu] [Client 0] Subscribed to /kelpie/imu
+1755578790.962631702 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755578791.178417921 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /rosout] front leg x shift: 0.05
+1755578791.765224218 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755578806.941796541 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /kelpie/command_input, /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] front leg x shift: 0.05
+1755578807.043118000 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755578807.840389013 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /rosout, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755578822.825693368 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /rosout, /client_count] Client connected.  1 clients total.
+1755578823.679397821 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755578823.701914072 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /client_count] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755578823.722617626 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/battery/voltage, /connected_clients, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /client_count] [Client 0] Subscribed to /kelpie/battery/voltage
+1755578823.742304086 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/battery/voltage, /connected_clients, /kelpie/leg_control/joint_states, /rosout, /kelpie/imu, /kelpie/leg_control/currents, /client_count] [Client 0] Subscribed to /kelpie/imu

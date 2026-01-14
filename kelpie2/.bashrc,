@@ -1,0 +1,3 @@
+source /opt/ros/noetic/setup.bash source /home/kelpie2/.bashrc
+source ~/DingoQuadruped/kelpie_ws/devel/setup.bash source /home/kelpie2/.bashrc
+source ~/Kelpie/kelpie_ws/devel/setup.bash source /home/kelpie2/.bashrc

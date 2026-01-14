@@ -1,0 +1,62 @@
+[rospy.client][INFO] 2025-08-13 16:19:43,452: init_node, name[/rosbridge_websocket], pid[1366]
+[xmlrpc][INFO] 2025-08-13 16:19:43,453: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-13 16:19:43,454: Started XML-RPC server [http://localhost:38831/]
+[rospy.init][INFO] 2025-08-13 16:19:43,454: ROS Slave URI: [http://localhost:38831/]
+[rospy.impl.masterslave][INFO] 2025-08-13 16:19:43,455: _ready: http://localhost:38831/
+[rospy.registration][INFO] 2025-08-13 16:19:43,456: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-13 16:19:43,457: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-13 16:19:43,555: registered with master
+[rospy.rosout][INFO] 2025-08-13 16:19:43,556: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-13 16:19:43,567: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-13 16:19:43,570: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-13 16:19:43,635: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-13 16:19:43,787: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-13 16:19:45,291: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-13 16:19:45,418: [Client 0] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:45,426: [Client 0] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:45,437: [Client 0] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:45,447: [Client 0] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-13 16:19:47,824: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-13 16:19:47,895: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-13 16:19:49,304: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-13 16:19:49,342: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-13 16:19:49,366: [Client 2] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:49,377: [Client 2] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:49,387: [Client 2] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:49,396: [Client 2] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-13 16:19:50,686: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-13 16:19:50,739: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-13 16:19:51,868: [Client 3] Subscribed to /raspicam_node/image/compressed
+[rosout][INFO] 2025-08-13 16:19:52,008: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-13 16:19:52,015: topic impl's ref count is zero, deleting topic /raspicam_node/image/compressed...
+[rosout][INFO] 2025-08-13 16:19:52,043: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-13 16:19:52,061: [Client 4] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:52,071: [Client 4] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:52,080: [Client 4] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-13 16:19:52,090: [Client 4] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-13 16:19:53,054: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-13 16:19:53,095: Client connected.  1 clients total.

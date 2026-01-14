@@ -1,0 +1,11 @@
+
+
+1755580067.358822564  Node Startup
+1755580149.244992017 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/battery/voltage, /kelpie/leg_control/currents, /rosout] front leg x shift: 0.05
+1755580149.220760583 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755580149.806049346 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /client_count, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755580150.032144308 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /client_count, /rosout] Client connected.  1 clients total.
+1755580150.915987253 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /connected_clients, /client_count, /rosout] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755580150.934806346 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/leg_control/joint_states, /client_count, /kelpie/leg_control/currents] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755580150.953599214 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/leg_control/joint_states, /client_count, /kelpie/leg_control/currents, /kelpie/battery/voltage] [Client 0] Subscribed to /kelpie/battery/voltage
+1755580150.976400136 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /client_count, /kelpie/leg_control/currents, /kelpie/battery/voltage] [Client 0] Subscribed to /kelpie/imu

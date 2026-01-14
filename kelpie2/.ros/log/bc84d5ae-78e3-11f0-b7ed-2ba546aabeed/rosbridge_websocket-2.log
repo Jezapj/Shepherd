@@ -1,0 +1,33 @@
+[rospy.client][INFO] 2025-08-14 17:53:37,612: init_node, name[/rosbridge_websocket], pid[2719]
+[xmlrpc][INFO] 2025-08-14 17:53:37,613: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:53:37,614: Started XML-RPC server [http://localhost:38107/]
+[rospy.init][INFO] 2025-08-14 17:53:37,615: ROS Slave URI: [http://localhost:38107/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:53:37,615: _ready: http://localhost:38107/
+[rospy.registration][INFO] 2025-08-14 17:53:37,617: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:53:37,618: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 17:53:37,716: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:53:37,716: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:53:37,722: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:53:37,725: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 17:53:37,801: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-14 17:53:37,949: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2025-08-14 17:54:24,634: init_node, name[/rosbridge_websocket], pid[2825]
+[xmlrpc][INFO] 2025-08-14 17:54:24,635: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:54:24,636: Started XML-RPC server [http://localhost:32813/]
+[rospy.init][INFO] 2025-08-14 17:54:24,637: ROS Slave URI: [http://localhost:32813/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:54:24,637: _ready: http://localhost:32813/
+[rospy.registration][INFO] 2025-08-14 17:54:24,639: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:54:24,640: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 17:54:24,738: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:54:24,738: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:54:24,745: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:54:24,749: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-14 17:54:24,770: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-14 17:54:24,771: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-14 17:54:24,795: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-14 17:54:24,836: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-14 17:54:24,990: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-14 17:54:29,844: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-14 17:54:34,473: signal_shutdown [signal-2]
+[rospy.core][INFO] 2025-08-14 17:54:34,475: signal_shutdown [atexit]
+[rosout][INFO] 2025-08-14 17:54:34,854: Rosbridge WebSocket server started at ws://0.0.0.0:9090

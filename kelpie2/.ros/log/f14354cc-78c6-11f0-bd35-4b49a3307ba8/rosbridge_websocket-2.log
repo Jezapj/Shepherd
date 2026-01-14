@@ -1,0 +1,139 @@
+[rospy.client][INFO] 2025-08-14 14:27:22,381: init_node, name[/rosbridge_websocket], pid[19646]
+[xmlrpc][INFO] 2025-08-14 14:27:22,382: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 14:27:22,383: Started XML-RPC server [http://localhost:36329/]
+[rospy.init][INFO] 2025-08-14 14:27:22,384: ROS Slave URI: [http://localhost:36329/]
+[rospy.impl.masterslave][INFO] 2025-08-14 14:27:22,384: _ready: http://localhost:36329/
+[rospy.registration][INFO] 2025-08-14 14:27:22,387: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 14:27:22,387: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 14:27:22,485: registered with master
+[rospy.rosout][INFO] 2025-08-14 14:27:22,486: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 14:27:22,499: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 14:27:22,505: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 14:27:22,585: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-14 14:27:22,704: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-08-14 14:30:18,851: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-14 14:30:18,884: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-14 14:30:18,888: signal-2
+[rospy.core][INFO] 2025-08-14 14:30:19,458: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-14 14:35:21,674: init_node, name[/rosbridge_websocket], pid[36926]
+[xmlrpc][INFO] 2025-08-14 14:35:21,675: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 14:35:21,676: Started XML-RPC server [http://localhost:43363/]
+[rospy.init][INFO] 2025-08-14 14:35:21,676: ROS Slave URI: [http://localhost:43363/]
+[rospy.impl.masterslave][INFO] 2025-08-14 14:35:21,677: _ready: http://localhost:43363/
+[rospy.registration][INFO] 2025-08-14 14:35:21,679: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-14 14:35:21,679: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 14:35:21,777: registered with master
+[rospy.rosout][INFO] 2025-08-14 14:35:21,778: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 14:35:21,785: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 14:35:21,788: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 14:35:21,848: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-14 14:35:22,015: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-14 14:35:34,158: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-14 14:35:34,275: [Client 0] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:34,284: [Client 0] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:34,294: [Client 0] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:34,304: [Client 0] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-14 14:35:36,321: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-14 14:35:36,329: Client connected.  1 clients total.
+[rosout][ERROR] 2025-08-14 14:35:37,557: [Client 1] [id: advertise:/kelpie/command_input:1] advertise: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:37,567: [Client 1] [id: publish:/kelpie/command_input:2] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:37,579: [Client 1] [id: publish:/kelpie/command_input:3] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:38,468: [Client 1] [id: publish:/kelpie/command_input:4] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:38,502: [Client 1] [id: publish:/kelpie/command_input:5] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:39,257: [Client 1] [id: publish:/kelpie/command_input:6] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:39,281: [Client 1] [id: publish:/kelpie/command_input:7] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:39,561: [Client 1] [id: publish:/kelpie/command_input:8] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:39,602: [Client 1] [id: publish:/kelpie/command_input:9] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:40,238: [Client 1] [id: publish:/kelpie/command_input:10] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:40,272: [Client 1] [id: publish:/kelpie/command_input:11] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:40,958: [Client 1] [id: publish:/kelpie/command_input:12] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,011: [Client 1] [id: publish:/kelpie/command_input:13] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,029: [Client 1] [id: publish:/kelpie/command_input:14] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,587: [Client 1] [id: publish:/kelpie/command_input:15] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,620: [Client 1] [id: publish:/kelpie/command_input:16] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,737: [Client 1] [id: publish:/kelpie/command_input:17] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,767: [Client 1] [id: publish:/kelpie/command_input:18] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,931: [Client 1] [id: publish:/kelpie/command_input:19] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:41,963: [Client 1] [id: publish:/kelpie/command_input:20] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:42,613: [Client 1] [id: publish:/kelpie/command_input:21] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][ERROR] 2025-08-14 14:35:42,653: [Client 1] [id: publish:/kelpie/command_input:22] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+[rosout][INFO] 2025-08-14 14:35:44,195: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-14 14:35:44,274: Client connected.  1 clients total.
+[rospy.client][INFO] 2025-08-14 14:35:44,600: init_node, name[/rosbridge_websocket], pid[37258]
+[xmlrpc][INFO] 2025-08-14 14:35:44,601: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 14:35:44,603: Started XML-RPC server [http://localhost:38279/]
+[rospy.init][INFO] 2025-08-14 14:35:44,603: ROS Slave URI: [http://localhost:38279/]
+[rospy.impl.masterslave][INFO] 2025-08-14 14:35:44,604: _ready: http://localhost:38279/
+[rospy.registration][INFO] 2025-08-14 14:35:44,607: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 14:35:44,607: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 14:35:44,705: registered with master
+[rospy.rosout][INFO] 2025-08-14 14:35:44,706: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 14:35:44,724: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 14:35:44,736: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-14 14:35:44,803: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-14 14:35:44,804: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-14 14:35:44,809: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-14 14:35:44,855: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-14 14:35:45,011: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-14 14:35:45,498: [Client 2] Subscribed to /raspicam_node/image/compressed
+[rospy.impl.masterslave][INFO] 2025-08-14 14:35:45,544: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-14 14:35:45,544: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-14 14:35:45,550: topic[/rosout] removing connection to /rosout
+[rosout][INFO] 2025-08-14 14:35:45,870: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-14 14:35:45,875: signal_shutdown [atexit]
+[rospy.core][WARNING] 2025-08-14 14:35:49,863: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-08-14 14:35:49,863: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-08-14 14:36:08,026: signal_shutdown [signal-2]
+[rospy.core][INFO] 2025-08-14 14:36:23,069: signal_shutdown [atexit]

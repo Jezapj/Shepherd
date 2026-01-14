@@ -1,0 +1,83 @@
+[rospy.client][INFO] 2025-08-13 17:53:12,683: init_node, name[/rosbridge_websocket], pid[3978]
+[xmlrpc][INFO] 2025-08-13 17:53:12,684: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-13 17:53:12,685: Started XML-RPC server [http://localhost:36483/]
+[rospy.init][INFO] 2025-08-13 17:53:12,685: ROS Slave URI: [http://localhost:36483/]
+[rospy.impl.masterslave][INFO] 2025-08-13 17:53:12,686: _ready: http://localhost:36483/
+[rospy.registration][INFO] 2025-08-13 17:53:12,688: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-13 17:53:12,689: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-13 17:53:12,786: registered with master
+[rospy.rosout][INFO] 2025-08-13 17:53:12,787: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-13 17:53:12,792: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-13 17:53:12,795: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-13 17:53:12,864: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-13 17:53:13,037: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-13 17:53:19,192: topic[/rosout] removing connection to /rosout
+[rosout][INFO] 2025-08-13 17:53:43,310: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-13 17:53:44,214: [Client 0] Subscribed to /raspicam_node/image/compressed
+[rosout][INFO] 2025-08-13 17:53:45,516: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-13 17:53:45,520: topic impl's ref count is zero, deleting topic /raspicam_node/image/compressed...
+[rosout][INFO] 2025-08-13 17:53:45,542: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-13 17:53:45,598: [Client 1] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-13 17:53:45,613: [Client 1] Subscribed to /kelpie/leg_control/currents
+[rosout][INFO] 2025-08-13 17:53:45,627: [Client 1] Subscribed to /kelpie/battery/voltage
+[rosout][INFO] 2025-08-13 17:53:45,642: [Client 1] Subscribed to /kelpie/imu
+[rosout][INFO] 2025-08-13 17:53:52,942: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-13 17:53:52,946: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-13 17:53:52,949: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-13 17:53:52,953: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-13 17:53:52,956: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rosout][INFO] 2025-08-13 17:53:53,103: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-13 17:53:53,208: [Client 2] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-13 17:53:53,227: [Client 2] Subscribed to /kelpie/leg_control/currents
+[rosout][INFO] 2025-08-13 17:53:53,241: [Client 2] Subscribed to /kelpie/battery/voltage
+[rosout][INFO] 2025-08-13 17:53:53,260: [Client 2] Subscribed to /kelpie/imu
+[rospy.core][INFO] 2025-08-13 17:53:58,605: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2025-08-13 17:53:58,608: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2025-08-13 17:53:58,609: signal-2
+[rospy.rosout][ERROR] 2025-08-13 17:53:59,228: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][INFO] 2025-08-13 17:53:59,210: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-13 17:53:59,235: signal_shutdown [atexit]

@@ -1,0 +1,196 @@
+[rospy.client][INFO] 2025-08-19 15:02:18,356: init_node, name[/hardware], pid[3690]
+[xmlrpc][INFO] 2025-08-19 15:02:18,357: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 15:02:18,358: Started XML-RPC server [http://localhost:46577/]
+[rospy.init][INFO] 2025-08-19 15:02:18,359: ROS Slave URI: [http://localhost:46577/]
+[rospy.impl.masterslave][INFO] 2025-08-19 15:02:18,359: _ready: http://localhost:46577/
+[rospy.registration][INFO] 2025-08-19 15:02:18,361: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 15:02:18,361: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-19 15:02:18,361: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-19 15:02:18,376: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-19 15:02:18,379: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.internal][INFO] 2025-08-19 15:02:18,459: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.init][INFO] 2025-08-19 15:02:18,460: registered with master
+[rospy.rosout][INFO] 2025-08-19 15:02:18,460: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 15:02:18,464: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 15:02:18,466: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-19 15:02:18,473: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:18,476: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:18,537: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:46759/], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:18,550: topic[/joy] adding connection to [http://localhost:35511/], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:18,561: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:18,738: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:31,300: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:31,322: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:31,346: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:45,510: topic[/joy] adding connection to [http://10.176.33.207:36551/], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:45,601: topic[/joy] removing connection to http://localhost:35511/
+[rospy.internal][INFO] 2025-08-19 15:02:47,026: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:46759/
+[rospy.internal][INFO] 2025-08-19 15:02:47,064: topic[/kelpie/imu] adding connection to [/kelpie], count 2
+[rospy.internal][INFO] 2025-08-19 15:02:47,065: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,070: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 2
+[rospy.internal][INFO] 2025-08-19 15:02:47,072: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,077: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 2
+[rospy.internal][INFO] 2025-08-19 15:02:47,090: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,090: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,110: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:47,168: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:38733/], count 0
+[rospy.core][INFO] 2025-08-19 15:02:47,581: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-08-19 15:02:47,607: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:02:47,608: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,609: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:02:47,611: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,612: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:02:47,614: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,615: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 15:02:47,617: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:02:47,629: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:38733/
+[rospy.internal][INFO] 2025-08-19 15:02:47,630: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:38733/
+[rospy.internal][INFO] 2025-08-19 15:02:47,631: topic[/joy] removing connection to http://10.176.33.207:36551/
+[rospy.impl.masterslave][INFO] 2025-08-19 15:02:47,632: atexit
+[rosout][ERROR] 2025-08-19 15:02:47,633: bad callback: <bound method ControllerInterface.input_callback of <kelpie_hardware_interface.handheld_controller.ps4.ControllerInterface object at 0xffffb00d26a0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/handheld_controller/ps4.py", line 32, in input_callback
+    self.command_pub.publish(command)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rospy.client][INFO] 2025-08-19 15:02:47,724: init_node, name[/hardware], pid[3801]
+[xmlrpc][INFO] 2025-08-19 15:02:47,725: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-19 15:02:47,726: Started XML-RPC server [http://10.176.33.207:38931/]
+[rospy.init][INFO] 2025-08-19 15:02:47,726: ROS Slave URI: [http://10.176.33.207:38931/]
+[rospy.impl.masterslave][INFO] 2025-08-19 15:02:47,727: _ready: http://10.176.33.207:38931/
+[rospy.registration][INFO] 2025-08-19 15:02:47,729: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 15:02:47,730: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-19 15:02:47,730: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-19 15:02:47,746: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-19 15:02:47,757: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.internal][INFO] 2025-08-19 15:02:47,799: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:47,803: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:47,811: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:47,825: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:47,826: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.init][INFO] 2025-08-19 15:02:47,828: registered with master
+[rospy.rosout][INFO] 2025-08-19 15:02:47,829: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 15:02:47,833: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 15:02:47,837: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-19 15:02:47,845: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:02:47,932: topic[/joy] adding connection to [http://10.176.33.207:36551/], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:47,937: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:38733/], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:47,970: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:48,059: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-19 15:02:48,205: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:02:48,215: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:02:48,431: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.core][INFO] 2025-08-19 15:03:37,554: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 15:03:37,586: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:03:37,586: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:03:37,596: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:38733/
+[rospy.internal][INFO] 2025-08-19 15:03:37,599: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:03:37,600: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 15:03:37,601: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:03:37,603: topic[/joy] removing connection to http://10.176.33.207:36551/
+[rospy.internal][INFO] 2025-08-19 15:03:37,604: topic[/joy] removing connection to http://10.176.33.207:36551/
+[rospy.impl.masterslave][INFO] 2025-08-19 15:03:37,606: signal-2
+[rospy.core][INFO] 2025-08-19 15:03:52,585: signal_shutdown [signal-15]
+[rospy.client][INFO] 2025-08-19 15:04:25,017: init_node, name[/hardware], pid[3947]
+[xmlrpc][INFO] 2025-08-19 15:04:25,018: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-19 15:04:25,019: Started XML-RPC server [http://10.176.33.207:39791/]
+[rospy.init][INFO] 2025-08-19 15:04:25,019: ROS Slave URI: [http://10.176.33.207:39791/]
+[rospy.impl.masterslave][INFO] 2025-08-19 15:04:25,020: _ready: http://10.176.33.207:39791/
+[rospy.registration][INFO] 2025-08-19 15:04:25,021: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 15:04:25,021: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-19 15:04:25,022: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-19 15:04:25,035: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-19 15:04:25,038: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.init][INFO] 2025-08-19 15:04:25,120: registered with master
+[rospy.rosout][INFO] 2025-08-19 15:04:25,121: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 15:04:25,127: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 15:04:25,132: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-19 15:04:25,152: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:04:25,157: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:04:25,166: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:04:25,229: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:34031/], count 0
+[rospy.internal][INFO] 2025-08-19 15:04:25,242: topic[/joy] adding connection to [http://10.176.33.207:39177/], count 0
+[rospy.internal][INFO] 2025-08-19 15:04:25,252: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:04:25,354: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:19,238: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:19,264: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:19,282: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:21,232: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:21,240: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:21,260: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:21,277: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 2
+[rospy.internal][INFO] 2025-08-19 15:05:21,278: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:21,296: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:37,097: topic[/joy] removing connection to http://10.176.33.207:39177/
+[rospy.internal][INFO] 2025-08-19 15:05:37,127: topic[/joy] adding connection to [http://localhost:45567/], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:38,972: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:34031/
+[rospy.internal][INFO] 2025-08-19 15:05:39,025: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,029: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,031: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,035: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,068: topic[/kelpie/imu] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:39,077: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:39,092: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:39,093: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:38849/], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,111: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.client][INFO] 2025-08-19 15:05:39,211: init_node, name[/hardware], pid[4089]
+[xmlrpc][INFO] 2025-08-19 15:05:39,212: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 15:05:39,214: Started XML-RPC server [http://localhost:42519/]
+[rospy.init][INFO] 2025-08-19 15:05:39,214: ROS Slave URI: [http://localhost:42519/]
+[rospy.impl.masterslave][INFO] 2025-08-19 15:05:39,215: _ready: http://localhost:42519/
+[rospy.registration][INFO] 2025-08-19 15:05:39,220: Registering with master node http://localhost:11311
+[rospy.registration][INFO] 2025-08-19 15:05:39,220: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[xmlrpc][INFO] 2025-08-19 15:05:39,221: xml rpc node: starting XML-RPC server
+[rospy.core][INFO] 2025-08-19 15:05:39,231: signal_shutdown [atexit]
+[rospy.registration][INFO] 2025-08-19 15:05:39,241: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-19 15:05:39,245: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.internal][INFO] 2025-08-19 15:05:39,246: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:39,249: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,250: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:39,251: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,252: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:39,252: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,253: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 15:05:39,256: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:05:39,256: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:38849/
+[rospy.internal][INFO] 2025-08-19 15:05:39,258: topic[/joy] removing connection to http://localhost:45567/
+[rospy.impl.masterslave][INFO] 2025-08-19 15:05:39,258: atexit
+[rospy.init][INFO] 2025-08-19 15:05:39,316: registered with master
+[rospy.rosout][INFO] 2025-08-19 15:05:39,317: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 15:05:39,321: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 15:05:39,324: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-19 15:05:39,356: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,361: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,365: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:39,381: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:39,385: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,397: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:05:39,433: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:38849/], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,453: topic[/joy] adding connection to [http://localhost:45567/], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,493: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,570: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-19 15:05:39,594: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:39,607: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:05:39,944: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:06:01,746: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:06:01,775: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-19 15:06:01,790: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.core][INFO] 2025-08-19 15:06:41,423: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 15:06:41,449: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:06:41,451: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:06:41,452: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:06:41,455: topic[/joy] removing connection to http://localhost:45567/
+[rospy.internal][INFO] 2025-08-19 15:06:41,457: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:06:41,461: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:38849/
+[rospy.internal][INFO] 2025-08-19 15:06:41,463: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-19 15:06:41,468: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-19 15:06:41,488: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 15:06:41,491: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.impl.masterslave][INFO] 2025-08-19 15:06:41,492: signal-2
+[rospy.core][INFO] 2025-08-19 15:06:56,454: signal_shutdown [signal-15]

@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2025-08-11 15:55:10,320: init_node, name[/rosapi], pid[2041]
+[xmlrpc][INFO] 2025-08-11 15:55:10,322: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-11 15:55:10,324: Started XML-RPC server [http://localhost:40807/]
+[rospy.init][INFO] 2025-08-11 15:55:10,325: ROS Slave URI: [http://localhost:40807/]
+[rospy.impl.masterslave][INFO] 2025-08-11 15:55:10,325: _ready: http://localhost:40807/
+[rospy.registration][INFO] 2025-08-11 15:55:10,328: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-11 15:55:10,329: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-11 15:55:10,426: registered with master
+[rospy.rosout][INFO] 2025-08-11 15:55:10,427: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-11 15:55:10,441: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-11 15:55:10,450: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-11 15:55:10,606: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-11 15:55:10,620: Rosapi started
+[rospy.core][INFO] 2025-08-11 15:58:08,103: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-11 15:58:08,131: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-11 15:58:08,132: signal-2
+[rospy.core][INFO] 2025-08-11 15:58:08,706: signal_shutdown [atexit]

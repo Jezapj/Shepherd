@@ -1,0 +1,90 @@
+[roslaunch][INFO] 2025-09-09 15:24:48,613: Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2025-09-09 15:24:48,785: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2025-09-09 15:24:48,786: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2025-09-09 15:24:48,786: roslaunch env is environ({'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'ROS_PACKAGE_PATH': '/home/kelpie2/Kelpie/kelpie_ws/src/kelpie:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_common:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_ground_station:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_logger:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_webots:/home/kelpie2/Kelpie/kelpie_ws/src/raspicam_node:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/kelpie2/Kelpie/kelpie_ws/devel/share/common-lisp', 'PWD': '/home/kelpie2/Kelpie/kelpie_ws/src/kelpie/launch', 'LOGNAME': 'kelpie2', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/kelpie2', 'LANG': 'C.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CMAKE_PREFIX_PATH': '/home/kelpie2/Kelpie/kelpie_ws/devel:/opt/ros/noetic', 'SSH_CONNECTION': '10.237.54.89 54542 10.237.54.207 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/kelpie2/Kelpie/kelpie_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kelpie2', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://localhost:11311/', 'XDG_SESSION_ID': '9', 'ROS_HOSTNAME': '10.237.54.207', 'LD_LIBRARY_PATH': '/home/kelpie2/Kelpie/kelpie_ws/devel/lib:/opt/ros/noetic/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.237.54.89 54542 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PATH': '/opt/ros/noetic/bin:/home/kelpie2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SSH_TTY': '/dev/pts/1', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/kelpie2/Kelpie/kelpie_ws', '_': '/opt/ros/noetic/bin/roscore', 'ROS_LOG_FILENAME': '/home/kelpie2/.ros/log/4d6a0a7c-8d3d-11f0-b1d1-5b7f14234cae/roslaunch-kelpie2-1896.log'})
+[roslaunch][INFO] 2025-09-09 15:24:48,786: starting in server mode
+[roslaunch.parent][INFO] 2025-09-09 15:24:48,787: starting roslaunch parent run
+[roslaunch][INFO] 2025-09-09 15:24:48,788: loading roscore config file /opt/ros/noetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2025-09-09 15:24:49,409: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2025-09-09 15:24:49,410: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2025-09-09 15:24:49,410: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2025-09-09 15:24:49,411: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2025-09-09 15:24:49,411: starting parent XML-RPC server
+[roslaunch.server][INFO] 2025-09-09 15:24:49,411: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2025-09-09 15:24:49,412: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2025-09-09 15:24:49,412: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-09 15:24:49,413: Started XML-RPC server [http://10.237.54.207:38093/]
+[xmlrpc][INFO] 2025-09-09 15:24:49,414: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2025-09-09 15:24:49,429: started roslaunch server http://10.237.54.207:38093/
+[roslaunch.parent][INFO] 2025-09-09 15:24:49,429: ... parent XML-RPC server started
+[roslaunch][INFO] 2025-09-09 15:24:49,431: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:49,437: auto-starting new master
+[roslaunch][INFO] 2025-09-09 15:24:49,437: create_master_process: rosmaster, /opt/ros/noetic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2025-09-09 15:24:49,437: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2025-09-09 15:24:49,438: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2025-09-09 15:24:49,438: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2025-09-09 15:24:49,438: process[master]: starting os process
+[roslaunch][INFO] 2025-09-09 15:24:49,439: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/kelpie2/.ros/log/4d6a0a7c-8d3d-11f0-b1d1-5b7f14234cae/master.log']]
+[roslaunch][INFO] 2025-09-09 15:24:49,439: process[master]: cwd will be [/home/kelpie2/.ros]
+[roslaunch][INFO] 2025-09-09 15:24:49,452: process[master]: started with pid [1907]
+[roslaunch][INFO] 2025-09-09 15:24:49,453: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:49,554: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:49,656: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:49,757: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:49,858: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:49,959: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,061: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,162: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,263: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,364: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,372: master.is_running[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,377: ROS_MASTER_URI=http://10.237.54.207:11311/
+[roslaunch][INFO] 2025-09-09 15:24:50,382: setting /run_id to 4d6a0a7c-8d3d-11f0-b1d1-5b7f14234cae
+[roslaunch][INFO] 2025-09-09 15:24:50,385: setting /roslaunch/uris/host_10_237_54_207__38093' to http://10.237.54.207:38093/
+[roslaunch][INFO] 2025-09-09 15:24:50,392: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2025-09-09 15:24:50,392: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://10.237.54.207:11311/]
+[roslaunch][INFO] 2025-09-09 15:24:50,393: process[rosout-1]: env[{'SHELL': '/bin/bash', 'ROS_VERSION': '1', 'PKG_CONFIG_PATH': '/home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig', 'ROS_PYTHON_VERSION': '3', 'ROS_PACKAGE_PATH': '/home/kelpie2/Kelpie/kelpie_ws/src/kelpie:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_common:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_ground_station:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_logger:/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_webots:/home/kelpie2/Kelpie/kelpie_ws/src/raspicam_node:/opt/ros/noetic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/kelpie2/Kelpie/kelpie_ws/devel/share/common-lisp', 'PWD': '/home/kelpie2/Kelpie/kelpie_ws/src/kelpie/launch', 'LOGNAME': 'kelpie2', 'XDG_SESSION_TYPE': 'tty', 'MOTD_SHOWN': 'pam', 'HOME': '/home/kelpie2', 'LANG': 'C.UTF-8', 'ROS_ETC_DIR': '/opt/ros/noetic/etc/ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'CMAKE_PREFIX_PATH': '/home/kelpie2/Kelpie/kelpie_ws/devel:/opt/ros/noetic', 'SSH_CONNECTION': '10.237.54.89 54542 10.237.54.207 22', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_SESSION_CLASS': 'user', 'PYTHONPATH': '/home/kelpie2/Kelpie/kelpie_ws/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages', 'TERM': 'xterm-256color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kelpie2', 'SHLVL': '1', 'ROS_MASTER_URI': 'http://10.237.54.207:11311/', 'XDG_SESSION_ID': '9', 'ROS_HOSTNAME': '10.237.54.207', 'LD_LIBRARY_PATH': '/home/kelpie2/Kelpie/kelpie_ws/devel/lib:/opt/ros/noetic/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSH_CLIENT': '10.237.54.89 54542 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PATH': '/opt/ros/noetic/bin:/home/kelpie2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'SSH_TTY': '/dev/pts/1', 'ROS_ROOT': '/opt/ros/noetic/share/ros', 'ROS_DISTRO': 'noetic', 'OLDPWD': '/home/kelpie2/Kelpie/kelpie_ws', '_': '/opt/ros/noetic/bin/roscore', 'ROS_LOG_FILENAME': '/home/kelpie2/.ros/log/4d6a0a7c-8d3d-11f0-b1d1-5b7f14234cae/roslaunch-kelpie2-1896.log'}]
+[roslaunch][INFO] 2025-09-09 15:24:50,509: process[rosout-1]: args[['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2025-09-09 15:24:50,509: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2025-09-09 15:24:50,510: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2025-09-09 15:24:50,510: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2025-09-09 15:24:50,510: ... registered process [rosout-1]
+[roslaunch][INFO] 2025-09-09 15:24:50,510: process[rosout-1]: starting os process
+[roslaunch][INFO] 2025-09-09 15:24:50,511: process[rosout-1]: start w/ args [['/opt/ros/noetic/lib/rosout/rosout', '__name:=rosout', '__log:=/home/kelpie2/.ros/log/4d6a0a7c-8d3d-11f0-b1d1-5b7f14234cae/rosout-1.log']]
+[roslaunch][INFO] 2025-09-09 15:24:50,511: process[rosout-1]: cwd will be [/home/kelpie2/.ros]
+[roslaunch][INFO] 2025-09-09 15:24:50,527: process[rosout-1]: started with pid [1917]
+[roslaunch][INFO] 2025-09-09 15:24:50,527: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2025-09-09 15:24:50,528: load_parameters starting ...
+[roslaunch][INFO] 2025-09-09 15:24:50,538: ... load_parameters complete
+[roslaunch][INFO] 2025-09-09 15:24:50,539: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2025-09-09 15:24:50,540: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2025-09-09 15:24:50,540: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 281473265504736)>
+[roslaunch.parent][INFO] 2025-09-09 15:24:50,540: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2025-09-09 15:24:50,540: spin
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,054: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 281473265504736)>
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,137: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 281473265504736)>
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,138: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 281473265504736)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0xffff9a04a6a0>, <roslaunch.nodeprocess.LocalProcess object at 0xffff9a04aac0>]
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,143: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2025-09-09 15:56:32,144: [rosout-1] killing on exit
+[roslaunch][INFO] 2025-09-09 15:56:32,144: process[rosout-1]: killing os process with pid[1917] pgid[1917]
+[roslaunch][INFO] 2025-09-09 15:56:32,144: [rosout-1] sending SIGINT to pgid [1917]
+[roslaunch][INFO] 2025-09-09 15:56:32,145: [rosout-1] sent SIGINT to pgid [1917]
+[roslaunch][INFO] 2025-09-09 15:56:32,346: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,346: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2025-09-09 15:56:32,347: [master] killing on exit
+[roslaunch][INFO] 2025-09-09 15:56:32,347: process[master]: killing os process with pid[1907] pgid[1907]
+[roslaunch][INFO] 2025-09-09 15:56:32,348: [master] sending SIGINT to pgid [1907]
+[roslaunch][INFO] 2025-09-09 15:56:32,348: [master] sent SIGINT to pgid [1907]
+[roslaunch][INFO] 2025-09-09 15:56:32,649: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,650: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,651: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2025-09-09 15:56:32,651: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2025-09-09 15:56:32,652: runner.stop()
+[roslaunch][INFO] 2025-09-09 15:56:32,652: shutting down processing monitor...
+[roslaunch][INFO] 2025-09-09 15:56:32,653: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 281473265504736)>
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,653: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 281473265504736)>
+[roslaunch][INFO] 2025-09-09 15:56:32,654: ... shutting down processing monitor complete
+[roslaunch][INFO] 2025-09-09 15:56:32,654: done
+[roslaunch.pmon][INFO] 2025-09-09 15:56:32,655: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 281473265504736)>
+[rospy.core][INFO] 2025-09-09 15:56:32,655: signal_shutdown [atexit]

@@ -1,0 +1,81 @@
+[rospy.client][INFO] 2025-08-19 14:44:29,641: init_node, name[/kelpie], pid[1680]
+[xmlrpc][INFO] 2025-08-19 14:44:29,642: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-19 14:44:29,643: Started XML-RPC server [http://10.176.33.207:45431/]
+[rospy.init][INFO] 2025-08-19 14:44:29,644: ROS Slave URI: [http://10.176.33.207:45431/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:44:29,644: _ready: http://10.176.33.207:45431/
+[rospy.registration][INFO] 2025-08-19 14:44:29,650: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 14:44:29,651: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:44:29,745: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:44:29,746: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:44:29,760: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:44:29,767: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 14:44:29,809: Creating input listener...
+[rosout][INFO] 2025-08-19 14:44:29,826: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-19 14:44:29,835: Summary of current gait parameters:
+[rosout][INFO] 2025-08-19 14:44:29,842: overlap time: 0.04
+[rosout][INFO] 2025-08-19 14:44:29,850: swing time: 0.07
+[rosout][INFO] 2025-08-19 14:44:29,855: z clearance: 0.08
+[rosout][INFO] 2025-08-19 14:44:29,861: back leg x shift: 0.00
+[rosout][INFO] 2025-08-19 14:44:29,867: front leg x shift: 0.05
+[rospy.internal][INFO] 2025-08-19 14:44:30,040: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:30,534: topic[/kelpie/leg_control/currents] adding connection to [http://10.176.33.207:33853/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:30,542: topic[/kelpie/battery/voltage] adding connection to [http://10.176.33.207:33853/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:30,548: topic[/kelpie/imu] adding connection to [http://10.176.33.207:33853/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:30,646: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:30,756: topic[/kelpie/command_input] adding connection to [http://10.176.33.207:33853/], count 0
+[rospy.client][INFO] 2025-08-19 14:44:41,594: init_node, name[/kelpie], pid[1761]
+[xmlrpc][INFO] 2025-08-19 14:44:41,606: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 14:44:41,614: Started XML-RPC server [http://localhost:45501/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:44:41,615: _ready: http://localhost:45501/
+[rospy.init][INFO] 2025-08-19 14:44:41,616: ROS Slave URI: [http://localhost:45501/]
+[rospy.registration][INFO] 2025-08-19 14:44:41,621: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 14:44:41,622: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:44:41,717: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:44:41,719: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:44:41,749: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:44:41,759: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 14:44:41,807: external shutdown request from [/master]: [/kelpie] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 14:44:41,807: signal_shutdown [external shutdown request from [/master]: [[/kelpie] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 14:44:41,813: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 14:44:41,860: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.internal][INFO] 2025-08-19 14:44:41,863: topic[/kelpie/imu] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:41,869: topic[/kelpie/leg_control/currents] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:41,870: topic[/kelpie/leg_control/currents] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:41,872: topic[/kelpie/battery/voltage] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:41,878: topic[/kelpie/command_input] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:41,879: topic[/kelpie/command_input] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:41,891: topic[/kelpie/imu] adding connection to [http://10.176.33.207:33853/], count 0
+[rosout][INFO] 2025-08-19 14:44:41,881: Creating input listener...
+[rosout][INFO] 2025-08-19 14:44:41,907: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-19 14:44:41,928: Summary of current gait parameters:
+[rospy.internal][INFO] 2025-08-19 14:44:41,946: topic[/kelpie/battery/voltage] adding connection to [http://10.176.33.207:33853/], count 0
+[rosout][INFO] 2025-08-19 14:44:41,939: overlap time: 0.04
+[rospy.internal][INFO] 2025-08-19 14:44:41,962: topic[/kelpie/command_input] adding connection to [http://10.176.33.207:33853/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:41,964: topic[/kelpie/leg_control/currents] adding connection to [http://10.176.33.207:33853/], count 0
+[rosout][INFO] 2025-08-19 14:44:41,950: swing time: 0.07
+[rosout][INFO] 2025-08-19 14:44:41,967: z clearance: 0.08
+[rosout][INFO] 2025-08-19 14:44:41,972: back leg x shift: 0.00
+[rosout][INFO] 2025-08-19 14:44:41,988: front leg x shift: 0.05
+[rospy.internal][INFO] 2025-08-19 14:44:42,003: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:42,010: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:42,352: topic[/kelpie/command_input] adding connection to [http://10.176.33.207:43687/], count 1
+[rospy.internal][INFO] 2025-08-19 14:44:42,582: topic[/kelpie/leg_control/currents] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:42,599: topic[/kelpie/battery/voltage] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:42,601: topic[/kelpie/imu] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:42,605: topic[/kelpie/command_input] removing connection to http://10.176.33.207:33853/
+[rospy.internal][INFO] 2025-08-19 14:44:42,621: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.internal][INFO] 2025-08-19 14:44:42,648: topic[/kelpie/battery/voltage] adding connection to [http://localhost:46755/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:42,654: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:46755/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:42,664: topic[/kelpie/imu] adding connection to [http://localhost:46755/], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:42,775: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-19 14:44:42,842: topic[/kelpie/command_input] adding connection to [http://localhost:46755/], count 1
+[rospy.internal][INFO] 2025-08-19 14:44:42,850: topic[/kelpie/command_input] removing connection to http://10.176.33.207:43687/
+[rospy.internal][INFO] 2025-08-19 14:45:01,338: topic[/rosout] removing connection to /rosout
+[rospy.core][INFO] 2025-08-19 14:45:16,865: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-08-19 14:45:16,869: topic[/kelpie/leg_control/currents] removing connection to http://localhost:46755/
+[rospy.internal][INFO] 2025-08-19 14:45:16,870: topic[/kelpie/battery/voltage] removing connection to http://localhost:46755/
+[rospy.internal][INFO] 2025-08-19 14:45:16,872: topic[/kelpie/imu] removing connection to http://localhost:46755/
+[rospy.internal][INFO] 2025-08-19 14:45:16,874: topic[/kelpie/command_input] removing connection to http://localhost:46755/
+[rospy.internal][INFO] 2025-08-19 14:45:16,887: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.impl.masterslave][INFO] 2025-08-19 14:45:16,888: atexit
+[rospy.core][INFO] 2025-08-19 14:45:19,273: signal_shutdown [atexit]

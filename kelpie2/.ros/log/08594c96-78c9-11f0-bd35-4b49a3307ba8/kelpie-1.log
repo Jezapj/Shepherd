@@ -1,0 +1,60 @@
+[rospy.client][INFO] 2025-08-14 14:49:07,889: init_node, name[/kelpie], pid[75549]
+[xmlrpc][INFO] 2025-08-14 14:49:07,891: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 14:49:07,895: Started XML-RPC server [http://localhost:39743/]
+[rospy.init][INFO] 2025-08-14 14:49:07,896: ROS Slave URI: [http://localhost:39743/]
+[rospy.impl.masterslave][INFO] 2025-08-14 14:49:07,896: _ready: http://localhost:39743/
+[rospy.registration][INFO] 2025-08-14 14:49:07,901: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-14 14:49:07,901: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 14:49:07,997: registered with master
+[rospy.rosout][INFO] 2025-08-14 14:49:07,998: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 14:49:08,030: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 14:49:08,042: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 14:49:08,139: Creating input listener...
+[rosout][INFO] 2025-08-14 14:49:08,158: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-14 14:49:08,164: Summary of current gait parameters:
+[rosout][INFO] 2025-08-14 14:49:08,169: overlap time: 0.04
+[rosout][INFO] 2025-08-14 14:49:08,174: swing time: 0.07
+[rosout][INFO] 2025-08-14 14:49:08,180: z clearance: 0.08
+[rosout][INFO] 2025-08-14 14:49:08,185: back leg x shift: 0.00
+[rosout][INFO] 2025-08-14 14:49:08,191: front leg x shift: 0.05
+[rosout][INFO] 2025-08-14 14:49:08,196: Manual robot control active. Currently not accepting external commands
+[rospy.internal][INFO] 2025-08-14 14:49:08,332: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-14 14:49:08,695: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:44719/], count 0
+[rospy.internal][INFO] 2025-08-14 14:49:08,705: topic[/kelpie/battery/voltage] adding connection to [http://localhost:44719/], count 0
+[rospy.internal][INFO] 2025-08-14 14:49:08,730: topic[/kelpie/imu] adding connection to [http://localhost:44719/], count 0
+[rospy.internal][INFO] 2025-08-14 14:49:08,919: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-14 14:49:09,024: topic[/kelpie/command_input] adding connection to [http://localhost:44719/], count 0
+[rospy.internal][INFO] 2025-08-14 14:49:22,960: topic[/kelpie/leg_control/currents] removing connection to http://localhost:44719/
+[rospy.internal][INFO] 2025-08-14 14:49:22,961: topic[/kelpie/battery/voltage] removing connection to http://localhost:44719/
+[rospy.internal][INFO] 2025-08-14 14:49:22,963: topic[/kelpie/imu] removing connection to http://localhost:44719/
+[rospy.internal][INFO] 2025-08-14 14:49:22,964: topic[/kelpie/command_input] removing connection to http://localhost:44719/
+[rospy.internal][INFO] 2025-08-14 14:49:23,259: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.core][INFO] 2025-08-14 14:49:37,981: signal_shutdown [signal-15]
+[rospy.internal][INFO] 2025-08-14 14:49:37,993: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-14 14:49:37,993: signal-15
+[rospy.client][INFO] 2025-08-14 14:50:38,376: init_node, name[/kelpie], pid[78619]
+[xmlrpc][INFO] 2025-08-14 14:50:38,380: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 14:50:38,384: Started XML-RPC server [http://localhost:33473/]
+[rospy.init][INFO] 2025-08-14 14:50:38,384: ROS Slave URI: [http://localhost:33473/]
+[rospy.impl.masterslave][INFO] 2025-08-14 14:50:38,385: _ready: http://localhost:33473/
+[rospy.registration][INFO] 2025-08-14 14:50:38,389: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-14 14:50:38,389: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 14:50:38,486: registered with master
+[rospy.rosout][INFO] 2025-08-14 14:50:38,487: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 14:50:38,502: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 14:50:38,506: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 14:50:38,549: Creating input listener...
+[rosout][INFO] 2025-08-14 14:50:38,563: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-14 14:50:38,573: Summary of current gait parameters:
+[rosout][INFO] 2025-08-14 14:50:38,578: overlap time: 0.04
+[rosout][INFO] 2025-08-14 14:50:38,583: swing time: 0.07
+[rosout][INFO] 2025-08-14 14:50:38,589: z clearance: 0.08
+[rosout][INFO] 2025-08-14 14:50:38,595: back leg x shift: 0.00
+[rosout][INFO] 2025-08-14 14:50:38,600: front leg x shift: 0.05
+[rosout][INFO] 2025-08-14 14:50:38,606: Manual robot control active. Currently not accepting external commands
+[rospy.internal][INFO] 2025-08-14 14:50:38,806: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-14 14:50:39,368: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:41201/], count 0
+[rospy.internal][INFO] 2025-08-14 14:50:39,447: topic[/kelpie/battery/voltage] adding connection to [http://localhost:41201/], count 0
+[rospy.internal][INFO] 2025-08-14 14:50:39,488: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-14 14:50:39,496: topic[/kelpie/imu] adding connection to [http://localhost:41201/], count 0
+[rospy.internal][INFO] 2025-08-14 14:50:39,536: topic[/kelpie/command_input] adding connection to [http://localhost:41201/], count 0

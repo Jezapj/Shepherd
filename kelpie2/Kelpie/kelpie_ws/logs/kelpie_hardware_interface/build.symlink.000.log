@@ -1,0 +1,4 @@
+Symlinking /home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig/kelpie_hardware_interface.pc
+Symlinking /home/kelpie2/Kelpie/kelpie_ws/devel/lib/python3/dist-packages/kelpie_hardware_interface/__init__.py
+Symlinking /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_hardware_interface/cmake/kelpie_hardware_interfaceConfig.cmake
+Symlinking /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_hardware_interface/cmake/kelpie_hardware_interfaceConfig-version.cmake

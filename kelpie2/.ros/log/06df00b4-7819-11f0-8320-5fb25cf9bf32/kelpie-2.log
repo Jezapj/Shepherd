@@ -1,0 +1,40 @@
+[rospy.client][INFO] 2025-08-13 17:42:16,847: init_node, name[/kelpie], pid[3486]
+[xmlrpc][INFO] 2025-08-13 17:42:16,848: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-13 17:42:16,850: Started XML-RPC server [http://localhost:43019/]
+[rospy.init][INFO] 2025-08-13 17:42:16,851: ROS Slave URI: [http://localhost:43019/]
+[rospy.impl.masterslave][INFO] 2025-08-13 17:42:16,851: _ready: http://localhost:43019/
+[rospy.registration][INFO] 2025-08-13 17:42:16,853: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-13 17:42:16,854: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-13 17:42:16,952: registered with master
+[rospy.rosout][INFO] 2025-08-13 17:42:16,952: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-13 17:42:16,965: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-13 17:42:16,968: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-13 17:42:17,015: Creating input listener...
+[rosout][INFO] 2025-08-13 17:42:17,026: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-13 17:42:17,032: Summary of current gait parameters:
+[rosout][INFO] 2025-08-13 17:42:17,036: overlap time: 0.04
+[rosout][INFO] 2025-08-13 17:42:17,043: swing time: 0.07
+[rosout][INFO] 2025-08-13 17:42:17,047: z clearance: 0.08
+[rosout][INFO] 2025-08-13 17:42:17,051: back leg x shift: 0.00
+[rosout][INFO] 2025-08-13 17:42:17,056: front leg x shift: 0.05
+[rosout][INFO] 2025-08-13 17:42:17,062: Manual robot control active. Currently not accepting external commands
+[rospy.internal][INFO] 2025-08-13 17:42:17,250: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-13 17:42:17,620: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:37813/], count 0
+[rospy.internal][INFO] 2025-08-13 17:42:17,638: topic[/kelpie/battery/voltage] adding connection to [http://localhost:37813/], count 0
+[rospy.internal][INFO] 2025-08-13 17:42:17,661: topic[/kelpie/imu] adding connection to [http://localhost:37813/], count 0
+[rospy.internal][INFO] 2025-08-13 17:42:17,760: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-13 17:42:17,851: topic[/kelpie/command_input] adding connection to [http://localhost:37813/], count 0
+[rospy.internal][INFO] 2025-08-13 17:42:25,730: topic[/kelpie/leg_control/joint_states] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-13 17:42:32,122: topic[/kelpie/leg_control/joint_states] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-13 17:42:34,816: topic[/kelpie/command_input] adding connection to [http://localhost:42113/], count 1
+[rospy.internal][INFO] 2025-08-13 17:44:10,613: topic[/kelpie/leg_control/joint_states] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-13 17:44:18,780: topic[/kelpie/leg_control/joint_states] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-13 17:47:56,910: topic[/kelpie/command_input] removing connection to http://localhost:42113/
+[rospy.internal][INFO] 2025-08-13 17:47:56,911: topic[/kelpie/leg_control/currents] removing connection to http://localhost:37813/
+[rospy.internal][INFO] 2025-08-13 17:47:56,912: topic[/kelpie/battery/voltage] removing connection to http://localhost:37813/
+[rospy.internal][INFO] 2025-08-13 17:47:56,914: topic[/kelpie/imu] removing connection to http://localhost:37813/
+[rospy.internal][INFO] 2025-08-13 17:47:56,916: topic[/kelpie/command_input] removing connection to http://localhost:37813/
+[rospy.internal][INFO] 2025-08-13 17:47:56,937: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.core][INFO] 2025-08-13 17:48:11,922: signal_shutdown [signal-15]
+[rospy.internal][INFO] 2025-08-13 17:48:11,930: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-13 17:48:11,930: signal-15

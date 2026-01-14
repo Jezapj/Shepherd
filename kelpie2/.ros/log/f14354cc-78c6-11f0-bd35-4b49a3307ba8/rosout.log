@@ -1,0 +1,94 @@
+
+
+1755145631.837224318  Node Startup
+1755145641.973101854 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755145641.999511480 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/leg_control/joint_states, /kelpie/imu, /kelpie/battery/voltage, /kelpie/leg_control/currents, /rosout] Manual robot control active. Currently not accepting external commands
+1755145642.589176893 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755146121.205721139 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755146121.852247953 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755146134.162378549 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755146134.278623819 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146134.288361072 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146134.298198699 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146134.309432983 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146136.325372695 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /rosout, /connected_clients] Client disconnected. 0 clients total.
+1755146136.332802295 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755146137.560835361 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: advertise:/kelpie/command_input:1] advertise: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146137.570711612 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:2] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146137.583549499 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:3] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146138.473178863 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:4] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146138.506896972 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:5] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146139.261648654 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:6] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146139.285584449 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:7] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146139.566119670 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:8] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146139.607214927 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:9] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146140.251653432 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:10] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146140.278172492 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:11] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146140.964774370 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:12] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.018324136 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:13] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.033277988 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:14] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.595012664 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:15] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.635476589 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:16] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.745073556 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:17] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.779054641 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:18] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.945381164 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:19] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146141.977878808 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:20] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146142.630361557 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:21] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146142.661882638 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 1] [id: publish:/kelpie/command_input:22] publish: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755146143.964157342 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755146144.201058149 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /rosout, /connected_clients] Client disconnected. 0 clients total.
+1755146144.286395072 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755146144.445413589 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /rosout, /kelpie/imu, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/battery/voltage] Manual robot control active. Currently not accepting external commands
+1755146144.861182928 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.

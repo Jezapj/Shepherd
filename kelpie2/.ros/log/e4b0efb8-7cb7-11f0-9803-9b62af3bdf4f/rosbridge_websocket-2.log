@@ -1,0 +1,458 @@
+[rospy.client][INFO] 2025-08-19 14:51:50,410: init_node, name[/rosbridge_websocket], pid[2708]
+[xmlrpc][INFO] 2025-08-19 14:51:50,411: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-19 14:51:50,412: Started XML-RPC server [http://10.176.33.207:43999/]
+[rospy.init][INFO] 2025-08-19 14:51:50,413: ROS Slave URI: [http://10.176.33.207:43999/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:51:50,413: _ready: http://10.176.33.207:43999/
+[rospy.registration][INFO] 2025-08-19 14:51:50,415: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 14:51:50,416: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:51:50,514: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:51:50,515: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:51:50,527: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:51:50,530: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 14:51:50,594: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 14:51:50,812: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2025-08-19 14:52:10,395: init_node, name[/rosbridge_websocket], pid[2786]
+[xmlrpc][INFO] 2025-08-19 14:52:10,397: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 14:52:10,398: Started XML-RPC server [http://localhost:37749/]
+[rospy.init][INFO] 2025-08-19 14:52:10,398: ROS Slave URI: [http://localhost:37749/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:52:10,398: _ready: http://localhost:37749/
+[rospy.registration][INFO] 2025-08-19 14:52:10,400: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 14:52:10,401: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:52:10,499: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:52:10,499: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:52:10,506: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:52:10,509: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 14:52:10,529: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 14:52:10,530: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 14:52:10,542: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-19 14:52:10,600: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 14:52:10,756: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 14:52:15,604: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 14:52:20,405: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 14:52:20,424: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 14:52:20,425: signal-2
+[rospy.core][WARNING] 2025-08-19 14:52:21,007: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-08-19 14:52:21,008: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-08-19 14:52:35,446: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 14:53:22,183: init_node, name[/rosbridge_websocket], pid[2984]
+[xmlrpc][INFO] 2025-08-19 14:53:22,184: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 14:53:22,185: Started XML-RPC server [http://localhost:42081/]
+[rospy.init][INFO] 2025-08-19 14:53:22,185: ROS Slave URI: [http://localhost:42081/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:53:22,186: _ready: http://localhost:42081/
+[rospy.registration][INFO] 2025-08-19 14:53:22,188: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 14:53:22,189: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:53:22,286: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:53:22,287: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:53:22,293: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:53:22,295: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-08-19 14:53:22,355: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 14:53:22,505: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 14:53:27,363: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:53:32,373: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 14:53:33,854: signal_shutdown [signal-2]
+[rospy.core][INFO] 2025-08-19 14:53:33,859: signal_shutdown [atexit]
+[rosout][INFO] 2025-08-19 14:53:37,394: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.core][INFO] 2025-08-19 14:54:08,965: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 14:54:08,992: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 14:54:08,993: signal-2
+[rospy.core][INFO] 2025-08-19 14:54:09,570: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 14:54:16,346: init_node, name[/rosbridge_websocket], pid[3084]
+[xmlrpc][INFO] 2025-08-19 14:54:16,348: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-19 14:54:16,351: Started XML-RPC server [http://10.176.33.207:33381/]
+[rospy.init][INFO] 2025-08-19 14:54:16,352: ROS Slave URI: [http://10.176.33.207:33381/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:54:16,354: _ready: http://10.176.33.207:33381/
+[rospy.registration][INFO] 2025-08-19 14:54:16,360: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 14:54:16,363: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:54:16,455: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:54:16,456: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:54:16,468: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:54:16,476: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 14:54:16,575: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 14:54:16,734: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-08-19 14:55:36,987: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 14:55:37,010: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 14:55:37,010: signal-2
+[rospy.core][INFO] 2025-08-19 14:55:37,594: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 14:57:57,690: init_node, name[/rosbridge_websocket], pid[3224]
+[xmlrpc][INFO] 2025-08-19 14:57:57,691: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-19 14:57:57,692: Started XML-RPC server [http://10.176.33.207:39389/]
+[rospy.init][INFO] 2025-08-19 14:57:57,692: ROS Slave URI: [http://10.176.33.207:39389/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:57:57,693: _ready: http://10.176.33.207:39389/
+[rospy.registration][INFO] 2025-08-19 14:57:57,695: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 14:57:57,695: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:57:57,793: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:57:57,794: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:57:57,804: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:57:57,808: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 14:57:57,877: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 14:57:57,952: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2025-08-19 14:59:09,691: init_node, name[/rosbridge_websocket], pid[3324]
+[xmlrpc][INFO] 2025-08-19 14:59:09,693: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 14:59:09,694: Started XML-RPC server [http://localhost:36245/]
+[rospy.init][INFO] 2025-08-19 14:59:09,694: ROS Slave URI: [http://localhost:36245/]
+[rospy.impl.masterslave][INFO] 2025-08-19 14:59:09,695: _ready: http://localhost:36245/
+[rospy.registration][INFO] 2025-08-19 14:59:09,697: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 14:59:09,697: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 14:59:09,795: registered with master
+[rospy.rosout][INFO] 2025-08-19 14:59:09,796: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 14:59:09,803: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 14:59:09,807: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-08-19 14:59:09,870: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.impl.masterslave][INFO] 2025-08-19 14:59:09,886: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 14:59:09,886: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 14:59:09,888: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 14:59:10,086: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 14:59:14,885: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:59:19,895: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:59:24,908: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:59:29,917: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:59:34,927: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:59:39,936: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 14:59:44,950: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 14:59:48,557: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 14:59:48,572: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 14:59:48,580: signal-2
+[rospy.core][WARNING] 2025-08-19 14:59:49,959: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-08-19 14:59:49,963: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-08-19 15:00:03,587: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 15:01:02,197: init_node, name[/rosbridge_websocket], pid[3460]
+[xmlrpc][INFO] 2025-08-19 15:01:02,198: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 15:01:02,200: Started XML-RPC server [http://localhost:38369/]
+[rospy.init][INFO] 2025-08-19 15:01:02,200: ROS Slave URI: [http://localhost:38369/]
+[rospy.impl.masterslave][INFO] 2025-08-19 15:01:02,200: _ready: http://localhost:38369/
+[rospy.registration][INFO] 2025-08-19 15:01:02,206: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 15:01:02,206: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 15:01:02,301: registered with master
+[rospy.rosout][INFO] 2025-08-19 15:01:02,302: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 15:01:02,309: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 15:01:02,312: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-08-19 15:01:02,367: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 15:01:02,585: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 15:01:07,373: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 15:01:12,381: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 15:01:16,714: topic[/rosout] removing connection to /rosout
+[rospy.rosout][ERROR] 2025-08-19 15:01:17,411: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-08-19 15:01:17,389: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.rosout][ERROR] 2025-08-19 15:01:22,418: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-08-19 15:01:22,413: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.rosout][ERROR] 2025-08-19 15:01:27,427: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-08-19 15:01:27,424: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.rosout][ERROR] 2025-08-19 15:01:32,436: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-08-19 15:01:32,433: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 15:01:33,135: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2025-08-19 15:01:33,138: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2025-08-19 15:01:33,138: signal-2
+[rospy.core][WARNING] 2025-08-19 15:01:37,445: add_shutdown_hook called after shutdown
+[rospy.rosout][ERROR] 2025-08-19 15:01:37,459: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 62, in shutdown_hook
+    reactor.stop()
+  File "/usr/lib/python3/dist-packages/twisted/internet/base.py", line 635, in stop
+    raise error.ReactorNotRunning(
+twisted.internet.error.ReactorNotRunning: Can't stop reactor that isn't running.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-08-19 15:01:37,445: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-08-19 15:01:48,171: signal_shutdown [atexit]
+[rospy.core][INFO] 2025-08-19 15:01:56,214: signal_shutdown [atexit]

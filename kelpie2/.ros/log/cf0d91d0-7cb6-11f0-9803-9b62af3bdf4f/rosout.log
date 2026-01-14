@@ -1,0 +1,11 @@
+
+
+1755578507.505507631  Node Startup
+1755578669.898471832 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755578669.872796297 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu] front leg x shift: 0.05
+1755578670.592752218 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755578676.186839580 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /connected_clients, /rosout] Client connected.  1 clients total.
+1755578677.874963521 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /connected_clients, /rosout] Client disconnected. 0 clients total.
+1755578677.946837902 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /connected_clients, /rosout] Client connected.  1 clients total.
+1755578681.995508670 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/command_input, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] front leg x shift: 0.05
+1755578682.299852132 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started

@@ -1,0 +1,995 @@
+[rospy.client][INFO] 2025-09-02 13:47:18,073: init_node, name[/rosbridge_websocket], pid[3098]
+[xmlrpc][INFO] 2025-09-02 13:47:18,074: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:47:18,075: Started XML-RPC server [http://10.177.130.207:37043/]
+[rospy.init][INFO] 2025-09-02 13:47:18,075: ROS Slave URI: [http://10.177.130.207:37043/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:47:18,075: _ready: http://10.177.130.207:37043/
+[rospy.registration][INFO] 2025-09-02 13:47:18,078: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:47:18,078: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:47:18,176: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:47:18,177: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:47:18,184: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:47:18,187: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-02 13:47:18,253: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-09-02 13:47:18,427: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2025-09-02 13:48:22,218: init_node, name[/rosbridge_websocket], pid[3315]
+[xmlrpc][INFO] 2025-09-02 13:48:22,223: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:48:22,224: Started XML-RPC server [http://10.177.130.207:46073/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:48:22,225: _ready: http://10.177.130.207:46073/
+[rospy.init][INFO] 2025-09-02 13:48:22,225: ROS Slave URI: [http://10.177.130.207:46073/]
+[rospy.registration][INFO] 2025-09-02 13:48:22,227: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:48:22,227: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:48:22,328: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:48:22,328: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:48:22,343: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:48:22,348: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-09-02 13:48:22,373: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-09-02 13:48:22,375: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-09-02 13:48:22,378: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-09-02 13:48:22,501: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 13:48:22,577: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 13:48:27,509: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:48:32,517: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:48:37,529: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:48:42,537: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:48:47,548: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:48:52,561: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:48:57,573: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:02,585: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:07,597: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:12,613: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:17,621: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:22,633: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:27,645: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:32,662: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:37,677: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:49:42,689: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 13:49:46,714: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 13:49:46,731: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 13:49:46,732: signal-2
+[rospy.core][WARNING] 2025-09-02 13:49:47,697: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 13:49:47,697: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 13:50:01,748: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 13:50:13,147: init_node, name[/rosbridge_websocket], pid[3434]
+[xmlrpc][INFO] 2025-09-02 13:50:13,149: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:50:13,150: Started XML-RPC server [http://10.177.130.207:42809/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:50:13,150: _ready: http://10.177.130.207:42809/
+[rospy.registration][INFO] 2025-09-02 13:50:13,154: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:50:13,154: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:50:13,161: ROS Slave URI: [http://10.177.130.207:42809/]
+[rospy.init][INFO] 2025-09-02 13:50:13,161: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:50:13,162: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:50:13,184: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:50:13,189: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 13:50:13,356: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 13:50:13,403: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 13:50:18,373: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:50:23,385: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:50:28,401: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:50:33,417: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:50:38,433: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:50:43,450: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 13:50:45,098: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 13:50:45,110: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 13:50:45,112: signal-2
+[rospy.core][WARNING] 2025-09-02 13:50:48,461: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 13:50:48,467: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 13:51:00,128: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 13:51:22,194: init_node, name[/rosbridge_websocket], pid[3518]
+[xmlrpc][INFO] 2025-09-02 13:51:22,205: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:51:22,206: Started XML-RPC server [http://10.177.130.207:46193/]
+[rospy.init][INFO] 2025-09-02 13:51:22,207: ROS Slave URI: [http://10.177.130.207:46193/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:51:22,207: _ready: http://10.177.130.207:46193/
+[rospy.registration][INFO] 2025-09-02 13:51:22,209: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:51:22,211: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:51:22,308: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:51:22,308: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:51:22,320: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:51:22,324: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 13:51:22,392: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 13:51:22,619: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 13:51:27,401: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:51:32,411: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:51:37,421: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:51:42,429: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:51:47,437: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:51:52,449: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:51:57,460: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:02,476: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:07,489: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:12,503: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:17,514: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:22,524: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:27,533: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:32,548: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:37,557: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:42,565: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:52:47,578: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 13:52:49,146: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 13:52:49,165: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 13:52:49,166: signal-2
+[rospy.core][WARNING] 2025-09-02 13:52:52,589: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 13:52:52,589: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 13:53:04,190: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 13:53:19,520: init_node, name[/rosbridge_websocket], pid[3609]
+[xmlrpc][INFO] 2025-09-02 13:53:19,523: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:53:19,523: Started XML-RPC server [http://10.177.130.207:42793/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:53:19,524: _ready: http://10.177.130.207:42793/
+[rospy.init][INFO] 2025-09-02 13:53:19,524: ROS Slave URI: [http://10.177.130.207:42793/]
+[rospy.registration][INFO] 2025-09-02 13:53:19,531: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:53:19,531: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:53:19,626: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:53:19,626: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:53:19,638: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:53:19,641: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 13:53:19,708: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 13:53:19,860: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 13:53:24,717: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:29,726: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:34,742: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:39,758: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:44,773: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:49,785: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:54,798: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:53:59,811: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:04,826: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:09,837: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:14,850: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:19,860: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:24,869: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:29,880: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:34,893: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:39,901: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:44,912: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:49,921: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:54,934: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:54:59,946: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:04,957: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:09,969: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:14,979: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:19,989: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:24,999: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:30,012: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:35,022: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:40,036: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:45,046: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:50,057: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:55:55,068: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:00,081: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:05,093: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:10,105: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:15,115: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:20,123: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:25,137: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:30,150: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:35,157: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:40,168: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:45,181: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:50,189: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:56:55,202: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:00,214: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:05,226: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:10,236: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:15,248: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:20,257: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:25,265: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:30,278: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:35,292: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:57:40,303: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 13:57:45,219: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 13:57:45,227: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 13:57:45,228: signal-2
+[rospy.core][WARNING] 2025-09-02 13:57:45,827: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 13:57:45,828: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 13:58:00,260: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 13:58:10,816: init_node, name[/rosbridge_websocket], pid[3702]
+[xmlrpc][INFO] 2025-09-02 13:58:10,825: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:58:10,826: Started XML-RPC server [http://10.177.130.207:32973/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:58:10,826: _ready: http://10.177.130.207:32973/
+[rospy.init][INFO] 2025-09-02 13:58:10,827: ROS Slave URI: [http://10.177.130.207:32973/]
+[rospy.registration][INFO] 2025-09-02 13:58:10,830: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:58:10,831: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:58:10,928: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:58:10,929: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:58:10,945: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:58:10,948: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 13:58:11,010: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 13:58:11,142: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 13:58:16,020: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:58:21,030: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:58:26,040: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:58:31,049: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 13:58:34,698: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 13:58:34,734: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 13:58:34,735: signal-2
+[rospy.core][WARNING] 2025-09-02 13:58:36,058: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 13:58:36,062: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 13:58:49,738: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 13:59:05,540: init_node, name[/rosbridge_websocket], pid[3792]
+[xmlrpc][INFO] 2025-09-02 13:59:05,541: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 13:59:05,543: Started XML-RPC server [http://10.177.130.207:45727/]
+[rospy.init][INFO] 2025-09-02 13:59:05,543: ROS Slave URI: [http://10.177.130.207:45727/]
+[rospy.impl.masterslave][INFO] 2025-09-02 13:59:05,544: _ready: http://10.177.130.207:45727/
+[rospy.registration][INFO] 2025-09-02 13:59:05,553: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 13:59:05,553: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 13:59:05,644: registered with master
+[rospy.rosout][INFO] 2025-09-02 13:59:05,645: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 13:59:05,662: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 13:59:05,665: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 13:59:05,755: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 13:59:05,789: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 13:59:10,769: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:15,777: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:20,792: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:25,805: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:30,816: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:35,829: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:40,845: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 13:59:45,858: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 13:59:47,761: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 13:59:47,780: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 13:59:47,781: signal-2
+[rospy.core][WARNING] 2025-09-02 13:59:50,873: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 13:59:50,874: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:00:02,799: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:00:34,409: init_node, name[/rosbridge_websocket], pid[3882]
+[xmlrpc][INFO] 2025-09-02 14:00:34,420: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:00:34,421: Started XML-RPC server [http://10.177.130.207:39071/]
+[rospy.init][INFO] 2025-09-02 14:00:34,422: ROS Slave URI: [http://10.177.130.207:39071/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:00:34,433: _ready: http://10.177.130.207:39071/
+[rospy.registration][INFO] 2025-09-02 14:00:34,438: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:00:34,438: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:00:34,533: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:00:34,538: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:00:34,544: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:00:34,547: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:00:34,609: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:00:34,759: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:00:39,617: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:00:44,625: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:00:49,641: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:00:51,558: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:00:51,570: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:00:51,571: signal-2
+[rospy.core][WARNING] 2025-09-02 14:00:54,653: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:00:54,657: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:01:06,602: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:02:01,996: init_node, name[/rosbridge_websocket], pid[4040]
+[xmlrpc][INFO] 2025-09-02 14:02:01,997: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:02:01,998: Started XML-RPC server [http://10.177.130.207:37841/]
+[rospy.init][INFO] 2025-09-02 14:02:01,999: ROS Slave URI: [http://10.177.130.207:37841/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:02:01,999: _ready: http://10.177.130.207:37841/
+[rospy.registration][INFO] 2025-09-02 14:02:02,001: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:02:02,002: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:02:02,100: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:02:02,100: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:02:02,127: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:02:02,129: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:02:02,211: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:02:02,338: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:02:07,221: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:12,234: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:17,253: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:22,269: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:27,283: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:32,294: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:37,302: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:42,323: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:47,333: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:52,343: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:02:57,353: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:02:58,658: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:02:58,677: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:02:58,678: signal-2
+[rospy.core][WARNING] 2025-09-02 14:03:02,361: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:03:02,366: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:03:13,701: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:03:24,225: init_node, name[/rosbridge_websocket], pid[4133]
+[xmlrpc][INFO] 2025-09-02 14:03:24,236: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:03:24,237: Started XML-RPC server [http://10.177.130.207:33629/]
+[rospy.init][INFO] 2025-09-02 14:03:24,238: ROS Slave URI: [http://10.177.130.207:33629/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:03:24,243: _ready: http://10.177.130.207:33629/
+[rospy.registration][INFO] 2025-09-02 14:03:24,246: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:03:24,246: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:03:24,344: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:03:24,344: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:03:24,351: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:03:24,354: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:03:24,422: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:03:24,604: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:03:29,432: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:03:34,441: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:03:39,449: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:03:44,456: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:03:49,470: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:03:54,483: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:03:59,496: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:04,507: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:09,513: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:14,524: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:19,533: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:24,546: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:29,557: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:34,564: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:39,579: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:44,585: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:49,594: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:54,603: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:04:59,613: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:04,621: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:09,631: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:14,643: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:19,653: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:24,665: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:29,675: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:34,686: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:39,698: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:44,709: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:49,716: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:54,729: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:05:59,739: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:04,751: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:09,757: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:14,797: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:19,863: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:24,996: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:30,070: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:35,080: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:40,089: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:45,099: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:50,166: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:06:55,180: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:00,195: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:05,209: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:10,221: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:15,230: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:20,240: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:25,250: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:30,261: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:35,277: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:40,290: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:45,296: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:50,307: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:07:55,319: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:00,329: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:05,339: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:10,349: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:15,361: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:20,373: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:25,385: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:30,393: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:35,405: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:40,415: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:45,428: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:50,441: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:08:55,453: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:09:00,461: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:09:05,469: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:09:10,480: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:09:15,491: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:09:20,006: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:09:20,032: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:09:20,033: signal-2
+[rospy.core][WARNING] 2025-09-02 14:09:20,609: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:09:20,613: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:09:35,037: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:09:44,928: init_node, name[/rosbridge_websocket], pid[4248]
+[xmlrpc][INFO] 2025-09-02 14:09:44,933: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:09:44,934: Started XML-RPC server [http://10.177.130.207:43819/]
+[rospy.init][INFO] 2025-09-02 14:09:44,935: ROS Slave URI: [http://10.177.130.207:43819/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:09:44,935: _ready: http://10.177.130.207:43819/
+[rospy.registration][INFO] 2025-09-02 14:09:44,946: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:09:44,947: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:09:45,036: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:09:45,036: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:09:45,049: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:09:45,052: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:09:45,127: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:09:45,293: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:09:50,134: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:09:55,142: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:00,149: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:05,162: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:10,177: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:15,189: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:20,198: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:25,207: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:30,213: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:35,222: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:40,233: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:45,247: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:50,259: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:10:55,271: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:00,281: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:05,293: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:10,302: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:15,311: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:20,318: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:25,331: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:30,341: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:35,351: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:11:40,360: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:11:44,765: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:11:44,774: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:11:44,775: signal-2
+[rospy.core][WARNING] 2025-09-02 14:11:45,369: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:11:45,373: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:11:59,802: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:16:22,493: init_node, name[/rosbridge_websocket], pid[4350]
+[xmlrpc][INFO] 2025-09-02 14:16:22,494: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:16:22,495: Started XML-RPC server [http://10.177.130.207:43029/]
+[rospy.init][INFO] 2025-09-02 14:16:22,496: ROS Slave URI: [http://10.177.130.207:43029/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:16:22,496: _ready: http://10.177.130.207:43029/
+[rospy.registration][INFO] 2025-09-02 14:16:22,498: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:16:22,498: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:16:22,596: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:16:22,597: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:16:22,603: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:16:22,605: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:16:22,679: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:16:22,954: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:16:27,685: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:16:32,697: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:16:37,707: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:16:42,719: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:16:47,727: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:16:52,741: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:16:57,753: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:02,765: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:07,773: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:12,781: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:17,793: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:22,801: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:27,809: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:32,820: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:37,832: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:42,840: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:47,852: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:52,863: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:17:57,872: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:18:02,885: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:18:07,898: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:18:12,904: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:18:17,913: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:18:22,925: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:18:27,447: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:18:27,462: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:18:27,463: signal-2
+[rospy.core][WARNING] 2025-09-02 14:18:28,057: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:18:28,058: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:18:42,478: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:18:52,499: init_node, name[/rosbridge_websocket], pid[4412]
+[xmlrpc][INFO] 2025-09-02 14:18:52,500: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:18:52,501: Started XML-RPC server [http://10.177.130.207:37425/]
+[rospy.init][INFO] 2025-09-02 14:18:52,501: ROS Slave URI: [http://10.177.130.207:37425/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:18:52,502: _ready: http://10.177.130.207:37425/
+[rospy.registration][INFO] 2025-09-02 14:18:52,506: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:18:52,506: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:18:52,602: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:18:52,603: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:18:52,609: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:18:52,612: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:18:52,683: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:18:52,744: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:18:57,689: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:02,700: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:07,708: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:12,717: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:17,728: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:22,741: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:27,751: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:32,761: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:37,770: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:42,777: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:47,788: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:52,795: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:19:57,807: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:20:02,819: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:20:07,829: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:20:12,842: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:20:17,853: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:20:22,863: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:20:24,748: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:20:24,763: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:20:24,764: signal-2
+[rospy.core][WARNING] 2025-09-02 14:20:27,873: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:20:27,878: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:20:39,780: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:20:54,794: init_node, name[/rosbridge_websocket], pid[4476]
+[xmlrpc][INFO] 2025-09-02 14:20:54,801: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:20:54,802: Started XML-RPC server [http://10.177.130.207:43287/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:20:54,802: _ready: http://10.177.130.207:43287/
+[rospy.init][INFO] 2025-09-02 14:20:54,803: ROS Slave URI: [http://10.177.130.207:43287/]
+[rospy.registration][INFO] 2025-09-02 14:20:54,807: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:20:54,808: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:20:54,904: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:20:54,904: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:20:54,913: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:20:54,916: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:20:54,975: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:20:55,131: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:20:59,984: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:04,993: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:10,004: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:15,016: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:20,028: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:25,037: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:30,050: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:35,059: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:40,071: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:45,081: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:50,094: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:21:55,102: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:00,116: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:05,126: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:10,135: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:15,145: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:20,153: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:25,161: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:30,174: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:35,182: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:40,191: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:45,200: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:50,210: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:22:55,221: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:23:00,233: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:23:05,243: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:23:10,255: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:23:15,268: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:23:15,982: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:23:15,994: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:23:15,995: signal-2
+[rospy.core][WARNING] 2025-09-02 14:23:20,277: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:23:20,277: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:23:31,022: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:23:58,237: init_node, name[/rosbridge_websocket], pid[4565]
+[xmlrpc][INFO] 2025-09-02 14:23:58,238: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:23:58,240: Started XML-RPC server [http://10.177.130.207:40763/]
+[rospy.init][INFO] 2025-09-02 14:23:58,240: ROS Slave URI: [http://10.177.130.207:40763/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:23:58,241: _ready: http://10.177.130.207:40763/
+[rospy.registration][INFO] 2025-09-02 14:23:58,243: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:23:58,243: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:23:58,342: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:23:58,342: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:23:58,352: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:23:58,357: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:23:58,429: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:23:58,634: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-09-02 14:24:02,180: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:24:02,200: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:24:02,201: signal-2
+[rospy.core][WARNING] 2025-09-02 14:24:03,436: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:24:03,437: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:24:17,208: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:50:46,347: init_node, name[/rosbridge_websocket], pid[4837]
+[xmlrpc][INFO] 2025-09-02 14:50:46,348: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:50:46,349: Started XML-RPC server [http://10.177.130.207:39497/]
+[rospy.init][INFO] 2025-09-02 14:50:46,350: ROS Slave URI: [http://10.177.130.207:39497/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:50:46,350: _ready: http://10.177.130.207:39497/
+[rospy.registration][INFO] 2025-09-02 14:50:46,353: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:50:46,357: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:50:46,451: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:50:46,451: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:50:46,457: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:50:46,464: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:50:46,518: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:50:46,576: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:50:51,523: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:50:56,534: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:01,549: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:06,561: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:11,569: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:16,577: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:21,593: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:26,605: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:31,618: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:36,630: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:41,645: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:46,658: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:51,665: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:51:56,678: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:52:01,687: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:52:06,696: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:52:11,710: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:52:16,721: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:52:18,580: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:52:18,587: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:52:18,588: signal-2
+[rospy.core][WARNING] 2025-09-02 14:52:21,732: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:52:21,737: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:52:33,612: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:52:46,098: init_node, name[/rosbridge_websocket], pid[4899]
+[xmlrpc][INFO] 2025-09-02 14:52:46,099: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:52:46,100: Started XML-RPC server [http://10.177.130.207:44113/]
+[rospy.init][INFO] 2025-09-02 14:52:46,101: ROS Slave URI: [http://10.177.130.207:44113/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:52:46,105: _ready: http://10.177.130.207:44113/
+[rospy.registration][INFO] 2025-09-02 14:52:46,113: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:52:46,114: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:52:46,206: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:52:46,206: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:52:46,212: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:52:46,215: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:52:46,275: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:52:46,367: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:52:51,280: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:52:56,290: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:01,303: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:06,313: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:11,321: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:16,331: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:21,343: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:26,353: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:31,361: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:36,377: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:41,385: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:46,398: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:51,405: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:53:56,417: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:01,430: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:06,443: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:11,456: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:16,466: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:21,477: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:26,489: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:31,500: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:36,513: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:41,524: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:46,530: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:51,539: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:54:56,549: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:55:01,558: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:55:06,565: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:55:11,582: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:55:13,553: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:55:13,566: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:55:13,566: signal-2
+[rospy.core][WARNING] 2025-09-02 14:55:16,589: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:55:16,589: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:55:28,586: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:55:37,394: init_node, name[/rosbridge_websocket], pid[4960]
+[xmlrpc][INFO] 2025-09-02 14:55:37,395: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:55:37,396: Started XML-RPC server [http://10.177.130.207:45629/]
+[rospy.init][INFO] 2025-09-02 14:55:37,397: ROS Slave URI: [http://10.177.130.207:45629/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:55:37,397: _ready: http://10.177.130.207:45629/
+[rospy.registration][INFO] 2025-09-02 14:55:37,400: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:55:37,400: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:55:37,498: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:55:37,498: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:55:37,504: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:55:37,507: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:55:37,565: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:55:37,752: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 14:55:42,574: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:55:47,582: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:55:52,591: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:55:57,600: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 14:56:02,609: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 14:56:07,564: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:56:07,576: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:56:07,576: signal-2
+[rospy.core][WARNING] 2025-09-02 14:56:08,171: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:56:08,174: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:56:22,598: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 14:56:33,845: init_node, name[/rosbridge_websocket], pid[5023]
+[xmlrpc][INFO] 2025-09-02 14:56:33,846: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 14:56:33,847: Started XML-RPC server [http://10.177.130.207:41645/]
+[rospy.init][INFO] 2025-09-02 14:56:33,848: ROS Slave URI: [http://10.177.130.207:41645/]
+[rospy.impl.masterslave][INFO] 2025-09-02 14:56:33,848: _ready: http://10.177.130.207:41645/
+[rospy.registration][INFO] 2025-09-02 14:56:33,850: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 14:56:33,850: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 14:56:33,948: registered with master
+[rospy.rosout][INFO] 2025-09-02 14:56:33,949: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 14:56:33,955: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 14:56:33,957: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 14:56:34,016: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 14:56:34,168: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-09-02 14:56:35,906: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 14:56:35,914: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 14:56:35,919: signal-2
+[rospy.core][WARNING] 2025-09-02 14:56:39,021: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 14:56:39,022: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 14:56:50,938: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 15:01:51,066: init_node, name[/rosbridge_websocket], pid[5127]
+[xmlrpc][INFO] 2025-09-02 15:01:51,077: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 15:01:51,078: Started XML-RPC server [http://10.177.130.207:37525/]
+[rospy.impl.masterslave][INFO] 2025-09-02 15:01:51,078: _ready: http://10.177.130.207:37525/
+[rospy.init][INFO] 2025-09-02 15:01:51,082: ROS Slave URI: [http://10.177.130.207:37525/]
+[rospy.registration][INFO] 2025-09-02 15:01:51,087: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 15:01:51,088: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 15:01:51,183: registered with master
+[rospy.rosout][INFO] 2025-09-02 15:01:51,183: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 15:01:51,192: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 15:01:51,194: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 15:01:51,273: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 15:01:51,413: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 15:01:56,286: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 15:01:56,929: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-09-02 15:01:56,960: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-02 15:01:56,960: signal-2
+[rospy.core][WARNING] 2025-09-02 15:02:01,293: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-09-02 15:02:01,294: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-09-02 15:02:11,955: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-09-02 15:04:54,855: init_node, name[/rosbridge_websocket], pid[5220]
+[xmlrpc][INFO] 2025-09-02 15:04:54,857: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-02 15:04:54,858: Started XML-RPC server [http://10.177.130.207:37143/]
+[rospy.impl.masterslave][INFO] 2025-09-02 15:04:54,858: _ready: http://10.177.130.207:37143/
+[rospy.registration][INFO] 2025-09-02 15:04:54,860: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-02 15:04:54,861: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-02 15:04:54,865: ROS Slave URI: [http://10.177.130.207:37143/]
+[rospy.init][INFO] 2025-09-02 15:04:54,865: registered with master
+[rospy.rosout][INFO] 2025-09-02 15:04:54,866: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-02 15:04:54,872: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-02 15:04:54,875: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-02 15:04:54,944: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 15:04:55,145: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-02 15:04:59,953: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:04,963: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:09,977: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:14,989: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:20,003: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:25,018: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:30,032: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:35,047: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:40,061: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:45,073: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:50,086: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:05:55,096: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:00,106: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:05,118: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:10,133: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:15,143: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:20,155: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:25,165: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:30,177: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:35,189: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-09-02 15:06:40,201: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.rosout][ERROR] 2025-09-02 15:06:45,364: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-09-02 15:06:45,215: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-09-02 15:06:45,407: topic[/rosout] removing connection to /rosout
+[rospy.rosout][ERROR] 2025-09-02 15:06:50,375: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-09-02 15:06:50,370: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.rosout][ERROR] 2025-09-02 15:06:55,380: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1361, in startListening
+    skt.bind(addr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/rosbridge_server/rosbridge_websocket", line 311, in <module>
+    listenWS(factory, context_factory)
+  File "/usr/lib/python3/dist-packages/autobahn/twisted/websocket.py", line 577, in listenWS
+    listener = reactor.listenTCP(factory.port, factory, backlog, interface)
+  File "/usr/lib/python3/dist-packages/twisted/internet/posixbase.py", line 495, in listenTCP
+    p.startListening()
+  File "/usr/lib/python3/dist-packages/twisted/internet/tcp.py", line 1363, in startListening
+    raise CannotListenError(self.interface, self.port, le)
+twisted.internet.error.CannotListenError: Couldn't listen on any:9090: [Errno 98] Address already in use.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][WARNING] 2025-09-02 15:06:55,377: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-09-02 15:06:56,104: signal_shutdown [signal-2]
+[rospy.core][INFO] 2025-09-02 15:06:56,110: signal_shutdown [atexit]
+[rospy.rosout][ERROR] 2025-09-02 15:07:00,393: Unable to report rosout: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 165, in get_param_cached
+    return rospy.impl.paramserver.get_param_server_cache().get(resolved_key)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/paramserver.py", line 177, in get
+    raise KeyError(key)
+KeyError: '/rosout_disable_topics_generation'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 91, in _rosout
+    disable_topics_ = rospy.get_param_cached("/rosout_disable_topics_generation", False)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/client.py", line 491, in get_param_cached
+    return _param_server.get_param_cached(param_name)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/msproxy.py", line 168, in get_param_cached
+    code, msg, value = self.target.subscribeParam(rospy.names.get_caller_id(), rospy.core.get_node_uri(), resolved_key)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/core.py", line 696, in _ServerProxy__request
+    return xmlrpcclient.ServerProxy._ServerProxy__request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosout][INFO] 2025-09-02 15:07:00,391: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.core][INFO] 2025-09-02 15:09:02,786: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2025-09-02 15:09:02,789: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2025-09-02 15:09:02,790: signal-2
+[rospy.core][INFO] 2025-09-02 15:09:03,393: signal_shutdown [atexit]

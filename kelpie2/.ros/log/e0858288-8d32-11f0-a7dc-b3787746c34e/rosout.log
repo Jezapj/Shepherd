@@ -1,0 +1,299 @@
+
+
+1757391013.054496670  Node Startup
+1757391186.602332353 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1757391186.759349822 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.023000 -0.011326 -0.203893]
+1757391187.448478460 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1757391256.734676361 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391256.739517211 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffb4726fd0>
+
+1757391256.745746135 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.027000 -0.011326 -0.203893]
+1757391256.750717639 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.027000 -0.011326 -0.203893]
+1757391256.755637407 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.023000 -0.011326 -0.203893]
+1757391256.760634660 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.023000 -0.011326 -0.203893]
+1757391269.571863889 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391269.575719356 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffb4726580>
+
+1757391269.581683158 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.027097 -0.021012 -0.237489]
+1757391269.587119102 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.027097 -0.021012 -0.237489]
+1757391269.592694282 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.022370 -0.001659 -0.170360]
+1757391269.598594665 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.022370 -0.001659 -0.170360]
+1757391270.611066102 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391270.614773273 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffb4726c40>
+
+1757391270.621258974 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.118581 0.035896 -0.038607]
+1757391270.626166582 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.118227 0.036691 -0.038837]
+1757391270.631261348 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.194307 -0.018447 -0.228279]
+1757391270.635708808 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.194307 -0.018447 -0.228279] too far away
+1757391270.640872240 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.193954 -0.018281 -0.228327]
+1757391270.645390510 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.193954 -0.018281 -0.228327] too far away
+1757391271.433480262 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391271.437302589 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffb57f1220>
+
+1757391271.442704916 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.061701 0.088031 0.146119]
+1757391271.447777986 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.060061 0.090893 0.145294]
+1757391271.452891826 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.338558 0.009384 -0.126756]
+1757391271.456844806 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.338558 0.009384 -0.126756] too far away
+1757391271.462362766 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.336918 0.012201 -0.127568]
+1757391271.466222763 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.336918 0.012201 -0.127568] too far away
+1757391274.350533008 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391274.354616165 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffb4726d00>
+
+1757391274.360386133 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.374979 0.015192 -0.118001]
+1757391274.364260196 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.374979 0.015192 -0.118001] too far away
+1757391274.369341850 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.376564 0.011945 -0.117065]
+1757391274.373327970 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.376564 0.011945 -0.117065] too far away
+1757391274.380236864 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.020758 0.090621 0.145547]
+1757391274.385815858 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.022343 0.088397 0.146189]
+1757391274.417501688 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /kelpie/imu, /kelpie/battery/voltage, /rosout, /joy] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffffaa8ea610>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -25.0
+
+1757391275.236997604 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391275.240515470 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffb4726730>
+
+1757391275.246279954 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.211704 -0.024826 -0.252521]
+1757391275.250457048 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.211704 -0.024826 -0.252521] too far away
+1757391275.257478713 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.213236 -0.025791 -0.252243]
+1757391275.262706756 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.213236 -0.025791 -0.252243] too far away
+1757391329.051945209 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1757391329.135862112 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.023000 -0.011308 -0.203829]
+1757391329.667230129 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1757391333.530560970 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391333.534166097 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffac090a60>
+
+1757391333.539788484 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.002333 0.104843 0.199044]
+1757391333.545018434 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.002333 0.104843 0.199044]
+1757391333.550180912 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.365394 0.030016 -0.060496]
+1757391333.554583787 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.365394 0.030016 -0.060496] too far away
+1757391333.559623956 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.365394 0.030016 -0.060496]
+1757391333.563676118 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.365394 0.030016 -0.060496] too far away
+1757391335.432478427 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391335.436120986 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffac090af0>
+
+1757391335.441795825 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.391302 0.061979 0.050853]
+1757391335.445514202 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.391302 0.061979 0.050853] too far away
+1757391335.450876712 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.391185 0.062237 0.050779]
+1757391335.455008029 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.391185 0.062237 0.050779] too far away
+1757391335.461351871 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.120569 0.107526 0.208387]
+1757391335.466730356 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [0.120687 0.107546 0.208381]
+1757391335.478760242 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /joy, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff9e3495e0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -32.0
+
+1757391336.939348697 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1757391336.942936182 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffffac0903d0>
+
+1757391336.948219537 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.229559 -0.023787 -0.246946]
+1757391336.952462673 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.229559 -0.023787 -0.246946] too far away
+1757391336.957899093 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.229445 -0.023698 -0.246972]
+1757391336.962929010 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] target coordinate: [-0.229445 -0.023698 -0.246972] too far away
+1757391383.691352844 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1757391383.815896272 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.023000 -0.011318 -0.203864]
+1757391384.247253417 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1757391388.396303415 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391388.401021957 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa760>
+
+1757391388.407212734 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.036244 0.096695 0.170781]
+1757391388.412386894 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.036244 0.096695 0.170781]
+1757391388.417569875 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.352248 0.018655 -0.099902]
+1757391388.421704292 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.352248 0.018655 -0.099902] too far away
+1757391388.429076671 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.352248 0.018655 -0.099902]
+1757391388.433773994 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.352248 0.018655 -0.099902] too far away
+1757391389.680183410 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391389.684090852 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aaaf0>
+
+1757391389.690207958 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.265532 0.106828 0.205930]
+1757391389.694232225 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.265532 0.106828 0.205930] too far away
+1757391389.699052333 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.265532 0.106828 0.205930]
+1757391389.703288555 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.265532 0.106828 0.205930] too far away
+1757391389.708340167 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.293148 0.091672 0.153361]
+1757391389.713112831 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.293148 0.091672 0.153361] too far away
+1757391389.718886613 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.293148 0.091672 0.153361]
+1757391389.723090648 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.293148 0.091672 0.153361] too far away
+1757391389.745904207 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/leg_control/currents, /joy, /kelpie/imu, /kelpie/command_input] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8f421af0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -1.0
+
+1757391390.139326572 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391390.142951488 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa910>
+
+1757391390.148305416 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.347312 0.087194 0.137829]
+1757391390.152449607 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.347312 0.087194 0.137829] too far away
+1757391390.157712936 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.347312 0.087194 0.137829]
+1757391390.161910772 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.347312 0.087194 0.137829] too far away
+1757391390.166897773 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.209482 0.104805 0.198912]
+1757391390.171294689 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.209482 0.104805 0.198912] too far away
+1757391390.177200317 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.209482 0.104805 0.198912]
+1757391390.181782960 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.209482 0.104805 0.198912] too far away
+1757391390.187531709 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/leg_control/currents, /joy, /kelpie/imu, /kelpie/command_input] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8f421af0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -17.0
+
+1757391391.079516649 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391391.083123207 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa8e0>
+
+1757391391.088791847 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.391596 0.025483 -0.075251]
+1757391391.092542886 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.391596 0.025483 -0.075251] too far away
+1757391391.097271203 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.391360 0.025998 -0.075400]
+1757391391.101317644 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.391360 0.025998 -0.075400] too far away
+1757391391.106819152 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.010469 0.096645 0.171106]
+1757391391.112842798 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.010705 0.096910 0.171030]
+1757391391.119465589 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/leg_control/currents, /joy, /kelpie/imu, /kelpie/command_input] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8f421af0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -32.0
+
+1757391391.666360378 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391391.670050144 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa8b0>
+
+1757391391.675847530 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.319586 -0.009260 -0.193298]
+1757391391.680770158 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.319586 -0.009260 -0.193298] too far away
+1757391391.686408042 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.318415 -0.007438 -0.193824]
+1757391391.690843820 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.318415 -0.007438 -0.193824] too far away
+1757391391.696455001 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.071487 0.068754 0.077907]
+1757391391.701917409 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.070315 0.070901 0.077288]
+1757391391.707269430 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/leg_control/currents, /joy, /kelpie/imu, /kelpie/command_input] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8f421af0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -11.0
+
+1757391392.484384775 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391392.488221645 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa970>
+
+1757391392.494063854 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.134921 -0.028045 -0.262209]
+1757391392.497969150 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.134921 -0.028045 -0.262209] too far away
+1757391392.503073930 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.131537 -0.028244 -0.262152]
+1757391392.506996631 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.131537 -0.028244 -0.262152] too far away
+1757391392.512497901 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.077135 0.017672 -0.091368]
+1757391392.517517328 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.073751 0.024006 -0.093194]
+1757391394.897041559 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391394.900977849 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aad00>
+
+1757391394.908818960 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.031996 0.099805 0.172342]
+1757391394.914956569 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.035267 0.094870 0.173765]
+1757391394.921208858 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.351796 0.022472 -0.098012]
+1757391394.926240921 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.351796 0.022472 -0.098012] too far away
+1757391394.932826280 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.355067 0.016406 -0.096263]
+1757391394.937341928 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.355067 0.016406 -0.096263] too far away
+1757391396.944785356 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391396.949420213 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aab80>
+
+1757391396.956634044 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.040979 -0.021169 -0.243185]
+1757391396.962238788 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.037817 -0.023933 -0.242388]
+1757391396.967543363 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.032227 -0.001610 -0.161344]
+1757391396.972617626 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.029065 0.003078 -0.162695]
+1757391400.431414127 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391400.435935497 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aaa90>
+
+1757391400.441983222 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.312678 0.095677 0.175826]
+1757391400.446269273 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.312678 0.095677 0.175826] too far away
+1757391400.451419830 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.309622 0.100222 0.174516]
+1757391400.455274820 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.309622 0.100222 0.174516] too far away
+1757391400.460711956 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.251231 0.101108 0.180503]
+1757391400.464700698 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.251231 0.101108 0.180503] too far away
+1757391400.469655752 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.254288 0.098114 0.181366]
+1757391400.473577976 WARN /kelpie [Kinematics.py:91(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [0.254288 0.098114 0.181366] too far away
+1757391400.484367847 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/leg_control/currents, /joy, /kelpie/imu, /kelpie/command_input] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8f421af0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -9.0
+
+1757391401.526437044 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] BattVol0.0
+1757391401.529989004 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa610>
+
+1757391401.535856485 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.054919 0.112354 0.222783]
+1757391401.541152954 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/imu] target coordinate: [-0.053262 0.111117 0.223140]
+1757391433.503432750 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1757391433.586050271 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.027000 -0.011422 -0.204223]
+1757391433.593589067 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011422 -0.204223]
+1757391433.599910497 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011422 -0.204223]
+1757391433.604928016 INFO /kelpie [main_driver.py:162(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1757391433.610042810 INFO /kelpie [main_driver.py:164(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] Here is hi: None
+1757391433.621534109 INFO /kelpie [main_driver.py:166(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] Here is hi: None
+1757391433.630953550 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.027000 -0.011349 -0.203971]
+1757391433.639384746 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.027000 -0.011349 -0.203971]
+1757391433.645652770 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011349 -0.203971]
+1757391433.650585651 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011349 -0.203971]
+1757391434.069861888 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1757391437.035785913 INFO /kelpie [main_driver.py:117(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] BattVol0.0
+1757391437.039707422 INFO /kelpie [main_driver.py:124(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff881162b0>
+
+1757391437.046397447 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.027000 -0.011349 -0.203971]
+1757391437.052049160 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.027000 -0.011349 -0.203971]
+1757391437.056739330 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011349 -0.203971]
+1757391437.061433315 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011349 -0.203971]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            

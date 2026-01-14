@@ -1,0 +1,6 @@
+
+
+1754885252.068562026  Node Startup
+1754885253.957605600 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1754885253.931476116 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/leg_control/joint_states, /kelpie/command_input, /rosout, /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage] Manual robot control active. Currently not accepting external commands
+1754885254.647053480 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /client_count, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090

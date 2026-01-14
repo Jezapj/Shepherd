@@ -1,0 +1,128 @@
+
+
+1755672227.281841951  Node Startup
+1755672838.326539039 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755672838.387128353 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672838.991871833 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755672840.413393259 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755672841.439541816 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755672841.455568075 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755672841.477622032 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/battery/voltage, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/battery/voltage
+1755672841.495766878 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/imu, /kelpie/battery/voltage, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/imu
+1755672842.331985950 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /connected_clients, /rosout, /kelpie/imu, /kelpie/battery/voltage, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] Client disconnected. 0 clients total.
+1755672842.388974189 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755672842.412617921 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/leg_control/joint_states
+1755672842.427854537 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/leg_control/currents
+1755672842.444795370 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/battery/voltage, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/battery/voltage
+1755672842.466510772 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/imu, /kelpie/battery/voltage, /client_count, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/imu
+1755672850.099805116 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672850.103516817 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ea90>
+
+1755672850.112291812 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672861.958038330 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672861.961962223 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ed00>
+
+1755672861.971604824 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672863.059750795 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672863.063394784 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ebb0>
+
+1755672863.072605848 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672868.326207637 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672868.329824686 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ed00>
+
+1755672868.339206457 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672877.418840646 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672877.422424316 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ebb0>
+
+1755672877.431309461 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672880.218255043 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672880.222325801 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ed00>
+
+1755672880.231273889 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672882.541933298 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672882.545749425 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ea30>
+
+1755672882.555461883 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672883.897131204 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672883.900923252 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9408ecd0>
+
+1755672883.910231113 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672911.662274599 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672911.666122913 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495cfa0>
+
+1755672911.674814701 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672914.438434362 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672914.442114591 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c3d0>
+
+1755672914.450757741 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672915.979573011 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672915.983434677 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c340>
+
+1755672915.993821859 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672937.539211511 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672937.542874813 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c790>
+
+1755672937.551879167 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672942.285504102 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672942.289807319 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495cca0>
+
+1755672942.299805641 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672944.725727558 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672944.729889392 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c370>
+
+1755672944.739088058 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672945.749865770 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672945.753453493 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c2b0>
+
+1755672945.763895988 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672958.233141183 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672958.237087011 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c3d0>
+
+1755672958.247652530 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672983.775574445 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672983.779304981 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c880>
+
+1755672983.788012027 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672989.594124317 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672989.597815036 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c2b0>
+
+1755672989.608240127 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672995.494967460 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672995.498629570 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c430>
+
+1755672995.507414579 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672995.806386947 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672995.810125589 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495cca0>
+
+1755672995.818986415 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672997.686573266 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672997.690197944 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c340>
+
+1755672997.698888301 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+1755672997.992935657 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] BattVol0.0
+1755672997.996816158 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] 
+Command is: <gait_controller.Command.Command object at 0xffff9495c790>
+
+1755672998.005565643 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/command_input, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents] Manual Control deactivated. Now accepting external commands
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

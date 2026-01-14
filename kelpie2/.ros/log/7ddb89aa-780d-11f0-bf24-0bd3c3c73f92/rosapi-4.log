@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2025-08-13 16:19:42,669: init_node, name[/rosapi], pid[1367]
+[xmlrpc][INFO] 2025-08-13 16:19:42,671: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-13 16:19:42,672: Started XML-RPC server [http://localhost:39733/]
+[rospy.init][INFO] 2025-08-13 16:19:42,672: ROS Slave URI: [http://localhost:39733/]
+[rospy.impl.masterslave][INFO] 2025-08-13 16:19:42,673: _ready: http://localhost:39733/
+[rospy.registration][INFO] 2025-08-13 16:19:42,675: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-13 16:19:42,675: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-13 16:19:42,773: registered with master
+[rospy.rosout][INFO] 2025-08-13 16:19:42,774: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-13 16:19:42,784: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-13 16:19:42,786: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-13 16:19:42,883: Rosapi started
+[rospy.internal][INFO] 2025-08-13 16:19:43,078: topic[/rosout] adding connection to [/rosout], count 0

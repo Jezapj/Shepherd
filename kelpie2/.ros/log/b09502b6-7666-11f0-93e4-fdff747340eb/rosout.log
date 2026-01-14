@@ -1,0 +1,8 @@
+
+
+1754884388.880794444  Node Startup
+1754884390.510281801 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1754884390.495699405 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/imu, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /rosout, /kelpie/command_input] Manual robot control active. Currently not accepting external commands
+1754884391.041845798 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1754884421.147110252 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:670(main)] [topics: /rosout, /diagnostics, /joy] Connection to joystick device lost unexpectedly. Will reopen.
+1754884421.147829183 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:415(main)] [topics: /rosout, /diagnostics, /joy] Couldn't open joystick /dev/input/js0. Will retry every second.

@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target _kelpie_generate_messages_check_deps_imu[0m
+[  0%] Built target _kelpie_generate_messages_check_deps_imu
+[35m[1mScanning dependencies of target _kelpie_generate_messages_check_deps_joint_states[0m
+[  0%] Built target _kelpie_generate_messages_check_deps_joint_states
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _kelpie_generate_messages_check_deps_commands[0m
+[  0%] Built target _kelpie_generate_messages_check_deps_commands
+[35m[1mScanning dependencies of target _kelpie_generate_messages_check_deps_leg_state[0m
+[  0%] Built target _kelpie_generate_messages_check_deps_leg_state
+[35m[1mScanning dependencies of target _kelpie_generate_messages_check_deps_vec_3d_float32[0m
+[  0%] Built target _kelpie_generate_messages_check_deps_vec_3d_float32
+[35m[1mScanning dependencies of target _kelpie_generate_messages_check_deps_att[0m
+[  0%] Built target _kelpie_generate_messages_check_deps_att
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target kelpie_generate_messages_cpp[0m
+[ 18%] Built target kelpie_generate_messages_cpp
+[35m[1mScanning dependencies of target kelpie_generate_messages_nodejs[0m
+[ 37%] Built target kelpie_generate_messages_nodejs
+[35m[1mScanning dependencies of target kelpie_generate_messages_lisp[0m
+[ 56%] Built target kelpie_generate_messages_lisp
+[35m[1mScanning dependencies of target kelpie_generate_messages_eus[0m
+[ 78%] Built target kelpie_generate_messages_eus
+[35m[1mScanning dependencies of target kelpie_generate_messages_py[0m
+[100%] Built target kelpie_generate_messages_py
+[35m[1mScanning dependencies of target kelpie_generate_messages[0m
+[100%] Built target kelpie_generate_messages

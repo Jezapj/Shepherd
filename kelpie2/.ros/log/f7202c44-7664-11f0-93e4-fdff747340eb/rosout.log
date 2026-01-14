@@ -1,0 +1,5 @@
+
+
+1754883648.341070916  Node Startup
+1754883650.017301321 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1754883650.744892835 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /connected_clients, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090

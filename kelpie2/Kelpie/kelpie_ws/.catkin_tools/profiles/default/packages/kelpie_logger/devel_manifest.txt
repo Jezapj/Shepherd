@@ -1,0 +1,4 @@
+kelpie_logger
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_logger/lib/pkgconfig/kelpie_logger.pc /home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig/kelpie_logger.pc
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_logger/share/kelpie_logger/cmake/kelpie_loggerConfig-version.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_logger/cmake/kelpie_loggerConfig-version.cmake
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_logger/share/kelpie_logger/cmake/kelpie_loggerConfig.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_logger/cmake/kelpie_loggerConfig.cmake

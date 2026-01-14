@@ -1,0 +1,311 @@
+[rospy.client][INFO] 2025-08-28 16:36:41,726: init_node, name[/hardware], pid[2408]
+[xmlrpc][INFO] 2025-08-28 16:36:41,727: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-28 16:36:41,728: Started XML-RPC server [http://10.176.33.207:40485/]
+[rospy.init][INFO] 2025-08-28 16:36:41,729: ROS Slave URI: [http://10.176.33.207:40485/]
+[rospy.impl.masterslave][INFO] 2025-08-28 16:36:41,729: _ready: http://10.176.33.207:40485/
+[rospy.registration][INFO] 2025-08-28 16:36:41,731: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-28 16:36:41,731: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-28 16:36:41,731: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-28 16:36:41,745: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-28 16:36:41,748: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.init][INFO] 2025-08-28 16:36:41,829: registered with master
+[rospy.rosout][INFO] 2025-08-28 16:36:41,830: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-28 16:36:41,833: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-28 16:36:41,835: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-28 16:36:41,935: topic[/joy] adding connection to [http://10.176.33.207:36469/], count 0
+[rospy.internal][INFO] 2025-08-28 16:36:41,948: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:33455/], count 0
+[rospy.internal][INFO] 2025-08-28 16:36:41,984: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:36:42,010: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:36:42,022: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:36:42,024: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-28 16:36:42,128: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:39,768: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:33455/
+[rospy.internal][INFO] 2025-08-28 16:37:39,791: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:37:39,799: topic[/kelpie/imu] adding connection to [/kelpie], count 1
+[rospy.internal][INFO] 2025-08-28 16:37:39,799: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:37:39,801: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:37:39,802: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:37:39,819: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:39,838: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:39,844: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:38725/], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:39,856: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.client][INFO] 2025-08-28 16:37:40,935: init_node, name[/hardware], pid[2487]
+[xmlrpc][INFO] 2025-08-28 16:37:40,960: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-28 16:37:40,962: Started XML-RPC server [http://10.176.33.207:34825/]
+[rospy.init][INFO] 2025-08-28 16:37:40,962: ROS Slave URI: [http://10.176.33.207:34825/]
+[rospy.impl.masterslave][INFO] 2025-08-28 16:37:40,963: _ready: http://10.176.33.207:34825/
+[rospy.registration][INFO] 2025-08-28 16:37:40,977: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-28 16:37:40,978: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-28 16:37:40,985: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-28 16:37:41,038: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-28 16:37:41,045: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.init][INFO] 2025-08-28 16:37:41,064: registered with master
+[rospy.rosout][INFO] 2025-08-28 16:37:41,065: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-28 16:37:41,069: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-28 16:37:41,072: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-28 16:37:41,117: external shutdown request from [/master]: [/hardware] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-28 16:37:41,118: signal_shutdown [external shutdown request from [/master]: [[/hardware] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-28 16:37:41,144: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.core][INFO] 2025-08-28 16:37:41,153: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-08-28 16:37:41,255: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:41,290: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:41,303: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:38725/], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:41,310: topic[/joy] adding connection to [http://10.176.33.207:36469/], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:41,320: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:41,348: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-28 16:37:41,472: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:38:23,883: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-28 16:38:23,887: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-28 16:38:23,902: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-28 16:38:35,432: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-28 16:38:35,437: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-28 16:38:35,813: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-28 16:38:48,400: topic[/kelpie/leg_control/currents] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-28 16:38:48,420: topic[/kelpie/battery/voltage] adding connection to [/rosbridge_websocket], count 1
+[rospy.internal][INFO] 2025-08-28 16:38:48,440: topic[/kelpie/imu] adding connection to [/rosbridge_websocket], count 1
+[rospy.core][INFO] 2025-08-28 16:41:35,822: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-28 16:41:35,849: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:41:35,850: topic[/kelpie/leg_control/currents] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-28 16:41:35,853: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:41:35,858: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:38725/
+[rospy.internal][INFO] 2025-08-28 16:41:35,859: topic[/kelpie/battery/voltage] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-28 16:41:35,862: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:41:35,863: topic[/kelpie/imu] removing connection to /rosbridge_websocket
+[rospy.internal][INFO] 2025-08-28 16:41:35,864: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-28 16:41:35,865: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:41:35,866: topic[/joy] removing connection to http://10.176.33.207:36469/
+[rospy.internal][INFO] 2025-08-28 16:41:35,876: topic[/joy] removing connection to http://10.176.33.207:36469/
+[rospy.impl.masterslave][INFO] 2025-08-28 16:41:35,876: signal-2
+[rospy.core][INFO] 2025-08-28 16:41:50,858: signal_shutdown [signal-15]
+[rospy.client][INFO] 2025-08-28 16:42:17,496: init_node, name[/hardware], pid[2667]
+[xmlrpc][INFO] 2025-08-28 16:42:17,497: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-28 16:42:17,498: Started XML-RPC server [http://10.176.33.207:39615/]
+[rospy.init][INFO] 2025-08-28 16:42:17,498: ROS Slave URI: [http://10.176.33.207:39615/]
+[rospy.impl.masterslave][INFO] 2025-08-28 16:42:17,499: _ready: http://10.176.33.207:39615/
+[rospy.registration][INFO] 2025-08-28 16:42:17,500: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-28 16:42:17,500: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-28 16:42:17,501: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-28 16:42:17,514: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-28 16:42:17,517: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.init][INFO] 2025-08-28 16:42:17,601: registered with master
+[rospy.rosout][INFO] 2025-08-28 16:42:17,602: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-28 16:42:17,610: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-28 16:42:17,617: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-28 16:42:17,701: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:42:17,704: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:42:17,712: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:42:17,774: topic[/joy] adding connection to [http://10.176.33.207:36469/], count 0
+[rospy.internal][INFO] 2025-08-28 16:42:17,789: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:41021/], count 0
+[rospy.internal][INFO] 2025-08-28 16:42:17,863: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-28 16:42:17,944: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rosout][ERROR] 2025-08-28 16:42:51,523: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff7cf507f0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -29.0
+
+[rosout][ERROR] 2025-08-28 16:42:51,551: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff7cf507f0>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -29.0
+
+[rospy.core][INFO] 2025-08-28 16:44:03,116: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-28 16:44:03,153: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:41021/
+[rospy.internal][INFO] 2025-08-28 16:44:03,158: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:44:03,159: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:44:03,160: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:44:03,160: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-28 16:44:03,161: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:44:03,162: topic[/joy] removing connection to http://10.176.33.207:36469/
+[rospy.internal][INFO] 2025-08-28 16:44:03,162: topic[/joy] removing connection to http://10.176.33.207:36469/
+[rospy.impl.masterslave][INFO] 2025-08-28 16:44:03,163: signal-2
+[rospy.core][INFO] 2025-08-28 16:44:18,145: signal_shutdown [signal-15]
+[rospy.client][INFO] 2025-08-28 16:44:29,904: init_node, name[/hardware], pid[2757]
+[xmlrpc][INFO] 2025-08-28 16:44:29,905: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-08-28 16:44:29,907: Started XML-RPC server [http://10.176.33.207:37931/]
+[rospy.init][INFO] 2025-08-28 16:44:29,908: ROS Slave URI: [http://10.176.33.207:37931/]
+[rospy.impl.masterslave][INFO] 2025-08-28 16:44:29,908: _ready: http://10.176.33.207:37931/
+[rospy.registration][INFO] 2025-08-28 16:44:29,911: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-28 16:44:29,911: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-28 16:44:29,912: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-28 16:44:29,936: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-28 16:44:29,940: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.init][INFO] 2025-08-28 16:44:30,015: registered with master
+[rospy.rosout][INFO] 2025-08-28 16:44:30,016: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-28 16:44:30,021: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-28 16:44:30,026: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-28 16:44:30,033: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:44:30,058: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:44:30,068: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-28 16:44:30,210: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.176.33.207:41741/], count 0
+[rospy.internal][INFO] 2025-08-28 16:44:30,225: topic[/joy] adding connection to [http://10.176.33.207:36469/], count 0
+[rospy.internal][INFO] 2025-08-28 16:44:30,236: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-28 16:44:30,288: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rosout][ERROR] 2025-08-28 16:45:30,473: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -15.0
+
+[rosout][ERROR] 2025-08-28 16:45:30,503: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -15.0
+
+[rosout][ERROR] 2025-08-28 16:45:37,101: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -5.0
+
+[rosout][ERROR] 2025-08-28 16:45:37,135: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -5.0
+
+[rosout][ERROR] 2025-08-28 16:46:00,961: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -20.0
+
+[rosout][ERROR] 2025-08-28 16:46:01,000: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -20.0
+
+[rosout][ERROR] 2025-08-28 16:46:19,500: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -4.0
+
+[rosout][ERROR] 2025-08-28 16:46:19,542: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -3.0
+
+[rosout][ERROR] 2025-08-28 16:46:33,592: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -34.0
+
+[rosout][ERROR] 2025-08-28 16:46:33,628: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -33.0
+
+[rosout][ERROR] 2025-08-28 16:46:42,281: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -28.0
+
+[rosout][ERROR] 2025-08-28 16:46:42,325: bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8463db80>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -28.0
+
+[rospy.core][INFO] 2025-08-28 16:47:35,149: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-28 16:47:35,172: topic[/kelpie/leg_control/joint_states] removing connection to http://10.176.33.207:41741/
+[rospy.internal][INFO] 2025-08-28 16:47:35,176: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:47:35,177: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:47:35,179: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:47:35,180: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-28 16:47:35,182: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-28 16:47:35,185: topic[/joy] removing connection to http://10.176.33.207:36469/
+[rospy.internal][INFO] 2025-08-28 16:47:35,185: topic[/joy] removing connection to http://10.176.33.207:36469/
+[rospy.impl.masterslave][INFO] 2025-08-28 16:47:35,186: signal-2
+[rospy.core][INFO] 2025-08-28 16:47:50,182: signal_shutdown [signal-15]

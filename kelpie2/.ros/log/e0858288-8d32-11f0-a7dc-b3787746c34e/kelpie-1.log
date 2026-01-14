@@ -1,0 +1,413 @@
+[rospy.client][INFO] 2025-09-09 14:13:06,435: init_node, name[/kelpie], pid[1841]
+[xmlrpc][INFO] 2025-09-09 14:13:06,436: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-09 14:13:06,437: Started XML-RPC server [http://10.237.54.207:44333/]
+[rospy.init][INFO] 2025-09-09 14:13:06,438: ROS Slave URI: [http://10.237.54.207:44333/]
+[rospy.impl.masterslave][INFO] 2025-09-09 14:13:06,438: _ready: http://10.237.54.207:44333/
+[rospy.registration][INFO] 2025-09-09 14:13:06,441: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-09 14:13:06,441: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-09 14:13:06,539: registered with master
+[rospy.rosout][INFO] 2025-09-09 14:13:06,540: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-09 14:13:06,555: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-09 14:13:06,559: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-09 14:13:06,604: Creating input listener...
+[rosout][INFO] 2025-09-09 14:13:06,614: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-09 14:13:06,618: Summary of current gait parameters:
+[rosout][INFO] 2025-09-09 14:13:06,621: overlap time: 0.04
+[rosout][INFO] 2025-09-09 14:13:06,625: swing time: 0.07
+[rosout][INFO] 2025-09-09 14:13:06,629: z clearance: 0.08
+[rosout][INFO] 2025-09-09 14:13:06,632: back leg x shift: 0.00
+[rosout][INFO] 2025-09-09 14:13:06,635: front leg x shift: 0.05
+[rosout][INFO] 2025-09-09 14:13:06,639: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-09 14:13:06,649: target coordinate: [0.027000 -0.011458 -0.204349]
+[rosout][WARNING] 2025-09-09 14:13:06,654: target coordinate: [0.027000 -0.011458 -0.204349]
+[rosout][WARNING] 2025-09-09 14:13:06,660: target coordinate: [0.023000 -0.011458 -0.204349]
+[rosout][WARNING] 2025-09-09 14:13:06,666: target coordinate: [0.023000 -0.011458 -0.204349]
+[rosout][INFO] 2025-09-09 14:13:06,670: Estopped? 0
+[rosout][INFO] 2025-09-09 14:13:06,675: BattVol0.0
+[rosout][INFO] 2025-09-09 14:13:06,679: 
+Command is: <gait_controller.Command.Command object at 0xffffb57e1b80>
+
+[rosout][WARNING] 2025-09-09 14:13:06,685: target coordinate: [0.027000 -0.011416 -0.204204]
+[rosout][WARNING] 2025-09-09 14:13:06,690: target coordinate: [0.027000 -0.011416 -0.204204]
+[rosout][WARNING] 2025-09-09 14:13:06,696: target coordinate: [0.023000 -0.011416 -0.204204]
+[rosout][WARNING] 2025-09-09 14:13:06,701: target coordinate: [0.023000 -0.011416 -0.204204]
+[rosout][INFO] 2025-09-09 14:13:06,706: Manual Control deactivated. Now accepting external commands
+[rosout][INFO] 2025-09-09 14:13:06,713: Here is hi: None
+[rosout][INFO] 2025-09-09 14:13:06,725: Here is hi: None
+[rospy.internal][INFO] 2025-09-09 14:13:06,738: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.237.54.207:44333/], count 0
+[rosout][WARNING] 2025-09-09 14:13:06,735: target coordinate: [0.027000 -0.011326 -0.203893]
+[rospy.internal][INFO] 2025-09-09 14:13:06,746: topic[/kelpie/leg_control/joint_states] adding connection to [/kelpie], count 0
+[rosout][WARNING] 2025-09-09 14:13:06,744: target coordinate: [0.027000 -0.011326 -0.203893]
+[rosout][WARNING] 2025-09-09 14:13:06,750: target coordinate: [0.023000 -0.011326 -0.203893]
+[rosout][WARNING] 2025-09-09 14:13:06,755: target coordinate: [0.023000 -0.011326 -0.203893]
+[rospy.internal][INFO] 2025-09-09 14:13:06,866: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-09 14:13:07,398: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 1
+[rospy.internal][INFO] 2025-09-09 14:13:07,400: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:45225/], count 0
+[rospy.internal][INFO] 2025-09-09 14:13:07,410: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:45225/], count 0
+[rospy.internal][INFO] 2025-09-09 14:13:07,416: topic[/kelpie/imu] adding connection to [http://10.237.54.207:45225/], count 0
+[rospy.internal][INFO] 2025-09-09 14:13:07,423: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:45225/], count 0
+[rosout][INFO] 2025-09-09 14:14:16,731: BattVol0.0
+[rosout][INFO] 2025-09-09 14:14:16,735: 
+Command is: <gait_controller.Command.Command object at 0xffffb4726fd0>
+
+[rosout][WARNING] 2025-09-09 14:14:16,742: target coordinate: [0.027000 -0.011326 -0.203893]
+[rosout][WARNING] 2025-09-09 14:14:16,747: target coordinate: [0.027000 -0.011326 -0.203893]
+[rosout][WARNING] 2025-09-09 14:14:16,752: target coordinate: [0.023000 -0.011326 -0.203893]
+[rosout][WARNING] 2025-09-09 14:14:16,757: target coordinate: [0.023000 -0.011326 -0.203893]
+[rosout][INFO] 2025-09-09 14:14:29,567: BattVol0.0
+[rosout][INFO] 2025-09-09 14:14:29,572: 
+Command is: <gait_controller.Command.Command object at 0xffffb4726580>
+
+[rosout][WARNING] 2025-09-09 14:14:29,578: target coordinate: [-0.027097 -0.021012 -0.237489]
+[rosout][WARNING] 2025-09-09 14:14:29,583: target coordinate: [-0.027097 -0.021012 -0.237489]
+[rosout][WARNING] 2025-09-09 14:14:29,589: target coordinate: [-0.022370 -0.001659 -0.170360]
+[rosout][WARNING] 2025-09-09 14:14:29,595: target coordinate: [-0.022370 -0.001659 -0.170360]
+[rosout][INFO] 2025-09-09 14:14:30,607: BattVol0.0
+[rosout][INFO] 2025-09-09 14:14:30,611: 
+Command is: <gait_controller.Command.Command object at 0xffffb4726c40>
+
+[rosout][WARNING] 2025-09-09 14:14:30,617: target coordinate: [0.118581 0.035896 -0.038607]
+[rosout][WARNING] 2025-09-09 14:14:30,622: target coordinate: [0.118227 0.036691 -0.038837]
+[rosout][WARNING] 2025-09-09 14:14:30,627: target coordinate: [0.194307 -0.018447 -0.228279]
+[rosout][WARNING] 2025-09-09 14:14:30,632: target coordinate: [0.194307 -0.018447 -0.228279] too far away
+[rosout][WARNING] 2025-09-09 14:14:30,637: target coordinate: [0.193954 -0.018281 -0.228327]
+[rosout][WARNING] 2025-09-09 14:14:30,642: target coordinate: [0.193954 -0.018281 -0.228327] too far away
+[rosout][INFO] 2025-09-09 14:14:31,430: BattVol0.0
+[rosout][INFO] 2025-09-09 14:14:31,434: 
+Command is: <gait_controller.Command.Command object at 0xffffb57f1220>
+
+[rosout][WARNING] 2025-09-09 14:14:31,439: target coordinate: [0.061701 0.088031 0.146119]
+[rosout][WARNING] 2025-09-09 14:14:31,444: target coordinate: [0.060061 0.090893 0.145294]
+[rosout][WARNING] 2025-09-09 14:14:31,449: target coordinate: [0.338558 0.009384 -0.126756]
+[rosout][WARNING] 2025-09-09 14:14:31,453: target coordinate: [0.338558 0.009384 -0.126756] too far away
+[rosout][WARNING] 2025-09-09 14:14:31,458: target coordinate: [0.336918 0.012201 -0.127568]
+[rosout][WARNING] 2025-09-09 14:14:31,463: target coordinate: [0.336918 0.012201 -0.127568] too far away
+[rosout][INFO] 2025-09-09 14:14:34,345: BattVol0.0
+[rosout][INFO] 2025-09-09 14:14:34,351: 
+Command is: <gait_controller.Command.Command object at 0xffffb4726d00>
+
+[rosout][WARNING] 2025-09-09 14:14:34,357: target coordinate: [-0.374979 0.015192 -0.118001]
+[rosout][WARNING] 2025-09-09 14:14:34,361: target coordinate: [-0.374979 0.015192 -0.118001] too far away
+[rosout][WARNING] 2025-09-09 14:14:34,366: target coordinate: [-0.376564 0.011945 -0.117065]
+[rosout][WARNING] 2025-09-09 14:14:34,370: target coordinate: [-0.376564 0.011945 -0.117065] too far away
+[rosout][WARNING] 2025-09-09 14:14:34,376: target coordinate: [-0.020758 0.090621 0.145547]
+[rosout][WARNING] 2025-09-09 14:14:34,382: target coordinate: [-0.022343 0.088397 0.146189]
+[rosout][INFO] 2025-09-09 14:14:35,233: BattVol0.0
+[rosout][INFO] 2025-09-09 14:14:35,237: 
+Command is: <gait_controller.Command.Command object at 0xffffb4726730>
+
+[rosout][WARNING] 2025-09-09 14:14:35,242: target coordinate: [-0.211704 -0.024826 -0.252521]
+[rosout][WARNING] 2025-09-09 14:14:35,247: target coordinate: [-0.211704 -0.024826 -0.252521] too far away
+[rosout][WARNING] 2025-09-09 14:14:35,252: target coordinate: [-0.213236 -0.025791 -0.252243]
+[rosout][WARNING] 2025-09-09 14:14:35,258: target coordinate: [-0.213236 -0.025791 -0.252243] too far away
+[rospy.core][INFO] 2025-09-09 14:14:44,619: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-09-09 14:14:44,646: topic[/kelpie/command_input] removing connection to http://10.237.54.207:45225/
+[rospy.internal][INFO] 2025-09-09 14:14:44,647: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:45225/
+[rospy.internal][INFO] 2025-09-09 14:14:44,650: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:45225/
+[rospy.internal][INFO] 2025-09-09 14:14:44,651: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-09-09 14:14:44,652: topic[/kelpie/leg_control/joint_states] removing connection to /kelpie
+[rospy.internal][INFO] 2025-09-09 14:14:44,653: topic[/kelpie/leg_control/joint_states] removing connection to http://10.237.54.207:44333/
+[rospy.internal][INFO] 2025-09-09 14:14:44,653: topic[/kelpie/imu] removing connection to http://10.237.54.207:45225/
+[rospy.internal][INFO] 2025-09-09 14:14:44,654: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.impl.masterslave][INFO] 2025-09-09 14:14:44,655: atexit
+[rospy.client][INFO] 2025-09-09 14:15:28,801: init_node, name[/kelpie], pid[1939]
+[xmlrpc][INFO] 2025-09-09 14:15:28,803: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-09 14:15:28,804: Started XML-RPC server [http://10.237.54.207:37479/]
+[rospy.init][INFO] 2025-09-09 14:15:28,805: ROS Slave URI: [http://10.237.54.207:37479/]
+[rospy.impl.masterslave][INFO] 2025-09-09 14:15:28,805: _ready: http://10.237.54.207:37479/
+[rospy.registration][INFO] 2025-09-09 14:15:28,810: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-09 14:15:28,810: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-09 14:15:28,906: registered with master
+[rospy.rosout][INFO] 2025-09-09 14:15:28,907: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-09 14:15:28,921: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-09 14:15:28,926: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-09 14:15:28,977: Creating input listener...
+[rosout][INFO] 2025-09-09 14:15:28,991: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-09 14:15:28,996: Summary of current gait parameters:
+[rosout][INFO] 2025-09-09 14:15:29,002: overlap time: 0.04
+[rosout][INFO] 2025-09-09 14:15:29,006: swing time: 0.07
+[rosout][INFO] 2025-09-09 14:15:29,011: z clearance: 0.08
+[rosout][INFO] 2025-09-09 14:15:29,017: back leg x shift: 0.00
+[rosout][INFO] 2025-09-09 14:15:29,022: front leg x shift: 0.05
+[rosout][INFO] 2025-09-09 14:15:29,027: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-09 14:15:29,035: target coordinate: [0.027000 -0.011407 -0.204174]
+[rosout][WARNING] 2025-09-09 14:15:29,041: target coordinate: [0.027000 -0.011407 -0.204174]
+[rosout][WARNING] 2025-09-09 14:15:29,047: target coordinate: [0.023000 -0.011407 -0.204174]
+[rosout][WARNING] 2025-09-09 14:15:29,054: target coordinate: [0.023000 -0.011407 -0.204174]
+[rosout][INFO] 2025-09-09 14:15:29,058: Estopped? 0
+[rosout][INFO] 2025-09-09 14:15:29,061: BattVol0.0
+[rosout][INFO] 2025-09-09 14:15:29,065: 
+Command is: <gait_controller.Command.Command object at 0xffffac93ef70>
+
+[rosout][WARNING] 2025-09-09 14:15:29,070: target coordinate: [0.027000 -0.011372 -0.204050]
+[rosout][WARNING] 2025-09-09 14:15:29,075: target coordinate: [0.027000 -0.011372 -0.204050]
+[rosout][WARNING] 2025-09-09 14:15:29,081: target coordinate: [0.023000 -0.011372 -0.204050]
+[rosout][WARNING] 2025-09-09 14:15:29,087: target coordinate: [0.023000 -0.011372 -0.204050]
+[rosout][INFO] 2025-09-09 14:15:29,091: Manual Control deactivated. Now accepting external commands
+[rosout][INFO] 2025-09-09 14:15:29,095: Here is hi: None
+[rosout][INFO] 2025-09-09 14:15:29,105: Here is hi: None
+[rospy.internal][INFO] 2025-09-09 14:15:29,116: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.237.54.207:37479/], count 0
+[rosout][WARNING] 2025-09-09 14:15:29,112: target coordinate: [0.027000 -0.011308 -0.203829]
+[rosout][WARNING] 2025-09-09 14:15:29,119: target coordinate: [0.027000 -0.011308 -0.203829]
+[rospy.internal][INFO] 2025-09-09 14:15:29,129: topic[/kelpie/leg_control/joint_states] adding connection to [/kelpie], count 0
+[rosout][WARNING] 2025-09-09 14:15:29,125: target coordinate: [0.023000 -0.011308 -0.203829]
+[rosout][WARNING] 2025-09-09 14:15:29,132: target coordinate: [0.023000 -0.011308 -0.203829]
+[rospy.internal][INFO] 2025-09-09 14:15:29,224: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-09 14:15:29,695: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:43081/], count 0
+[rospy.internal][INFO] 2025-09-09 14:15:29,702: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:43081/], count 0
+[rospy.internal][INFO] 2025-09-09 14:15:29,772: topic[/kelpie/imu] adding connection to [http://10.237.54.207:43081/], count 0
+[rospy.internal][INFO] 2025-09-09 14:15:29,814: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 1
+[rospy.internal][INFO] 2025-09-09 14:15:29,875: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:43081/], count 0
+[rosout][INFO] 2025-09-09 14:15:33,525: BattVol0.0
+[rosout][INFO] 2025-09-09 14:15:33,531: 
+Command is: <gait_controller.Command.Command object at 0xffffac090a60>
+
+[rosout][WARNING] 2025-09-09 14:15:33,536: target coordinate: [-0.002333 0.104843 0.199044]
+[rosout][WARNING] 2025-09-09 14:15:33,541: target coordinate: [-0.002333 0.104843 0.199044]
+[rosout][WARNING] 2025-09-09 14:15:33,546: target coordinate: [0.365394 0.030016 -0.060496]
+[rosout][WARNING] 2025-09-09 14:15:33,551: target coordinate: [0.365394 0.030016 -0.060496] too far away
+[rosout][WARNING] 2025-09-09 14:15:33,556: target coordinate: [0.365394 0.030016 -0.060496]
+[rosout][WARNING] 2025-09-09 14:15:33,560: target coordinate: [0.365394 0.030016 -0.060496] too far away
+[rosout][INFO] 2025-09-09 14:15:35,429: BattVol0.0
+[rosout][INFO] 2025-09-09 14:15:35,433: 
+Command is: <gait_controller.Command.Command object at 0xffffac090af0>
+
+[rosout][WARNING] 2025-09-09 14:15:35,438: target coordinate: [-0.391302 0.061979 0.050853]
+[rosout][WARNING] 2025-09-09 14:15:35,442: target coordinate: [-0.391302 0.061979 0.050853] too far away
+[rosout][WARNING] 2025-09-09 14:15:35,447: target coordinate: [-0.391185 0.062237 0.050779]
+[rosout][WARNING] 2025-09-09 14:15:35,451: target coordinate: [-0.391185 0.062237 0.050779] too far away
+[rosout][WARNING] 2025-09-09 14:15:35,457: target coordinate: [0.120569 0.107526 0.208387]
+[rosout][WARNING] 2025-09-09 14:15:35,463: target coordinate: [0.120687 0.107546 0.208381]
+[rosout][INFO] 2025-09-09 14:15:36,936: BattVol0.0
+[rosout][INFO] 2025-09-09 14:15:36,940: 
+Command is: <gait_controller.Command.Command object at 0xffffac0903d0>
+
+[rosout][WARNING] 2025-09-09 14:15:36,945: target coordinate: [-0.229559 -0.023787 -0.246946]
+[rosout][WARNING] 2025-09-09 14:15:36,949: target coordinate: [-0.229559 -0.023787 -0.246946] too far away
+[rosout][WARNING] 2025-09-09 14:15:36,954: target coordinate: [-0.229445 -0.023698 -0.246972]
+[rosout][WARNING] 2025-09-09 14:15:36,958: target coordinate: [-0.229445 -0.023698 -0.246972] too far away
+[rospy.core][INFO] 2025-09-09 14:15:47,747: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-09-09 14:15:47,770: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:43081/
+[rospy.internal][INFO] 2025-09-09 14:15:47,775: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:43081/
+[rospy.internal][INFO] 2025-09-09 14:15:47,776: topic[/kelpie/command_input] removing connection to http://10.237.54.207:43081/
+[rospy.internal][INFO] 2025-09-09 14:15:47,776: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-09-09 14:15:47,783: topic[/kelpie/leg_control/joint_states] removing connection to http://10.237.54.207:37479/
+[rospy.internal][INFO] 2025-09-09 14:15:47,784: topic[/kelpie/leg_control/joint_states] removing connection to /kelpie
+[rospy.internal][INFO] 2025-09-09 14:15:47,784: topic[/kelpie/imu] removing connection to http://10.237.54.207:43081/
+[rospy.internal][INFO] 2025-09-09 14:15:47,785: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.impl.masterslave][INFO] 2025-09-09 14:15:47,785: atexit
+[rospy.client][INFO] 2025-09-09 14:16:23,495: init_node, name[/kelpie], pid[2033]
+[xmlrpc][INFO] 2025-09-09 14:16:23,498: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-09 14:16:23,500: Started XML-RPC server [http://10.237.54.207:44659/]
+[rospy.init][INFO] 2025-09-09 14:16:23,501: ROS Slave URI: [http://10.237.54.207:44659/]
+[rospy.impl.masterslave][INFO] 2025-09-09 14:16:23,501: _ready: http://10.237.54.207:44659/
+[rospy.registration][INFO] 2025-09-09 14:16:23,506: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-09 14:16:23,506: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-09 14:16:23,603: registered with master
+[rospy.rosout][INFO] 2025-09-09 14:16:23,603: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-09 14:16:23,619: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-09 14:16:23,626: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-09 14:16:23,663: Creating input listener...
+[rosout][INFO] 2025-09-09 14:16:23,675: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-09 14:16:23,681: Summary of current gait parameters:
+[rosout][INFO] 2025-09-09 14:16:23,688: overlap time: 0.04
+[rosout][INFO] 2025-09-09 14:16:23,693: swing time: 0.07
+[rosout][INFO] 2025-09-09 14:16:23,697: z clearance: 0.08
+[rosout][INFO] 2025-09-09 14:16:23,700: back leg x shift: 0.00
+[rosout][INFO] 2025-09-09 14:16:23,704: front leg x shift: 0.05
+[rosout][INFO] 2025-09-09 14:16:23,708: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-09 14:16:23,714: target coordinate: [0.027000 -0.011430 -0.204253]
+[rosout][WARNING] 2025-09-09 14:16:23,718: target coordinate: [0.027000 -0.011430 -0.204253]
+[rosout][WARNING] 2025-09-09 14:16:23,723: target coordinate: [0.023000 -0.011430 -0.204253]
+[rosout][WARNING] 2025-09-09 14:16:23,728: target coordinate: [0.023000 -0.011430 -0.204253]
+[rosout][INFO] 2025-09-09 14:16:23,732: Estopped? 0
+[rosout][INFO] 2025-09-09 14:16:23,736: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:23,739: 
+Command is: <gait_controller.Command.Command object at 0xffffba45bbb0>
+
+[rosout][WARNING] 2025-09-09 14:16:23,745: target coordinate: [0.027000 -0.011393 -0.204125]
+[rosout][WARNING] 2025-09-09 14:16:23,749: target coordinate: [0.027000 -0.011393 -0.204125]
+[rosout][WARNING] 2025-09-09 14:16:23,754: target coordinate: [0.023000 -0.011393 -0.204125]
+[rosout][WARNING] 2025-09-09 14:16:23,758: target coordinate: [0.023000 -0.011393 -0.204125]
+[rosout][INFO] 2025-09-09 14:16:23,763: Manual Control deactivated. Now accepting external commands
+[rosout][INFO] 2025-09-09 14:16:23,767: Here is hi: None
+[rosout][INFO] 2025-09-09 14:16:23,778: Here is hi: None
+[rospy.internal][INFO] 2025-09-09 14:16:23,786: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.237.54.207:44659/], count 0
+[rosout][WARNING] 2025-09-09 14:16:23,790: target coordinate: [0.027000 -0.011318 -0.203864]
+[rosout][WARNING] 2025-09-09 14:16:23,796: target coordinate: [0.027000 -0.011318 -0.203864]
+[rospy.internal][INFO] 2025-09-09 14:16:23,808: topic[/kelpie/leg_control/joint_states] adding connection to [/kelpie], count 0
+[rosout][WARNING] 2025-09-09 14:16:23,807: target coordinate: [0.023000 -0.011318 -0.203864]
+[rosout][WARNING] 2025-09-09 14:16:23,812: target coordinate: [0.023000 -0.011318 -0.203864]
+[rospy.internal][INFO] 2025-09-09 14:16:23,970: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-09 14:16:24,329: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:33117/], count 0
+[rospy.internal][INFO] 2025-09-09 14:16:24,335: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:33117/], count 0
+[rospy.internal][INFO] 2025-09-09 14:16:24,425: topic[/kelpie/imu] adding connection to [http://10.237.54.207:33117/], count 0
+[rospy.internal][INFO] 2025-09-09 14:16:24,468: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 1
+[rospy.internal][INFO] 2025-09-09 14:16:24,517: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:33117/], count 0
+[rosout][INFO] 2025-09-09 14:16:28,390: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:28,397: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa760>
+
+[rosout][WARNING] 2025-09-09 14:16:28,403: target coordinate: [0.036244 0.096695 0.170781]
+[rosout][WARNING] 2025-09-09 14:16:28,409: target coordinate: [0.036244 0.096695 0.170781]
+[rosout][WARNING] 2025-09-09 14:16:28,414: target coordinate: [0.352248 0.018655 -0.099902]
+[rosout][WARNING] 2025-09-09 14:16:28,418: target coordinate: [0.352248 0.018655 -0.099902] too far away
+[rosout][WARNING] 2025-09-09 14:16:28,424: target coordinate: [0.352248 0.018655 -0.099902]
+[rosout][WARNING] 2025-09-09 14:16:28,430: target coordinate: [0.352248 0.018655 -0.099902] too far away
+[rosout][INFO] 2025-09-09 14:16:29,676: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:29,681: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aaaf0>
+
+[rosout][WARNING] 2025-09-09 14:16:29,686: target coordinate: [-0.265532 0.106828 0.205930]
+[rosout][WARNING] 2025-09-09 14:16:29,690: target coordinate: [-0.265532 0.106828 0.205930] too far away
+[rosout][WARNING] 2025-09-09 14:16:29,695: target coordinate: [-0.265532 0.106828 0.205930]
+[rosout][WARNING] 2025-09-09 14:16:29,699: target coordinate: [-0.265532 0.106828 0.205930] too far away
+[rosout][WARNING] 2025-09-09 14:16:29,705: target coordinate: [0.293148 0.091672 0.153361]
+[rosout][WARNING] 2025-09-09 14:16:29,709: target coordinate: [0.293148 0.091672 0.153361] too far away
+[rosout][WARNING] 2025-09-09 14:16:29,715: target coordinate: [0.293148 0.091672 0.153361]
+[rosout][WARNING] 2025-09-09 14:16:29,719: target coordinate: [0.293148 0.091672 0.153361] too far away
+[rosout][INFO] 2025-09-09 14:16:30,136: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:30,140: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa910>
+
+[rosout][WARNING] 2025-09-09 14:16:30,145: target coordinate: [-0.347312 0.087194 0.137829]
+[rosout][WARNING] 2025-09-09 14:16:30,149: target coordinate: [-0.347312 0.087194 0.137829] too far away
+[rosout][WARNING] 2025-09-09 14:16:30,154: target coordinate: [-0.347312 0.087194 0.137829]
+[rosout][WARNING] 2025-09-09 14:16:30,158: target coordinate: [-0.347312 0.087194 0.137829] too far away
+[rosout][WARNING] 2025-09-09 14:16:30,163: target coordinate: [0.209482 0.104805 0.198912]
+[rosout][WARNING] 2025-09-09 14:16:30,167: target coordinate: [0.209482 0.104805 0.198912] too far away
+[rosout][WARNING] 2025-09-09 14:16:30,173: target coordinate: [0.209482 0.104805 0.198912]
+[rosout][WARNING] 2025-09-09 14:16:30,177: target coordinate: [0.209482 0.104805 0.198912] too far away
+[rosout][INFO] 2025-09-09 14:16:31,076: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:31,080: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa8e0>
+
+[rosout][WARNING] 2025-09-09 14:16:31,085: target coordinate: [-0.391596 0.025483 -0.075251]
+[rosout][WARNING] 2025-09-09 14:16:31,089: target coordinate: [-0.391596 0.025483 -0.075251] too far away
+[rosout][WARNING] 2025-09-09 14:16:31,094: target coordinate: [-0.391360 0.025998 -0.075400]
+[rosout][WARNING] 2025-09-09 14:16:31,097: target coordinate: [-0.391360 0.025998 -0.075400] too far away
+[rosout][WARNING] 2025-09-09 14:16:31,103: target coordinate: [0.010469 0.096645 0.171106]
+[rosout][WARNING] 2025-09-09 14:16:31,108: target coordinate: [0.010705 0.096910 0.171030]
+[rosout][INFO] 2025-09-09 14:16:31,663: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:31,667: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa8b0>
+
+[rosout][WARNING] 2025-09-09 14:16:31,672: target coordinate: [-0.319586 -0.009260 -0.193298]
+[rosout][WARNING] 2025-09-09 14:16:31,676: target coordinate: [-0.319586 -0.009260 -0.193298] too far away
+[rosout][WARNING] 2025-09-09 14:16:31,682: target coordinate: [-0.318415 -0.007438 -0.193824]
+[rosout][WARNING] 2025-09-09 14:16:31,687: target coordinate: [-0.318415 -0.007438 -0.193824] too far away
+[rosout][WARNING] 2025-09-09 14:16:31,692: target coordinate: [-0.071487 0.068754 0.077907]
+[rosout][WARNING] 2025-09-09 14:16:31,698: target coordinate: [-0.070315 0.070901 0.077288]
+[rosout][INFO] 2025-09-09 14:16:32,481: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:32,485: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa970>
+
+[rosout][WARNING] 2025-09-09 14:16:32,490: target coordinate: [-0.134921 -0.028045 -0.262209]
+[rosout][WARNING] 2025-09-09 14:16:32,494: target coordinate: [-0.134921 -0.028045 -0.262209] too far away
+[rosout][WARNING] 2025-09-09 14:16:32,499: target coordinate: [-0.131537 -0.028244 -0.262152]
+[rosout][WARNING] 2025-09-09 14:16:32,503: target coordinate: [-0.131537 -0.028244 -0.262152] too far away
+[rosout][WARNING] 2025-09-09 14:16:32,508: target coordinate: [-0.077135 0.017672 -0.091368]
+[rosout][WARNING] 2025-09-09 14:16:32,514: target coordinate: [-0.073751 0.024006 -0.093194]
+[rosout][INFO] 2025-09-09 14:16:34,891: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:34,897: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aad00>
+
+[rosout][WARNING] 2025-09-09 14:16:34,904: target coordinate: [0.031996 0.099805 0.172342]
+[rosout][WARNING] 2025-09-09 14:16:34,911: target coordinate: [0.035267 0.094870 0.173765]
+[rosout][WARNING] 2025-09-09 14:16:34,917: target coordinate: [0.351796 0.022472 -0.098012]
+[rosout][WARNING] 2025-09-09 14:16:34,922: target coordinate: [0.351796 0.022472 -0.098012] too far away
+[rosout][WARNING] 2025-09-09 14:16:34,929: target coordinate: [0.355067 0.016406 -0.096263]
+[rosout][WARNING] 2025-09-09 14:16:34,933: target coordinate: [0.355067 0.016406 -0.096263] too far away
+[rosout][INFO] 2025-09-09 14:16:36,940: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:36,945: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aab80>
+
+[rosout][WARNING] 2025-09-09 14:16:36,952: target coordinate: [-0.040979 -0.021169 -0.243185]
+[rosout][WARNING] 2025-09-09 14:16:36,958: target coordinate: [-0.037817 -0.023933 -0.242388]
+[rosout][WARNING] 2025-09-09 14:16:36,964: target coordinate: [-0.032227 -0.001610 -0.161344]
+[rosout][WARNING] 2025-09-09 14:16:36,969: target coordinate: [-0.029065 0.003078 -0.162695]
+[rosout][INFO] 2025-09-09 14:16:40,426: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:40,432: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aaa90>
+
+[rosout][WARNING] 2025-09-09 14:16:40,438: target coordinate: [-0.312678 0.095677 0.175826]
+[rosout][WARNING] 2025-09-09 14:16:40,442: target coordinate: [-0.312678 0.095677 0.175826] too far away
+[rosout][WARNING] 2025-09-09 14:16:40,447: target coordinate: [-0.309622 0.100222 0.174516]
+[rosout][WARNING] 2025-09-09 14:16:40,452: target coordinate: [-0.309622 0.100222 0.174516] too far away
+[rosout][WARNING] 2025-09-09 14:16:40,456: target coordinate: [0.251231 0.101108 0.180503]
+[rosout][WARNING] 2025-09-09 14:16:40,461: target coordinate: [0.251231 0.101108 0.180503] too far away
+[rosout][WARNING] 2025-09-09 14:16:40,466: target coordinate: [0.254288 0.098114 0.181366]
+[rosout][WARNING] 2025-09-09 14:16:40,470: target coordinate: [0.254288 0.098114 0.181366] too far away
+[rosout][INFO] 2025-09-09 14:16:41,523: BattVol0.0
+[rosout][INFO] 2025-09-09 14:16:41,527: 
+Command is: <gait_controller.Command.Command object at 0xffffb83aa610>
+
+[rosout][WARNING] 2025-09-09 14:16:41,532: target coordinate: [-0.054919 0.112354 0.222783]
+[rosout][WARNING] 2025-09-09 14:16:41,537: target coordinate: [-0.053262 0.111117 0.223140]
+[rospy.core][INFO] 2025-09-09 14:16:47,101: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-09-09 14:16:47,125: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-09-09 14:16:47,126: topic[/kelpie/leg_control/joint_states] removing connection to /kelpie
+[rospy.internal][INFO] 2025-09-09 14:16:47,128: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.internal][INFO] 2025-09-09 14:16:47,133: topic[/kelpie/leg_control/joint_states] removing connection to http://10.237.54.207:44659/
+[rospy.internal][INFO] 2025-09-09 14:16:47,134: topic[/kelpie/imu] removing connection to http://10.237.54.207:33117/
+[rospy.internal][INFO] 2025-09-09 14:16:47,137: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:33117/
+[rospy.internal][INFO] 2025-09-09 14:16:47,137: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:33117/
+[rospy.internal][INFO] 2025-09-09 14:16:47,138: topic[/kelpie/command_input] removing connection to http://10.237.54.207:33117/
+[rospy.impl.masterslave][INFO] 2025-09-09 14:16:47,140: atexit
+[rospy.client][INFO] 2025-09-09 14:17:13,334: init_node, name[/kelpie], pid[2132]
+[xmlrpc][INFO] 2025-09-09 14:17:13,336: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-09 14:17:13,338: Started XML-RPC server [http://10.237.54.207:33139/]
+[rospy.init][INFO] 2025-09-09 14:17:13,338: ROS Slave URI: [http://10.237.54.207:33139/]
+[rospy.impl.masterslave][INFO] 2025-09-09 14:17:13,339: _ready: http://10.237.54.207:33139/
+[rospy.registration][INFO] 2025-09-09 14:17:13,341: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-09 14:17:13,342: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-09 14:17:13,439: registered with master
+[rospy.rosout][INFO] 2025-09-09 14:17:13,440: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-09 14:17:13,453: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-09 14:17:13,457: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-09 14:17:13,502: Creating input listener...
+[rosout][INFO] 2025-09-09 14:17:13,512: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-09 14:17:13,516: Summary of current gait parameters:
+[rosout][INFO] 2025-09-09 14:17:13,519: overlap time: 0.04
+[rosout][INFO] 2025-09-09 14:17:13,523: swing time: 0.07
+[rosout][INFO] 2025-09-09 14:17:13,527: z clearance: 0.08
+[rosout][INFO] 2025-09-09 14:17:13,530: back leg x shift: 0.00
+[rosout][INFO] 2025-09-09 14:17:13,534: front leg x shift: 0.05
+[rosout][INFO] 2025-09-09 14:17:13,538: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-09 14:17:13,544: target coordinate: [0.027000 -0.011459 -0.204354]
+[rosout][WARNING] 2025-09-09 14:17:13,548: target coordinate: [0.027000 -0.011459 -0.204354]
+[rosout][WARNING] 2025-09-09 14:17:13,553: target coordinate: [0.023000 -0.011459 -0.204354]
+[rosout][WARNING] 2025-09-09 14:17:13,558: target coordinate: [0.023000 -0.011459 -0.204354]
+[rosout][INFO] 2025-09-09 14:17:13,562: Estopped? 0
+[rosout][INFO] 2025-09-09 14:17:13,566: BattVol0.0
+[rosout][INFO] 2025-09-09 14:17:13,570: 
+Command is: <gait_controller.Command.Command object at 0xffff889c4eb0>
+
+[rosout][WARNING] 2025-09-09 14:17:13,575: target coordinate: [0.027000 -0.011422 -0.204223]
+[rosout][WARNING] 2025-09-09 14:17:13,580: target coordinate: [0.027000 -0.011422 -0.204223]
+[rospy.internal][INFO] 2025-09-09 14:17:13,586: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-09-09 14:17:13,588: target coordinate: [0.023000 -0.011422 -0.204223]
+[rosout][WARNING] 2025-09-09 14:17:13,596: target coordinate: [0.023000 -0.011422 -0.204223]
+[rosout][INFO] 2025-09-09 14:17:13,601: Manual Control deactivated. Now accepting external commands
+[rosout][INFO] 2025-09-09 14:17:13,606: Here is hi: None
+[rosout][INFO] 2025-09-09 14:17:13,617: Here is hi: None
+[rospy.internal][INFO] 2025-09-09 14:17:13,628: topic[/kelpie/leg_control/joint_states] adding connection to [http://10.237.54.207:33139/], count 0
+[rosout][WARNING] 2025-09-09 14:17:13,626: target coordinate: [0.027000 -0.011349 -0.203971]
+[rosout][WARNING] 2025-09-09 14:17:13,633: target coordinate: [0.027000 -0.011349 -0.203971]
+[rospy.internal][INFO] 2025-09-09 14:17:13,641: topic[/kelpie/leg_control/joint_states] adding connection to [/kelpie], count 0
+[rosout][WARNING] 2025-09-09 14:17:13,641: target coordinate: [0.023000 -0.011349 -0.203971]
+[rosout][WARNING] 2025-09-09 14:17:13,647: target coordinate: [0.023000 -0.011349 -0.203971]
+[rospy.internal][INFO] 2025-09-09 14:17:14,160: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:40767/], count 0
+[rospy.internal][INFO] 2025-09-09 14:17:14,172: topic[/kelpie/imu] adding connection to [http://10.237.54.207:40767/], count 0
+[rospy.internal][INFO] 2025-09-09 14:17:14,185: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 1
+[rospy.internal][INFO] 2025-09-09 14:17:14,191: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:40767/], count 0
+[rospy.internal][INFO] 2025-09-09 14:17:14,272: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:40767/], count 0
+[rosout][INFO] 2025-09-09 14:17:17,031: BattVol0.0
+[rosout][INFO] 2025-09-09 14:17:17,036: 
+Command is: <gait_controller.Command.Command object at 0xffff881162b0>
+
+[rosout][WARNING] 2025-09-09 14:17:17,042: target coordinate: [0.027000 -0.011349 -0.203971]
+[rosout][WARNING] 2025-09-09 14:17:17,048: target coordinate: [0.027000 -0.011349 -0.203971]
+[rosout][WARNING] 2025-09-09 14:17:17,053: target coordinate: [0.023000 -0.011349 -0.203971]
+[rosout][WARNING] 2025-09-09 14:17:17,058: target coordinate: [0.023000 -0.011349 -0.203971]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

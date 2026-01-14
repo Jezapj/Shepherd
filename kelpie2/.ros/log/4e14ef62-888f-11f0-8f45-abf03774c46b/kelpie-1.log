@@ -1,0 +1,3217 @@
+[rospy.client][INFO] 2025-09-03 16:29:29,108: init_node, name[/kelpie], pid[2794]
+[xmlrpc][INFO] 2025-09-03 16:29:29,109: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-03 16:29:29,110: Started XML-RPC server [http://10.237.54.207:43713/]
+[rospy.init][INFO] 2025-09-03 16:29:29,111: ROS Slave URI: [http://10.237.54.207:43713/]
+[rospy.impl.masterslave][INFO] 2025-09-03 16:29:29,111: _ready: http://10.237.54.207:43713/
+[rospy.registration][INFO] 2025-09-03 16:29:29,114: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-03 16:29:29,114: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-03 16:29:29,212: registered with master
+[rospy.rosout][INFO] 2025-09-03 16:29:29,213: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-03 16:29:29,233: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-03 16:29:29,236: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-03 16:29:29,276: Creating input listener...
+[rosout][INFO] 2025-09-03 16:29:29,289: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-03 16:29:29,294: Summary of current gait parameters:
+[rosout][INFO] 2025-09-03 16:29:29,300: overlap time: 0.04
+[rosout][INFO] 2025-09-03 16:29:29,304: swing time: 0.07
+[rosout][INFO] 2025-09-03 16:29:29,309: z clearance: 0.08
+[rosout][INFO] 2025-09-03 16:29:29,314: back leg x shift: 0.00
+[rosout][INFO] 2025-09-03 16:29:29,318: front leg x shift: 0.05
+[rosout][INFO] 2025-09-03 16:29:29,322: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-03 16:29:29,333: target coordinate: [0.027000 -0.011422 -0.204224]
+[rosout][WARNING] 2025-09-03 16:29:29,338: target coordinate: [0.027000 -0.011422 -0.204224]
+[rosout][WARNING] 2025-09-03 16:29:29,343: target coordinate: [0.023000 -0.011422 -0.204224]
+[rosout][WARNING] 2025-09-03 16:29:29,348: target coordinate: [0.023000 -0.011422 -0.204224]
+[rosout][INFO] 2025-09-03 16:29:29,353: Estopped? 0
+[rosout][INFO] 2025-09-03 16:29:29,357: BattVol0.0
+[rosout][INFO] 2025-09-03 16:29:29,361: 
+Command is: <gait_controller.Command.Command object at 0xffffac2f5d90>
+
+[rosout][WARNING] 2025-09-03 16:29:29,367: target coordinate: [0.027000 -0.011381 -0.204082]
+[rosout][WARNING] 2025-09-03 16:29:29,374: target coordinate: [0.027000 -0.011381 -0.204082]
+[rosout][WARNING] 2025-09-03 16:29:29,379: target coordinate: [0.023000 -0.011381 -0.204082]
+[rosout][WARNING] 2025-09-03 16:29:29,385: target coordinate: [0.023000 -0.011381 -0.204082]
+[rosout][INFO] 2025-09-03 16:29:29,390: Manual Control deactivated. Now accepting external commands
+[rospy.internal][INFO] 2025-09-03 16:29:29,510: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-03 16:29:29,894: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:43741/], count 0
+[rospy.internal][INFO] 2025-09-03 16:29:29,899: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:43741/], count 0
+[rospy.internal][INFO] 2025-09-03 16:29:29,904: topic[/kelpie/imu] adding connection to [http://10.237.54.207:43741/], count 0
+[rospy.internal][INFO] 2025-09-03 16:29:30,037: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-09-03 16:29:30,100: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:43741/], count 0
+[rospy.core][INFO] 2025-09-03 16:35:42,681: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-09-03 16:35:42,706: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-09-03 16:35:42,706: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:43741/
+[rospy.internal][INFO] 2025-09-03 16:35:42,708: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:43741/
+[rospy.internal][INFO] 2025-09-03 16:35:42,710: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.internal][INFO] 2025-09-03 16:35:42,710: topic[/kelpie/imu] removing connection to http://10.237.54.207:43741/
+[rospy.internal][INFO] 2025-09-03 16:35:42,712: topic[/kelpie/command_input] removing connection to http://10.237.54.207:43741/
+[rospy.internal][INFO] 2025-09-03 16:35:42,712: topic[/kelpie/command_input] removing connection to http://10.237.54.207:43741/
+[rospy.impl.masterslave][INFO] 2025-09-03 16:35:42,713: atexit
+[rospy.client][INFO] 2025-09-03 16:36:05,765: init_node, name[/kelpie], pid[2893]
+[xmlrpc][INFO] 2025-09-03 16:36:05,766: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-03 16:36:05,767: Started XML-RPC server [http://10.237.54.207:33139/]
+[rospy.init][INFO] 2025-09-03 16:36:05,767: ROS Slave URI: [http://10.237.54.207:33139/]
+[rospy.impl.masterslave][INFO] 2025-09-03 16:36:05,768: _ready: http://10.237.54.207:33139/
+[rospy.registration][INFO] 2025-09-03 16:36:05,770: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-03 16:36:05,770: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-03 16:36:05,868: registered with master
+[rospy.rosout][INFO] 2025-09-03 16:36:05,869: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-03 16:36:05,881: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-03 16:36:05,886: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-03 16:36:05,919: Creating input listener...
+[rosout][INFO] 2025-09-03 16:36:05,932: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-03 16:36:05,937: Summary of current gait parameters:
+[rosout][INFO] 2025-09-03 16:36:05,943: overlap time: 0.04
+[rosout][INFO] 2025-09-03 16:36:05,949: swing time: 0.07
+[rosout][INFO] 2025-09-03 16:36:05,954: z clearance: 0.08
+[rosout][INFO] 2025-09-03 16:36:05,959: back leg x shift: 0.00
+[rosout][INFO] 2025-09-03 16:36:05,963: front leg x shift: 0.05
+[rosout][INFO] 2025-09-03 16:36:05,969: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-03 16:36:05,977: target coordinate: [0.027000 -0.011406 -0.204169]
+[rosout][WARNING] 2025-09-03 16:36:05,982: target coordinate: [0.027000 -0.011406 -0.204169]
+[rosout][WARNING] 2025-09-03 16:36:05,987: target coordinate: [0.023000 -0.011406 -0.204169]
+[rosout][WARNING] 2025-09-03 16:36:05,991: target coordinate: [0.023000 -0.011406 -0.204169]
+[rosout][INFO] 2025-09-03 16:36:05,995: Estopped? 0
+[rosout][INFO] 2025-09-03 16:36:05,999: BattVol0.0
+[rosout][INFO] 2025-09-03 16:36:06,002: 
+Command is: <gait_controller.Command.Command object at 0xffffac4cfb50>
+
+[rosout][WARNING] 2025-09-03 16:36:06,008: target coordinate: [0.027000 -0.011370 -0.204046]
+[rosout][WARNING] 2025-09-03 16:36:06,013: target coordinate: [0.027000 -0.011370 -0.204046]
+[rosout][WARNING] 2025-09-03 16:36:06,018: target coordinate: [0.023000 -0.011370 -0.204046]
+[rosout][WARNING] 2025-09-03 16:36:06,022: target coordinate: [0.023000 -0.011370 -0.204046]
+[rosout][INFO] 2025-09-03 16:36:06,027: Manual Control deactivated. Now accepting external commands
+[rospy.internal][INFO] 2025-09-03 16:36:06,176: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-03 16:36:06,386: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:44689/], count 0
+[rospy.internal][INFO] 2025-09-03 16:36:06,391: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:44689/], count 0
+[rospy.internal][INFO] 2025-09-03 16:36:06,401: topic[/kelpie/imu] adding connection to [http://10.237.54.207:44689/], count 0
+[rospy.internal][INFO] 2025-09-03 16:36:06,549: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-09-03 16:36:06,591: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:44689/], count 0
+[rospy.internal][INFO] 2025-09-03 16:36:20,039: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:44689/
+[rospy.internal][INFO] 2025-09-03 16:36:20,041: topic[/kelpie/imu] removing connection to http://10.237.54.207:44689/
+[rospy.internal][INFO] 2025-09-03 16:36:20,042: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:44689/
+[rospy.internal][INFO] 2025-09-03 16:36:20,043: topic[/kelpie/command_input] removing connection to http://10.237.54.207:44689/
+[rospy.internal][INFO] 2025-09-03 16:36:20,096: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.core][INFO] 2025-09-03 16:36:35,045: signal_shutdown [signal-15]
+[rospy.internal][INFO] 2025-09-03 16:36:35,052: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-09-03 16:36:35,053: signal-15
+[rospy.client][INFO] 2025-09-03 16:39:08,133: init_node, name[/kelpie], pid[2989]
+[xmlrpc][INFO] 2025-09-03 16:39:08,135: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-03 16:39:08,136: Started XML-RPC server [http://10.237.54.207:34971/]
+[rospy.init][INFO] 2025-09-03 16:39:08,137: ROS Slave URI: [http://10.237.54.207:34971/]
+[rospy.impl.masterslave][INFO] 2025-09-03 16:39:08,137: _ready: http://10.237.54.207:34971/
+[rospy.registration][INFO] 2025-09-03 16:39:08,143: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-03 16:39:08,144: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-03 16:39:08,238: registered with master
+[rospy.rosout][INFO] 2025-09-03 16:39:08,238: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-03 16:39:08,248: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-03 16:39:08,251: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-03 16:39:08,286: Creating input listener...
+[rosout][INFO] 2025-09-03 16:39:08,298: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-03 16:39:08,306: Summary of current gait parameters:
+[rosout][INFO] 2025-09-03 16:39:08,311: overlap time: 0.04
+[rosout][INFO] 2025-09-03 16:39:08,315: swing time: 0.07
+[rosout][INFO] 2025-09-03 16:39:08,322: z clearance: 0.08
+[rosout][INFO] 2025-09-03 16:39:08,328: back leg x shift: 0.00
+[rosout][INFO] 2025-09-03 16:39:08,331: front leg x shift: 0.05
+[rosout][INFO] 2025-09-03 16:39:08,335: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-03 16:39:08,341: target coordinate: [0.027000 -0.011412 -0.204190]
+[rosout][WARNING] 2025-09-03 16:39:08,346: target coordinate: [0.027000 -0.011412 -0.204190]
+[rosout][WARNING] 2025-09-03 16:39:08,352: target coordinate: [0.023000 -0.011412 -0.204190]
+[rosout][WARNING] 2025-09-03 16:39:08,358: target coordinate: [0.023000 -0.011412 -0.204190]
+[rosout][INFO] 2025-09-03 16:39:08,363: Estopped? 0
+[rosout][INFO] 2025-09-03 16:39:08,368: BattVol0.0
+[rosout][INFO] 2025-09-03 16:39:08,373: 
+Command is: <gait_controller.Command.Command object at 0xffff9584daf0>
+
+[rosout][WARNING] 2025-09-03 16:39:08,379: target coordinate: [0.027000 -0.011364 -0.204023]
+[rosout][WARNING] 2025-09-03 16:39:08,386: target coordinate: [0.027000 -0.011364 -0.204023]
+[rosout][WARNING] 2025-09-03 16:39:08,392: target coordinate: [0.023000 -0.011364 -0.204023]
+[rosout][WARNING] 2025-09-03 16:39:08,397: target coordinate: [0.023000 -0.011364 -0.204023]
+[rosout][INFO] 2025-09-03 16:39:08,401: Manual Control deactivated. Now accepting external commands
+[rospy.internal][INFO] 2025-09-03 16:39:08,513: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-03 16:39:08,819: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:41721/], count 0
+[rospy.internal][INFO] 2025-09-03 16:39:08,825: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:41721/], count 0
+[rospy.internal][INFO] 2025-09-03 16:39:08,830: topic[/kelpie/imu] adding connection to [http://10.237.54.207:41721/], count 0
+[rospy.internal][INFO] 2025-09-03 16:39:08,938: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-09-03 16:39:09,027: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:41721/], count 0
+[rosout][INFO] 2025-09-03 16:39:09,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:10,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:11,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:12,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:13,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:14,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:15,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:16,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:17,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:18,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:19,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:20,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:21,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:22,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:23,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:24,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:25,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:26,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:27,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:28,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:29,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:30,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:31,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:32,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:33,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:34,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:35,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:36,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:37,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:38,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:39,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:40,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:41,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:42,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:43,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:44,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:45,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:46,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:47,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:48,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:49,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:50,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:51,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:52,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:53,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:54,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:55,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:56,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:57,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:58,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:39:59,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:00,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:01,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:02,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:03,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:04,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:05,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:06,407: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:07,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:08,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:09,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:10,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:11,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:12,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:13,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:14,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:15,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:16,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:17,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:18,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:19,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:20,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:21,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:22,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:23,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:24,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:25,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:26,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:27,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:28,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:29,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:30,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:31,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:32,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:33,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:34,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:35,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:36,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:37,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:38,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:39,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:40,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:41,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:42,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:43,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:44,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:45,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:46,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:47,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:48,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:49,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:50,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:51,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:52,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:53,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:54,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:55,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:56,409: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:57,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:58,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:40:59,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.035999998450279236
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:41:00,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 16:41:01,408: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.00800000037997961
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rospy.client][INFO] 2025-09-03 16:41:01,747: init_node, name[/kelpie], pid[3080]
+[xmlrpc][INFO] 2025-09-03 16:41:01,749: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-03 16:41:01,750: Started XML-RPC server [http://10.237.54.207:39437/]
+[rospy.init][INFO] 2025-09-03 16:41:01,751: ROS Slave URI: [http://10.237.54.207:39437/]
+[rospy.impl.masterslave][INFO] 2025-09-03 16:41:01,752: _ready: http://10.237.54.207:39437/
+[rospy.registration][INFO] 2025-09-03 16:41:01,755: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-09-03 16:41:01,756: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-03 16:41:01,853: registered with master
+[rospy.rosout][INFO] 2025-09-03 16:41:01,853: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-03 16:41:01,873: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-03 16:41:01,880: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-09-03 16:41:01,941: external shutdown request from [/master]: [/kelpie] Reason: new node registered with same name
+[rospy.core][INFO] 2025-09-03 16:41:01,942: signal_shutdown [external shutdown request from [/master]: [[/kelpie] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-09-03 16:41:01,945: topic[/rosout] removing connection to /rosout
+[rosout][INFO] 2025-09-03 16:41:01,938: Creating input listener...
+[rospy.internal][INFO] 2025-09-03 16:41:01,957: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.internal][INFO] 2025-09-03 16:41:01,959: topic[/kelpie/imu] removing connection to http://10.237.54.207:41721/
+[rospy.internal][INFO] 2025-09-03 16:41:01,960: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:41721/
+[rospy.internal][INFO] 2025-09-03 16:41:01,964: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:41721/
+[rospy.internal][INFO] 2025-09-03 16:41:01,965: topic[/kelpie/command_input] removing connection to http://10.237.54.207:41721/
+[rospy.internal][INFO] 2025-09-03 16:41:01,965: topic[/kelpie/imu] adding connection to [http://10.237.54.207:41721/], count 0
+[rosout][INFO] 2025-09-03 16:41:01,973: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rospy.internal][INFO] 2025-09-03 16:41:01,992: topic[/kelpie/leg_control/currents] adding connection to [http://10.237.54.207:41721/], count 0
+[rosout][INFO] 2025-09-03 16:41:01,982: Summary of current gait parameters:
+[rospy.internal][INFO] 2025-09-03 16:41:02,000: topic[/kelpie/command_input] adding connection to [http://10.237.54.207:41721/], count 0
+[rospy.internal][INFO] 2025-09-03 16:41:02,002: topic[/kelpie/battery/voltage] adding connection to [http://10.237.54.207:41721/], count 0
+[rosout][INFO] 2025-09-03 16:41:01,996: overlap time: 0.04
+[rosout][INFO] 2025-09-03 16:41:02,005: swing time: 0.07
+[rosout][INFO] 2025-09-03 16:41:02,011: z clearance: 0.08
+[rosout][INFO] 2025-09-03 16:41:02,017: back leg x shift: 0.00
+[rosout][INFO] 2025-09-03 16:41:02,023: front leg x shift: 0.05
+[rosout][INFO] 2025-09-03 16:41:02,033: Here is hi: None
+[rosout][INFO] 2025-09-03 16:41:02,042: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-03 16:41:02,045: target coordinate: [0.027000 -0.011364 -0.204023]
+[rosout][WARNING] 2025-09-03 16:41:02,054: target coordinate: [0.027000 -0.011364 -0.204023]
+[rospy.impl.masterslave][INFO] 2025-09-03 16:41:02,061: external shutdown request from [/master]: [/kelpie] Reason: new node registered with same name
+[rospy.core][INFO] 2025-09-03 16:41:02,062: signal_shutdown [external shutdown request from [/master]: [[/kelpie] Reason: new node registered with same name]]
+[rosout][WARNING] 2025-09-03 16:41:02,057: target coordinate: [0.027000 -0.011207 -0.203479]
+[rospy.internal][INFO] 2025-09-03 16:41:02,092: topic[/kelpie/imu] removing connection to http://10.237.54.207:41721/
+[rospy.internal][INFO] 2025-09-03 16:41:02,094: topic[/kelpie/leg_control/currents] removing connection to http://10.237.54.207:41721/
+[rosout][WARNING] 2025-09-03 16:41:02,061: target coordinate: [0.023000 -0.011364 -0.204023]
+[rospy.internal][INFO] 2025-09-03 16:41:02,102: topic[/kelpie/battery/voltage] removing connection to http://10.237.54.207:41721/
+[rospy.internal][INFO] 2025-09-03 16:41:02,104: topic[/kelpie/command_input] removing connection to http://10.237.54.207:41721/
+[rospy.rosout][ERROR] 2025-09-03 16:41:02,113: Unable to report rosout: publish() to a closed topic
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/rosout.py", line 100, in _rosout
+    _rosout_pub.publish(l)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 882, in publish
+    self.impl.publish(data)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 1041, in publish
+    raise ROSException("publish() to a closed topic")
+rospy.exceptions.ROSException: publish() to a closed topic
+
+[rosout][WARNING] 2025-09-03 16:41:02,083: target coordinate: [0.027000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,098: target coordinate: [0.023000 -0.011364 -0.204023]
+[rosout][WARNING] 2025-09-03 16:41:02,116: target coordinate: [0.023000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,125: target coordinate: [0.023000 -0.011207 -0.203479]
+[rosout][INFO] 2025-09-03 16:41:02,133: Estopped? 0
+[rosout][INFO] 2025-09-03 16:41:02,140: BattVol0.0
+[rosout][INFO] 2025-09-03 16:41:02,156: 
+Command is: <gait_controller.Command.Command object at 0xffff9d9d0670>
+
+[rosout][WARNING] 2025-09-03 16:41:02,198: target coordinate: [0.027000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,203: target coordinate: [0.027000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,220: target coordinate: [0.023000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,241: target coordinate: [0.023000 -0.011207 -0.203479]
+[rosout][INFO] 2025-09-03 16:41:02,253: Manual Control deactivated. Now accepting external commands
+[rospy.core][WARNING] 2025-09-03 16:41:02,286: add_shutdown_hook called after shutdown
+[rosout][INFO] 2025-09-03 16:41:02,287: Here is hi: None
+[rosout][WARNING] 2025-09-03 16:41:02,318: target coordinate: [0.027000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,332: target coordinate: [0.027000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,344: target coordinate: [0.023000 -0.011207 -0.203479]
+[rosout][WARNING] 2025-09-03 16:41:02,354: target coordinate: [0.023000 -0.011207 -0.203479]
+[rospy.core][INFO] 2025-09-03 16:44:02,287: signal_shutdown [signal-15]
+[rospy.core][INFO] 2025-09-03 16:44:15,465: signal_shutdown [signal-15]
+[rospy.client][INFO] 2025-09-03 17:16:07,260: init_node, name[/kelpie], pid[3462]
+[xmlrpc][INFO] 2025-09-03 17:16:07,262: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-03 17:16:07,263: Started XML-RPC server [http://kelpie2:44985/]
+[rospy.init][INFO] 2025-09-03 17:16:07,264: ROS Slave URI: [http://kelpie2:44985/]
+[rospy.impl.masterslave][INFO] 2025-09-03 17:16:07,264: _ready: http://kelpie2:44985/
+[rospy.registration][INFO] 2025-09-03 17:16:07,267: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-09-03 17:16:07,269: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-03 17:16:07,365: registered with master
+[rospy.rosout][INFO] 2025-09-03 17:16:07,365: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-03 17:16:07,375: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-09-03 17:16:07,378: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-09-03 17:16:07,410: Creating input listener...
+[rosout][INFO] 2025-09-03 17:16:07,424: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-03 17:16:07,430: Summary of current gait parameters:
+[rosout][INFO] 2025-09-03 17:16:07,434: overlap time: 0.04
+[rosout][INFO] 2025-09-03 17:16:07,439: swing time: 0.07
+[rosout][INFO] 2025-09-03 17:16:07,444: z clearance: 0.08
+[rosout][INFO] 2025-09-03 17:16:07,449: back leg x shift: 0.00
+[rosout][INFO] 2025-09-03 17:16:07,454: front leg x shift: 0.05
+[rosout][INFO] 2025-09-03 17:16:07,458: Manual robot control active. Currently not accepting external commands
+[rosout][WARNING] 2025-09-03 17:16:07,467: target coordinate: [0.027000 -0.011412 -0.204190]
+[rosout][WARNING] 2025-09-03 17:16:07,473: target coordinate: [0.027000 -0.011412 -0.204190]
+[rosout][WARNING] 2025-09-03 17:16:07,482: target coordinate: [0.023000 -0.011412 -0.204190]
+[rosout][WARNING] 2025-09-03 17:16:07,490: target coordinate: [0.023000 -0.011412 -0.204190]
+[rosout][INFO] 2025-09-03 17:16:07,495: Estopped? 0
+[rosout][INFO] 2025-09-03 17:16:07,501: BattVol0.0
+[rosout][INFO] 2025-09-03 17:16:07,512: 
+Command is: <gait_controller.Command.Command object at 0xffff8e50ce20>
+
+[rosout][WARNING] 2025-09-03 17:16:07,520: target coordinate: [0.027000 -0.011338 -0.203933]
+[rosout][WARNING] 2025-09-03 17:16:07,526: target coordinate: [0.027000 -0.011338 -0.203933]
+[rosout][WARNING] 2025-09-03 17:16:07,533: target coordinate: [0.023000 -0.011338 -0.203933]
+[rosout][WARNING] 2025-09-03 17:16:07,539: target coordinate: [0.023000 -0.011338 -0.203933]
+[rosout][INFO] 2025-09-03 17:16:07,543: Manual Control deactivated. Now accepting external commands
+[rospy.internal][INFO] 2025-09-03 17:16:07,609: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-09-03 17:16:07,921: topic[/kelpie/leg_control/currents] adding connection to [http://kelpie2:45063/], count 0
+[rospy.internal][INFO] 2025-09-03 17:16:07,924: topic[/kelpie/battery/voltage] adding connection to [http://kelpie2:45063/], count 0
+[rospy.internal][INFO] 2025-09-03 17:16:07,927: topic[/kelpie/imu] adding connection to [http://kelpie2:45063/], count 0
+[rospy.internal][INFO] 2025-09-03 17:16:08,082: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-09-03 17:16:08,127: topic[/kelpie/command_input] adding connection to [http://kelpie2:45063/], count 0
+[rosout][INFO] 2025-09-03 17:16:08,552: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:09,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:10,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:11,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:12,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:13,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:14,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:15,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:16,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:17,552: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:18,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:19,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:20,558: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:21,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:22,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:23,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:24,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:25,562: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:26,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:27,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:28,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:29,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:30,557: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:31,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:32,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:33,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:34,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:35,557: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:36,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:37,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:38,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:39,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:40,586: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:41,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:42,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:43,552: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:44,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:45,557: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:46,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:47,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:48,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:49,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:50,557: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:51,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:52,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:53,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:54,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:55,559: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:56,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:57,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:58,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:16:59,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:00,558: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:01,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:02,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:03,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:04,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:05,554: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:06,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:07,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:08,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:09,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:10,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:11,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:12,558: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:13,552: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:14,552: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.035999998450279236
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:15,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:16,553: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.00800000037997961
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rospy.client][INFO] 2025-09-03 17:17:16,977: init_node, name[/kelpie], pid[3545]
+[xmlrpc][INFO] 2025-09-03 17:17:16,978: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-09-03 17:17:16,980: Started XML-RPC server [http://kelpie2:40657/]
+[rospy.init][INFO] 2025-09-03 17:17:16,980: ROS Slave URI: [http://kelpie2:40657/]
+[rospy.impl.masterslave][INFO] 2025-09-03 17:17:16,981: _ready: http://kelpie2:40657/
+[rospy.registration][INFO] 2025-09-03 17:17:16,983: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-09-03 17:17:16,984: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-09-03 17:17:17,081: registered with master
+[rospy.rosout][INFO] 2025-09-03 17:17:17,082: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-09-03 17:17:17,100: connected to core topic /rosout
+[rospy.impl.masterslave][INFO] 2025-09-03 17:17:17,102: external shutdown request from [/master]: [/kelpie] Reason: new node registered with same name
+[rospy.core][INFO] 2025-09-03 17:17:17,103: signal_shutdown [external shutdown request from [/master]: [[/kelpie] Reason: new node registered with same name]]
+[rospy.simtime][INFO] 2025-09-03 17:17:17,106: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-09-03 17:17:17,103: >>> shutdown_hook CALLED <<<
+[rospy.internal][INFO] 2025-09-03 17:17:17,142: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-09-03 17:17:17,144: topic[/kelpie/leg_control/joint_states] removing connection to /hardware
+[rospy.internal][INFO] 2025-09-03 17:17:17,146: topic[/kelpie/imu] removing connection to http://kelpie2:45063/
+[rospy.internal][INFO] 2025-09-03 17:17:17,155: topic[/kelpie/imu] removing connection to http://kelpie2:45063/
+[rospy.internal][INFO] 2025-09-03 17:17:17,158: topic[/kelpie/leg_control/currents] removing connection to http://kelpie2:45063/
+[rospy.internal][INFO] 2025-09-03 17:17:17,160: topic[/kelpie/leg_control/currents] removing connection to http://kelpie2:45063/
+[rospy.impl.masterslave][INFO] 2025-09-03 17:17:17,163: external shutdown request from [/master]: [/kelpie] Reason: new node registered with same name
+[rospy.internal][INFO] 2025-09-03 17:17:17,163: topic[/kelpie/battery/voltage] removing connection to http://kelpie2:45063/
+[rospy.core][INFO] 2025-09-03 17:17:17,165: signal_shutdown [external shutdown request from [/master]: [[/kelpie] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-09-03 17:17:17,167: topic[/kelpie/command_input] removing connection to http://kelpie2:45063/
+[rospy.internal][INFO] 2025-09-03 17:17:17,173: topic[/kelpie/command_input] removing connection to http://kelpie2:45063/
+[rosout][INFO] 2025-09-03 17:17:17,183: Creating input listener...
+[rosout][INFO] 2025-09-03 17:17:17,198: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-09-03 17:17:17,211: Summary of current gait parameters:
+[rosout][INFO] 2025-09-03 17:17:17,220: overlap time: 0.04
+[rosout][INFO] 2025-09-03 17:17:17,234: swing time: 0.07
+[rosout][INFO] 2025-09-03 17:17:17,244: z clearance: 0.08
+[rosout][INFO] 2025-09-03 17:17:17,257: back leg x shift: 0.00
+[rosout][INFO] 2025-09-03 17:17:17,267: front leg x shift: 0.05
+[rosout][INFO] 2025-09-03 17:17:17,558: Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+[rosout][INFO] 2025-09-03 17:17:17,639: Here is hi: None
+[rosout][INFO] 2025-09-03 17:17:17,644: State changed from BehaviorState.REST to BehaviorState.DEACTIVATED
+[rospy.core][INFO] 2025-09-03 17:17:57,424: signal_shutdown [signal-15]
+[rospy.core][INFO] 2025-09-03 17:18:44,393: signal_shutdown [atexit]

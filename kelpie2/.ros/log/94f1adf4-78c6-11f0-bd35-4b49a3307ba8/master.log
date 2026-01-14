@@ -1,0 +1,208 @@
+[rosmaster.main][INFO] 2025-08-14 14:24:36,405: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-08-14 14:24:36,406: Starting ROS Master Node
+[xmlrpc][INFO] 2025-08-14 14:24:36,407: XML-RPC server binding to 127.0.0.1:11311
+[xmlrpc][INFO] 2025-08-14 14:24:36,408: Started XML-RPC server [http://localhost:11311/]
+[rosmaster.master][INFO] 2025-08-14 14:24:36,409: Master initialized: port[11311], uri[http://localhost:11311/]
+[xmlrpc][INFO] 2025-08-14 14:24:36,409: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-08-14 14:24:36,505: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,508: +PARAM [/roslaunch/uris/host_localhost__42603] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,641: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,641: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,642: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,642: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,642: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,643: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,643: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,643: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,643: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,644: +PARAM [/rosbridge_websocket/unregister_timeout] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,644: +PARAM [/rosbridge_websocket/use_compression] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,644: +PARAM [/rosbridge_websocket/websocket_ping_interval] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,644: +PARAM [/rosbridge_websocket/websocket_ping_timeout] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,645: +PARAM [/rosbridge_websocket/websocket_external_port] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,645: +PARAM [/rosbridge_websocket/topics_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,645: +PARAM [/rosbridge_websocket/services_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,645: +PARAM [/rosbridge_websocket/params_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,646: +PARAM [/rosbridge_websocket/bson_only_mode] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,647: +PARAM [/rosapi/topics_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,648: +PARAM [/rosapi/services_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,648: +PARAM [/rosapi/params_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,649: +PARAM [/JOYSTICK/autorepeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,649: +PARAM [/JOYSTICK/joy_node/dev] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 14:24:36,651: +SERVICE [/rosout/get_loggers] /rosout http://localhost:46089/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,653: +SERVICE [/rosout/set_logger_level] /rosout http://localhost:46089/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,659: +PUB [/rosout_agg] /rosout http://localhost:46089/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,676: +SUB [/rosout] /rosout http://localhost:46089/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,923: +PUB [/rosout] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,932: +SERVICE [/JOYSTICK/get_loggers] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,935: +SERVICE [/JOYSTICK/set_logger_level] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,947: +PUB [/diagnostics] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,950: +CACHEDPARAM [/JOYSTICK/diagnostic_period] by /JOYSTICK
+[rosmaster.master][INFO] 2025-08-14 14:24:36,955: +PUB [/joy] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,972: +SUB [/joy/set_feedback] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:24:36,999: +CACHEDPARAM [/rosout_disable_topics_generation] by /JOYSTICK
+[rosmaster.master][INFO] 2025-08-14 14:24:37,008: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/']
+[rosmaster.master][INFO] 2025-08-14 14:24:37,034: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:38,511: +PUB [/rosout] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,516: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/']
+[rosmaster.master][INFO] 2025-08-14 14:24:38,520: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:38,522: +SERVICE [/rosapi/get_loggers] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,526: +SERVICE [/rosapi/set_logger_level] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,550: +PUB [/rosout] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,551: +SERVICE [/rosapi/topics] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,556: +SERVICE [/rosapi/topics_for_type] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,560: +SERVICE [/rosapi/services] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,562: +SERVICE [/kelpie/get_loggers] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,564: +SERVICE [/rosapi/services_for_type] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,567: +SERVICE [/kelpie/set_logger_level] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,570: +SERVICE [/rosapi/nodes] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,574: +SERVICE [/rosapi/node_details] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,579: +SUB [/kelpie/imu] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,584: +SERVICE [/rosapi/action_servers] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,589: +SERVICE [/rosapi/topic_type] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,594: +SUB [/kelpie/leg_control/currents] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,596: +SERVICE [/rosapi/service_type] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,601: +SERVICE [/rosapi/publishers] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,605: +SERVICE [/rosapi/subscribers] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,607: +SUB [/kelpie/battery/voltage] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,609: +SERVICE [/rosapi/service_providers] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,612: +PUB [/kelpie/leg_control/joint_states] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,615: +SERVICE [/rosapi/service_node] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,622: +SERVICE [/rosapi/service_host] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,622: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/']
+[rosmaster.master][INFO] 2025-08-14 14:24:38,626: +SERVICE [/rosapi/message_details] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,628: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:38,633: +SERVICE [/rosapi/service_request_details] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,635: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,638: +SERVICE [/rosapi/service_response_details] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,641: +SERVICE [/rosapi/set_param] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,643: +SUB [/kelpie/command_input] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,644: +SERVICE [/rosapi/get_param] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,647: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,648: +SERVICE [/rosapi/has_param] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,652: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,653: +SERVICE [/rosapi/search_param] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,657: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,658: +SERVICE [/rosapi/delete_param] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,661: +SERVICE [/rosapi/get_param_names] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,663: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,666: +SERVICE [/rosapi/get_time] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,667: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,670: +SERVICE [/rosapi/topics_and_raw_types] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:24:38,672: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,675: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosapi
+[rosmaster.master][INFO] 2025-08-14 14:24:38,676: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,681: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-14 14:24:38,732: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2025-08-14 14:24:39,198: +PUB [/kelpie/leg_control/currents] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,201: +PUB [/kelpie/battery/voltage] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,204: +PUB [/kelpie/imu] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,215: +PUB [/rosout] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,222: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,225: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,232: publisherUpdate[/kelpie/leg_control/currents] -> http://localhost:44485/ ['http://localhost:34245/']
+[rosmaster.master][INFO] 2025-08-14 14:24:39,235: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/', 'http://localhost:35249/']
+[rosmaster.master][INFO] 2025-08-14 14:24:39,239: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/', 'http://localhost:35249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:39,247: publisherUpdate[/kelpie/leg_control/currents] -> http://localhost:44485/ ['http://localhost:34245/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:39,248: publisherUpdate[/kelpie/battery/voltage] -> http://localhost:44485/ ['http://localhost:34245/']
+[rosmaster.master][INFO] 2025-08-14 14:24:39,255: publisherUpdate[/kelpie/battery/voltage] -> http://localhost:44485/ ['http://localhost:34245/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:39,256: publisherUpdate[/kelpie/imu] -> http://localhost:44485/ ['http://localhost:34245/']
+[rosmaster.master][INFO] 2025-08-14 14:24:39,264: +PUB [/client_count] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,267: publisherUpdate[/kelpie/imu] -> http://localhost:44485/ ['http://localhost:34245/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:39,268: +PUB [/connected_clients] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,276: +PARAM [/rosbridge_websocket/actual_port] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-14 14:24:39,283: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-14 14:24:39,286: +PUB [/rosout] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,294: +SERVICE [/hardware/get_loggers] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,296: +SERVICE [/hardware/set_logger_level] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,339: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/', 'http://localhost:35249/', 'http://localhost:34245/']
+[rosmaster.master][INFO] 2025-08-14 14:24:39,342: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/', 'http://localhost:35249/', 'http://localhost:34245/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:24:39,362: +SUB [/kelpie/leg_control/joint_states] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,370: +SUB [/joy] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,373: +PUB [/kelpie/command_input] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:24:39,440: publisherUpdate[/kelpie/command_input] -> http://localhost:44485/ ['http://localhost:34245/']
+[rosmaster.master][INFO] 2025-08-14 14:24:39,478: publisherUpdate[/kelpie/command_input] -> http://localhost:44485/ ['http://localhost:34245/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,824: -SUB [/kelpie/leg_control/joint_states] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,825: -SUB [/joy] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,825: -PUB [/kelpie/leg_control/currents] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,826: -PUB [/kelpie/battery/voltage] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,826: -PUB [/kelpie/imu] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,834: publisherUpdate[/kelpie/leg_control/currents] -> http://localhost:44485/ []
+[rosmaster.master][INFO] 2025-08-14 14:26:47,834: -PUB [/rosout] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,838: -PUB [/rosout] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,839: -PUB [/rosout] /rosapi http://localhost:44191/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,840: -PUB [/kelpie/command_input] /hardware http://localhost:34245/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,841: -PUB [/client_count] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,841: -PUB [/connected_clients] /rosbridge_websocket http://localhost:35249/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,842: -SERVICE [/hardware/get_loggers] /hardware rosrpc://localhost:46477
+[rosmaster.master][INFO] 2025-08-14 14:26:47,843: -SERVICE [/rosapi/get_loggers] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,844: publisherUpdate[/kelpie/leg_control/currents] -> http://localhost:44485/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,844: -SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket rosrpc://localhost:35267
+[rosmaster.master][INFO] 2025-08-14 14:26:47,845: publisherUpdate[/kelpie/battery/voltage] -> http://localhost:44485/ []
+[rosmaster.master][INFO] 2025-08-14 14:26:47,845: -SERVICE [/hardware/set_logger_level] /hardware rosrpc://localhost:46477
+[rosmaster.master][INFO] 2025-08-14 14:26:47,847: -SERVICE [/rosapi/set_logger_level] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,848: publisherUpdate[/kelpie/battery/voltage] -> http://localhost:44485/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,849: -SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket rosrpc://localhost:35267
+[rosmaster.master][INFO] 2025-08-14 14:26:47,849: publisherUpdate[/kelpie/imu] -> http://localhost:44485/ []
+[rosmaster.master][INFO] 2025-08-14 14:26:47,854: publisherUpdate[/kelpie/imu] -> http://localhost:44485/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,855: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/', 'http://localhost:35249/']
+[rosmaster.master][INFO] 2025-08-14 14:26:47,856: -SERVICE [/rosapi/topics] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,857: -SERVICE [/rosapi/topics_for_type] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,858: -SERVICE [/rosapi/services] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,858: -SERVICE [/rosapi/services_for_type] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,859: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/', 'http://localhost:35249/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,860: -SERVICE [/rosapi/nodes] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,860: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/']
+[rosmaster.master][INFO] 2025-08-14 14:26:47,861: -SERVICE [/rosapi/node_details] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,863: -SERVICE [/rosapi/action_servers] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,865: -SERVICE [/rosapi/topic_type] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,866: -SERVICE [/rosapi/service_type] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,866: -SERVICE [/rosapi/publishers] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,867: -SERVICE [/rosapi/subscribers] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,867: -SERVICE [/rosapi/service_providers] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,867: -SERVICE [/rosapi/service_node] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,868: -SERVICE [/rosapi/service_host] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,868: -SERVICE [/rosapi/message_details] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,868: -SERVICE [/rosapi/service_request_details] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,869: -SERVICE [/rosapi/service_response_details] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,869: -SERVICE [/rosapi/set_param] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,869: -SERVICE [/rosapi/get_param] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,870: -SERVICE [/rosapi/has_param] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,870: -SERVICE [/rosapi/search_param] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,870: -SERVICE [/rosapi/delete_param] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,864: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44191/', 'http://localhost:44485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,871: -SERVICE [/rosapi/get_param_names] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,871: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44485/']
+[rosmaster.master][INFO] 2025-08-14 14:26:47,871: -SERVICE [/rosapi/get_time] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,873: -SERVICE [/rosapi/topics_and_raw_types] /rosapi rosrpc://localhost:37471
+[rosmaster.master][INFO] 2025-08-14 14:26:47,874: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:46399/', 'http://localhost:44485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,875: publisherUpdate[/kelpie/command_input] -> http://localhost:44485/ []
+[rosmaster.master][INFO] 2025-08-14 14:26:47,878: publisherUpdate[/kelpie/command_input] -> http://localhost:44485/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:26:47,930: -PUB [/rosout] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,933: -PUB [/diagnostics] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,935: -PUB [/joy] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,936: -SUB [/joy/set_feedback] /JOYSTICK http://localhost:46399/
+[rosmaster.master][INFO] 2025-08-14 14:26:47,938: -SERVICE [/JOYSTICK/get_loggers] /JOYSTICK rosrpc://localhost:59785
+[rosmaster.master][INFO] 2025-08-14 14:26:47,940: -SERVICE [/JOYSTICK/set_logger_level] /JOYSTICK rosrpc://localhost:59785
+[rosmaster.master][INFO] 2025-08-14 14:26:47,942: -CACHEDPARAM [/JOYSTICK/diagnostic_period] by /JOYSTICK
+[rosmaster.master][INFO] 2025-08-14 14:26:47,943: -CACHEDPARAM [/rosout_disable_topics_generation] by /JOYSTICK
+[rosmaster.master][INFO] 2025-08-14 14:26:47,979: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:44485/']
+[rosmaster.master][INFO] 2025-08-14 14:26:47,981: publisherUpdate[/rosout] -> http://localhost:46089/ ['http://localhost:44485/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:27:02,864: -SUB [/kelpie/imu] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:27:02,865: -SUB [/kelpie/leg_control/currents] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:27:02,865: -SUB [/kelpie/battery/voltage] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:27:02,866: -SUB [/kelpie/command_input] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:27:02,866: -PUB [/rosout] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:27:02,866: -PUB [/kelpie/leg_control/joint_states] /kelpie http://localhost:44485/
+[rosmaster.master][INFO] 2025-08-14 14:27:02,867: -SERVICE [/kelpie/get_loggers] /kelpie rosrpc://localhost:39031
+[rosmaster.master][INFO] 2025-08-14 14:27:02,867: -SERVICE [/kelpie/set_logger_level] /kelpie rosrpc://localhost:39031
+[rosmaster.master][INFO] 2025-08-14 14:27:02,918: publisherUpdate[/rosout] -> http://localhost:46089/ []
+[rosmaster.master][INFO] 2025-08-14 14:27:02,920: publisherUpdate[/rosout] -> http://localhost:46089/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-14 14:27:05,024: -PUB [/rosout_agg] /rosout http://localhost:46089/
+[rosmaster.master][INFO] 2025-08-14 14:27:05,026: -SUB [/rosout] /rosout http://localhost:46089/
+[rosmaster.master][INFO] 2025-08-14 14:27:05,028: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:48817
+[rosmaster.master][INFO] 2025-08-14 14:27:05,030: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:48817
+[rosmaster.master][INFO] 2025-08-14 14:27:05,032: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2025-08-14 14:27:05,075: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2025-08-14 14:27:05,075: stopping master...
+[rospy.core][INFO] 2025-08-14 14:27:05,075: signal_shutdown [atexit]

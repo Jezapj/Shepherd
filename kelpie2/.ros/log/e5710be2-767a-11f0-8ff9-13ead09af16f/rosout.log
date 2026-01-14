@@ -1,0 +1,9 @@
+
+
+1754893067.510168724  Node Startup
+1754893069.370827198 INFO /kelpie [main_driver.py:86(KelpieDriver.__init__)] [topics: /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/imu, /kelpie/command_input] back leg x shift: 0.00
+1754893069.383239030 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/imu, /kelpie/command_input] front leg x shift: 0.05
+1754893069.361103534 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1754893069.393467664 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/imu, /kelpie/command_input] Manual robot control active. Currently not accepting external commands
+1754893070.126831293 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /client_count, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1754893073.915175676 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /client_count, /rosout] Client connected.  1 clients total.

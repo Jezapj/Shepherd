@@ -1,0 +1,22 @@
+
+
+1755566646.550962928  Node Startup
+1755567547.860440254 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755567547.837824344 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /rosout, /kelpie/battery/voltage, /kelpie/leg_control/joint_states] Manual robot control active. Currently not accepting external commands
+1755567548.594625949 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /client_count, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755567553.129920482 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /client_count, /rosout] Client connected.  1 clients total.
+1755567559.312111854 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /connected_clients, /client_count, /rosout] Client disconnected. 0 clients total.
+1755567559.371895551 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /client_count, /rosout] Client connected.  1 clients total.
+1755567560.370131015 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /connected_clients, /client_count, /rosout] [Client 1] Subscribed to /kelpie/leg_control/joint_states
+1755567560.386044979 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /connected_clients, /client_count, /rosout, /kelpie/leg_control/currents] [Client 1] Subscribed to /kelpie/leg_control/currents
+1755567560.414593696 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /connected_clients, /client_count, /rosout, /kelpie/battery/voltage, /kelpie/leg_control/currents] [Client 1] Subscribed to /kelpie/battery/voltage
+1755567560.432757854 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /connected_clients, /client_count, /rosout, /kelpie/imu, /kelpie/battery/voltage, /kelpie/leg_control/currents] [Client 1] Subscribed to /kelpie/imu
+1755567717.571851730 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /kelpie/imu, /rosout] Manual robot control active. Currently not accepting external commands
+1755567717.950449705 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755567718.728193998 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755567723.741250038 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755567728.752376317 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755567733.763887643 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755567738.777825832 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755567743.792923212 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755567748.804832458 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /client_count, /connected_clients, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.

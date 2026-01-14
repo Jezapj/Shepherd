@@ -1,0 +1,195 @@
+[rosmaster.main][INFO] 2025-08-20 16:35:18,141: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-08-20 16:35:18,142: Starting ROS Master Node
+[xmlrpc][INFO] 2025-08-20 16:35:18,143: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-08-20 16:35:18,144: Started XML-RPC server [http://kelpie2:11311/]
+[rosmaster.master][INFO] 2025-08-20 16:35:18,144: Master initialized: port[11311], uri[http://kelpie2:11311/]
+[xmlrpc][INFO] 2025-08-20 16:35:18,145: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-08-20 16:35:18,260: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:18,263: +PARAM [/roslaunch/uris/host_kelpie2__37513] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:18,411: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:18,411: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:18,591: +SERVICE [/rosout/get_loggers] /rosout http://kelpie2:36979/
+[rosmaster.master][INFO] 2025-08-20 16:35:18,593: +SERVICE [/rosout/set_logger_level] /rosout http://kelpie2:36979/
+[rosmaster.master][INFO] 2025-08-20 16:35:18,597: +PUB [/rosout_agg] /rosout http://kelpie2:36979/
+[rosmaster.master][INFO] 2025-08-20 16:35:18,605: +SUB [/rosout] /rosout http://kelpie2:36979/
+[rosmaster.master][INFO] 2025-08-20 16:35:56,771: +PARAM [/roslaunch/uris/host_kelpie2__36195] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,783: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,783: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,784: +PARAM [/rosbridge_websocket/authenticate] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,784: +PARAM [/rosbridge_websocket/port] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,784: +PARAM [/rosbridge_websocket/address] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,784: +PARAM [/rosbridge_websocket/retry_startup_delay] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,785: +PARAM [/rosbridge_websocket/fragment_timeout] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,785: +PARAM [/rosbridge_websocket/delay_between_messages] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,785: +PARAM [/rosbridge_websocket/max_message_size] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,785: +PARAM [/rosbridge_websocket/unregister_timeout] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,785: +PARAM [/rosbridge_websocket/use_compression] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,786: +PARAM [/rosbridge_websocket/websocket_ping_interval] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,786: +PARAM [/rosbridge_websocket/websocket_ping_timeout] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,786: +PARAM [/rosbridge_websocket/websocket_external_port] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,786: +PARAM [/rosbridge_websocket/topics_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,787: +PARAM [/rosbridge_websocket/services_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,787: +PARAM [/rosbridge_websocket/params_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,787: +PARAM [/rosbridge_websocket/bson_only_mode] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,787: +PARAM [/rosapi/topics_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,787: +PARAM [/rosapi/services_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,788: +PARAM [/rosapi/params_glob] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,788: +PARAM [/JOYSTICK/autorepeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:56,788: +PARAM [/JOYSTICK/joy_node/dev] by /roslaunch
+[rosmaster.master][INFO] 2025-08-20 16:35:57,229: +PUB [/rosout] /JOYSTICK http://kelpie2:33915/
+[rosmaster.master][INFO] 2025-08-20 16:35:57,231: +SERVICE [/JOYSTICK/get_loggers] /JOYSTICK http://kelpie2:33915/
+[rosmaster.master][INFO] 2025-08-20 16:35:57,233: +SERVICE [/JOYSTICK/set_logger_level] /JOYSTICK http://kelpie2:33915/
+[rosmaster.master][INFO] 2025-08-20 16:35:57,238: +PUB [/diagnostics] /JOYSTICK http://kelpie2:33915/
+[rosmaster.master][INFO] 2025-08-20 16:35:57,246: +CACHEDPARAM [/JOYSTICK/diagnostic_period] by /JOYSTICK
+[rosmaster.master][INFO] 2025-08-20 16:35:57,261: +PUB [/joy] /JOYSTICK http://kelpie2:33915/
+[rosmaster.master][INFO] 2025-08-20 16:35:57,271: +SUB [/joy/set_feedback] /JOYSTICK http://kelpie2:33915/
+[rosmaster.master][INFO] 2025-08-20 16:35:57,305: +CACHEDPARAM [/rosout_disable_topics_generation] by /JOYSTICK
+[rosmaster.master][INFO] 2025-08-20 16:35:57,314: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/']
+[rosmaster.master][INFO] 2025-08-20 16:35:57,341: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:58,759: +PUB [/rosout] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,767: +SERVICE [/rosapi/get_loggers] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,770: +SERVICE [/rosapi/set_logger_level] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,779: +SERVICE [/rosapi/topics] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,783: +SERVICE [/rosapi/topics_for_type] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,786: +SERVICE [/rosapi/services] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,789: +SERVICE [/rosapi/services_for_type] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,792: +SERVICE [/rosapi/nodes] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,795: +SERVICE [/rosapi/node_details] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,798: +SERVICE [/rosapi/action_servers] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,802: +SERVICE [/rosapi/topic_type] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,805: +SERVICE [/rosapi/service_type] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,808: +SERVICE [/rosapi/publishers] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,812: +SERVICE [/rosapi/subscribers] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,815: +SERVICE [/rosapi/service_providers] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,818: +SERVICE [/rosapi/service_node] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,819: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/']
+[rosmaster.master][INFO] 2025-08-20 16:35:58,829: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:58,830: +SERVICE [/rosapi/service_host] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,834: +SERVICE [/rosapi/message_details] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,835: +PUB [/rosout] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,837: +SERVICE [/rosapi/service_request_details] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,841: +SERVICE [/rosapi/service_response_details] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,845: +SERVICE [/kelpie/get_loggers] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,845: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/', 'http://kelpie2:45275/']
+[rosmaster.master][INFO] 2025-08-20 16:35:58,847: +SERVICE [/rosapi/set_param] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,850: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/', 'http://kelpie2:45275/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:58,851: +SERVICE [/kelpie/set_logger_level] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,853: +SERVICE [/rosapi/get_param] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,857: +SERVICE [/rosapi/has_param] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,859: +SUB [/kelpie/imu] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,862: +SERVICE [/rosapi/search_param] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,866: +SERVICE [/rosapi/delete_param] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,866: +SUB [/kelpie/leg_control/currents] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,869: +SERVICE [/rosapi/get_param_names] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,873: +SERVICE [/rosapi/get_time] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,874: +SUB [/kelpie/battery/voltage] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,877: +SERVICE [/rosapi/topics_and_raw_types] /rosapi http://kelpie2:33575/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,879: +PUB [/kelpie/leg_control/joint_states] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,882: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosapi
+[rosmaster.master][INFO] 2025-08-20 16:35:58,884: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,891: +SUB [/kelpie/command_input] /kelpie http://kelpie2:45275/
+[rosmaster.master][INFO] 2025-08-20 16:35:58,895: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,898: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,903: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,907: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,911: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,915: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,919: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,923: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,936: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,940: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,944: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:58,957: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2025-08-20 16:35:58,959: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:35:59,388: +PUB [/kelpie/leg_control/currents] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,391: +PUB [/kelpie/battery/voltage] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,394: +PUB [/kelpie/imu] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,431: publisherUpdate[/kelpie/leg_control/currents] -> http://kelpie2:45275/ ['http://kelpie2:35859/']
+[rosmaster.master][INFO] 2025-08-20 16:35:59,461: publisherUpdate[/kelpie/leg_control/currents] -> http://kelpie2:45275/ ['http://kelpie2:35859/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:59,461: publisherUpdate[/kelpie/battery/voltage] -> http://kelpie2:45275/ ['http://kelpie2:35859/']
+[rosmaster.master][INFO] 2025-08-20 16:35:59,473: publisherUpdate[/kelpie/battery/voltage] -> http://kelpie2:45275/ ['http://kelpie2:35859/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:59,473: publisherUpdate[/kelpie/imu] -> http://kelpie2:45275/ ['http://kelpie2:35859/']
+[rosmaster.master][INFO] 2025-08-20 16:35:59,475: +PUB [/rosout] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,482: +SERVICE [/hardware/get_loggers] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,486: publisherUpdate[/kelpie/imu] -> http://kelpie2:45275/ ['http://kelpie2:35859/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:59,486: +SERVICE [/hardware/set_logger_level] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,487: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/', 'http://kelpie2:45275/', 'http://kelpie2:35859/']
+[rosmaster.master][INFO] 2025-08-20 16:35:59,490: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/', 'http://kelpie2:45275/', 'http://kelpie2:35859/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:59,536: +PUB [/rosout] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,542: +SERVICE [/rosbridge_websocket/get_loggers] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,545: +SERVICE [/rosbridge_websocket/set_logger_level] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,550: +SUB [/kelpie/leg_control/joint_states] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,552: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/', 'http://kelpie2:45275/', 'http://kelpie2:35859/', 'http://kelpie2:37503/']
+[rosmaster.master][INFO] 2025-08-20 16:35:59,556: publisherUpdate[/rosout] -> http://kelpie2:36979/ ['http://kelpie2:33915/', 'http://kelpie2:33575/', 'http://kelpie2:45275/', 'http://kelpie2:35859/', 'http://kelpie2:37503/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:59,565: +SUB [/joy] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,568: +PUB [/kelpie/command_input] /hardware http://kelpie2:35859/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,591: publisherUpdate[/kelpie/command_input] -> http://kelpie2:45275/ ['http://kelpie2:35859/']
+[rosmaster.master][INFO] 2025-08-20 16:35:59,593: +PUB [/client_count] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,596: +PUB [/connected_clients] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:35:59,603: publisherUpdate[/kelpie/command_input] -> http://kelpie2:45275/ ['http://kelpie2:35859/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:35:59,604: +PARAM [/rosbridge_websocket/actual_port] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:35:59,611: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:20,354: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:21,382: +SUB [/kelpie/leg_control/joint_states] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:21,386: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:21,398: +SUB [/kelpie/leg_control/currents] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:21,402: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:21,416: +SUB [/kelpie/battery/voltage] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:21,420: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:21,435: +SUB [/kelpie/imu] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:21,443: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:24,625: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:36:24,630: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:36:24,640: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:36:50,352: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:50,357: -SUB [/kelpie/leg_control/joint_states] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:50,361: -SUB [/kelpie/leg_control/currents] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:50,365: -SUB [/kelpie/battery/voltage] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:50,371: -SUB [/kelpie/imu] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:50,375: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:52,109: +PUB [/kelpie/command_input] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:52,111: publisherUpdate[/kelpie/command_input] -> http://kelpie2:45275/ ['http://kelpie2:35859/', 'http://kelpie2:37503/']
+[rosmaster.master][INFO] 2025-08-20 16:36:52,140: publisherUpdate[/kelpie/command_input] -> http://kelpie2:45275/ ['http://kelpie2:35859/', 'http://kelpie2:37503/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:36:56,723: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:56,731: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:56,783: +SUB [/kelpie/leg_control/joint_states] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:56,788: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:56,799: +SUB [/kelpie/leg_control/currents] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:56,804: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:56,810: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:36:56,815: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:36:56,824: +SUB [/kelpie/battery/voltage] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:56,827: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:36:56,830: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:36:56,848: +SUB [/kelpie/imu] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:36:56,852: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:06,684: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:06,689: -SUB [/kelpie/leg_control/joint_states] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,693: -SUB [/kelpie/leg_control/currents] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,698: -SUB [/kelpie/battery/voltage] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,702: -SUB [/kelpie/imu] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,730: -PUB [/kelpie/command_input] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,757: publisherUpdate[/kelpie/command_input] -> http://kelpie2:45275/ ['http://kelpie2:35859/']
+[rosmaster.master][INFO] 2025-08-20 16:37:06,792: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:06,795: publisherUpdate[/kelpie/command_input] -> http://kelpie2:45275/ ['http://kelpie2:35859/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2025-08-20 16:37:06,833: +SUB [/kelpie/leg_control/joint_states] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,837: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:06,848: +SUB [/kelpie/leg_control/currents] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,852: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:06,866: +SUB [/kelpie/battery/voltage] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,870: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:06,890: +SUB [/kelpie/imu] /rosbridge_websocket http://kelpie2:37503/
+[rosmaster.master][INFO] 2025-08-20 16:37:06,894: +CACHEDPARAM [/rosout_disable_topics_generation] by /rosbridge_websocket
+[rosmaster.master][INFO] 2025-08-20 16:37:10,451: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:10,455: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:10,467: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:10,920: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:10,924: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:10,933: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:12,304: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:12,308: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:12,316: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:27,394: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:27,398: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+[rosmaster.master][INFO] 2025-08-20 16:37:27,407: +CACHEDPARAM [/rosout_disable_topics_generation] by /kelpie
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

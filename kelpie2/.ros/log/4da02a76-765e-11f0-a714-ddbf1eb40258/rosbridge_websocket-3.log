@@ -1,0 +1,17 @@
+[rospy.client][INFO] 2025-08-11 12:53:08,618: init_node, name[/rosbridge_websocket], pid[1499]
+[xmlrpc][INFO] 2025-08-11 12:53:08,619: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-11 12:53:08,620: Started XML-RPC server [http://localhost:39205/]
+[rospy.init][INFO] 2025-08-11 12:53:08,620: ROS Slave URI: [http://localhost:39205/]
+[rospy.impl.masterslave][INFO] 2025-08-11 12:53:08,620: _ready: http://localhost:39205/
+[rospy.registration][INFO] 2025-08-11 12:53:08,622: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-11 12:53:08,623: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-11 12:53:08,721: registered with master
+[rospy.rosout][INFO] 2025-08-11 12:53:08,722: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-11 12:53:08,733: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-11 12:53:08,740: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-11 12:53:08,798: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-11 12:53:08,948: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-08-11 12:54:29,179: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-11 12:54:29,198: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-11 12:54:29,199: signal-2
+[rospy.core][INFO] 2025-08-11 12:54:29,786: signal_shutdown [atexit]

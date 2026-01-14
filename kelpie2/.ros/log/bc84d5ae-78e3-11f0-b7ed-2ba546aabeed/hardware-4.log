@@ -1,0 +1,39 @@
+[rospy.client][INFO] 2025-08-14 17:53:37,150: init_node, name[/hardware], pid[2721]
+[xmlrpc][INFO] 2025-08-14 17:53:37,164: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:53:37,165: Started XML-RPC server [http://localhost:37357/]
+[rospy.init][INFO] 2025-08-14 17:53:37,165: ROS Slave URI: [http://localhost:37357/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:53:37,168: _ready: http://localhost:37357/
+[rospy.registration][INFO] 2025-08-14 17:53:37,186: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:53:37,187: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-14 17:53:37,187: Registering publisher topic [/kelpie/leg_control/currents] type [kelpie/joint_states] with master
+[rospy.registration][INFO] 2025-08-14 17:53:37,240: Registering publisher topic [/kelpie/battery/voltage] type [kelpie/vec_3d_float32] with master
+[rospy.registration][INFO] 2025-08-14 17:53:37,245: Registering publisher topic [/kelpie/imu] type [kelpie/imu] with master
+[rospy.init][INFO] 2025-08-14 17:53:37,269: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:53:37,270: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:53:37,286: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:53:37,293: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-14 17:53:37,474: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:53:37,481: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:53:37,489: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:53:37,492: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:40243/], count 0
+[rospy.internal][INFO] 2025-08-14 17:53:37,519: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-14 17:53:37,702: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:54:22,106: topic[/joy] adding connection to [http://localhost:35279/], count 0
+[rospy.internal][INFO] 2025-08-14 17:54:23,960: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:40243/
+[rospy.internal][INFO] 2025-08-14 17:54:24,014: topic[/kelpie/leg_control/currents] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-14 17:54:24,015: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-14 17:54:24,018: topic[/kelpie/battery/voltage] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-14 17:54:24,020: topic[/kelpie/imu] removing connection to /kelpie
+[rospy.internal][INFO] 2025-08-14 17:54:24,073: topic[/kelpie/imu] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:54:24,085: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:33975/], count 0
+[rospy.internal][INFO] 2025-08-14 17:54:24,091: topic[/kelpie/battery/voltage] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:54:24,108: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.internal][INFO] 2025-08-14 17:54:24,122: topic[/kelpie/leg_control/currents] adding connection to [/kelpie], count 0
+[rospy.client][INFO] 2025-08-14 17:54:24,537: init_node, name[/hardware], pid[2827]
+[xmlrpc][INFO] 2025-08-14 17:54:24,538: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:54:24,540: Started XML-RPC server [http://localhost:45985/]
+[rospy.init][INFO] 2025-08-14 17:54:24,540: ROS Slave URI: [http://localhost:45985/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:54:24,541: _ready: http://localhost:45985/
+[rospy.registration][INFO] 2025-08-14 17:54:24,549: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:54:24,549: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-14 17:54:24,549: Registering publisher topic [/kelpie/leg_control/curre

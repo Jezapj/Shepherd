@@ -1,0 +1,4 @@
+kelpie_webots
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_webots/lib/pkgconfig/kelpie_webots.pc /home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig/kelpie_webots.pc
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_webots/share/kelpie_webots/cmake/kelpie_webotsConfig.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_webots/cmake/kelpie_webotsConfig.cmake
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_webots/share/kelpie_webots/cmake/kelpie_webotsConfig-version.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_webots/cmake/kelpie_webotsConfig-version.cmake

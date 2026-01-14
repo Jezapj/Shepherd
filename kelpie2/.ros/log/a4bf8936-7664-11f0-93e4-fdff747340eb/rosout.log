@@ -1,0 +1,6 @@
+
+
+1754883510.145616792  Node Startup
+1754883511.755804777 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1754883512.413140296 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1754883514.455225716 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (Microsoft X-Box 360 pad). deadzone_: 0.050000.

@@ -1,0 +1,109 @@
+
+
+1755670411.770303978  Node Startup
+1755670516.855726003 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/imu, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/command_input] Manual Control deactivated. Now accepting external commands
+1755670516.924445152 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755670517.364405870 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /connected_clients, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755670646.986532211 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /connected_clients, /rosout] Client connected.  1 clients total.
+1755670652.029179096 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /connected_clients, /rosout] Client disconnected. 0 clients total.
+1755670652.038854598 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /connected_clients, /rosout] Client connected.  1 clients total.
+1755670653.065743446 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /client_count, /connected_clients, /rosout, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/leg_control/joint_states
+1755670653.082076787 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/leg_control/currents, /client_count, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/leg_control/currents
+1755670653.101233959 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/battery/voltage, /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/battery/voltage
+1755670653.121677875 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/imu, /connected_clients, /kelpie/battery/voltage, /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 1] Subscribed to /kelpie/imu
+1755670715.795431107 WARN /JOYSTICK [/tmp/binarydeb/ros-noetic-roscpp-1.17.4/src/libros/init.cpp:165(shutdownCallback)] [topics: /rosout, /diagnostics, /joy] Shutdown request received.
+1755670717.666925907 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] Manual robot control active. Currently not accepting external commands
+1755670717.701251745 INFO /kelpie [main_driver.py:108(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] Estopped? 0
+1755670717.709230184 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] BattVol0.0
+1755670717.716956138 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] 
+Command is: <gait_controller.Command.Command object at 0xffff9c97f5b0>
+
+1755670717.736963987 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /rosout, /kelpie/leg_control/currents, /kelpie/command_input] Manual Control deactivated. Now accepting external commands
+1755670717.789515972 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755670718.669075012 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /client_count, /connected_clients] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755670773.110941648 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755670773.121831178 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /kelpie/command_input] Manual Control deactivated. Now accepting external commands
+1755670773.643102407 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755670781.555712699 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /connected_clients] Client connected.  1 clients total.
+1755670782.412738561 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /kelpie/leg_control/joint_states, /client_count, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755670782.428309202 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /client_count, /rosout, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755670782.455636501 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /client_count, /kelpie/battery/voltage, /rosout, /connected_clients] [Client 0] Subscribed to /kelpie/battery/voltage
+1755670782.474450349 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /client_count, /kelpie/battery/voltage, /rosout, /kelpie/imu, /connected_clients] [Client 0] Subscribed to /kelpie/imu
+1755670853.599213708 WARN /JOYSTICK [/tmp/binarydeb/ros-noetic-roscpp-1.17.4/src/libros/init.cpp:165(shutdownCallback)] [topics: /rosout, /diagnostics, /joy] Shutdown request received.
+1755670855.424157142 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755670855.637320518 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/joint_states, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage] Manual Control deactivated. Now accepting external commands
+1755670856.395935058 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /client_count, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755670861.403463602 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /client_count, /rosout] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755670905.931279420 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755670905.948037862 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands
+1755670906.532702207 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /rosout, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755670933.753380060 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] BattVol0.0
+1755670933.757270336 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] 
+Command is: <gait_controller.Command.Command object at 0xffff7c05c910>
+
+1755670933.765446662 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands
+1755670937.709942102 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /rosout, /client_count] Client connected.  1 clients total.
+1755670938.565100908 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755670938.581799030 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755670938.601969718 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/battery/voltage
+1755670938.621987581 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/imu, /kelpie/leg_control/joint_states] [Client 0] Subscribed to /kelpie/imu
+1755670951.617174386 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] BattVol0.0
+1755670951.620941877 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] 
+Command is: <gait_controller.Command.Command object at 0xffff7c05c850>
+
+1755670951.629904270 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands
+1755670951.990908861 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] BattVol0.0
+1755670951.994635581 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] 
+Command is: <gait_controller.Command.Command object at 0xffff7c05ce80>
+
+1755670952.003213167 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands
+1755670970.494451284 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /connected_clients, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/imu, /kelpie/leg_control/joint_states] Client disconnected. 0 clients total.
+1755670970.544036865 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /rosout, /client_count] Client connected.  1 clients total.
+1755670976.382420063 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /connected_clients, /rosout, /client_count, /kelpie/command_input] Client disconnected. 0 clients total.
+1755670976.394726753 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /rosout, /client_count, /kelpie/command_input] Client connected.  1 clients total.
+1755670976.503084182 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/command_input, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 2] Subscribed to /kelpie/leg_control/joint_states
+1755670976.518826246 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/command_input, /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 2] Subscribed to /kelpie/leg_control/currents
+1755670976.540008783 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 2] Subscribed to /kelpie/battery/voltage
+1755670976.557745695 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /connected_clients, /kelpie/command_input, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/leg_control/joint_states] [Client 2] Subscribed to /kelpie/imu
+1755670979.931654453 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] BattVol0.0
+1755670979.935216188 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] 
+Command is: <gait_controller.Command.Command object at 0xffff7c068280>
+
+1755670979.940656423 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [-0.365806 0.077786 0.113327] too far away
+1755670979.945636749 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [-0.363594 0.082104 0.112082] too far away
+1755670979.950711011 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [0.181274 0.107092 0.205335] too far away
+1755670979.955513238 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [0.183486 0.106278 0.205570] too far away
+1755670979.961854219 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands
+1755670979.969467163 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /joy, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/battery/voltage, /rosout, /kelpie/imu, /kelpie/leg_control/joint_states] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8026fc10>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -21.0
+
+1755670979.970584392 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [-0.367740 0.075180 0.112520] too far away
+1755670979.975955009 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [-0.363317 0.083849 0.110021] too far away
+1755670979.981079101 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [0.178652 0.107531 0.205496] too far away
+1755670979.985918521 WARN /kelpie [Kinematics.py:90(leg_explicit_inverse_kinematics)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] target coordinate: [0.183076 0.105960 0.205949] too far away
+1755670979.991747617 ERROR /hardware [topics.py:753(_SubscriberImpl._invoke_callback)] [topics: /joy, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/battery/voltage, /rosout, /kelpie/imu, /kelpie/leg_control/joint_states] bad callback: <bound method ServoSubscriber.callback of <kelpie_hardware_interface.servo.servo_subscriber.ServoSubscriber object at 0xffff8026fc10>>
+Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/servo_subscriber.py", line 17, in callback
+    self.servo_interface.set_actuator_postions(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 92, in set_actuator_postions
+    possible_joint_angles = self.impose_physical_limits(joint_angles)
+  File "/home/kelpie2/Kelpie/kelpie_ws/src/kelpie_hardware_interface/src/kelpie_hardware_interface/servo/Interface.py", line 191, in impose_physical_limits
+    print(upper, self._workspace_boundary_LUT[round(upper)]) if i == 0 else 0
+KeyError: -22.0
+
+1755671089.101318597 INFO /kelpie [main_driver.py:114(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] BattVol0.0
+1755671089.104997873 INFO /kelpie [main_driver.py:121(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] 
+Command is: <gait_controller.Command.Command object at 0xffff7c128820>
+
+1755671089.113901376 INFO /kelpie [main_driver.py:158(KelpieDriver.run)] [topics: /kelpie/leg_control/currents, /kelpie/imu, /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands

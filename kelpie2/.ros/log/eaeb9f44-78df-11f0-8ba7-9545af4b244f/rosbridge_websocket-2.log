@@ -1,0 +1,20 @@
+[rospy.client][INFO] 2025-08-14 17:26:16,551: init_node, name[/rosbridge_websocket], pid[2416]
+[xmlrpc][INFO] 2025-08-14 17:26:16,562: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:26:16,563: Started XML-RPC server [http://localhost:33755/]
+[rospy.init][INFO] 2025-08-14 17:26:16,563: ROS Slave URI: [http://localhost:33755/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:26:16,573: _ready: http://localhost:33755/
+[rospy.registration][INFO] 2025-08-14 17:26:16,587: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-14 17:26:16,587: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 17:26:16,674: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:26:16,675: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:26:16,683: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:26:16,687: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][WARNING] 2025-08-14 17:26:16,780: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-14 17:26:16,822: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-14 17:26:21,789: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-14 17:26:25,170: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-14 17:26:25,195: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-14 17:26:25,196: signal-2
+[rospy.core][WARNING] 2025-08-14 17:26:26,794: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-08-14 17:26:26,798: Can't stop the reactor, it wasn't running
+[rospy.core][INFO] 2025-08-14 17:26:40,214: signal_shutdown [atexit]

@@ -1,0 +1,26 @@
+[rospy.client][INFO] 2025-08-14 17:12:17,984: init_node, name[/kelpie], pid[2713]
+[xmlrpc][INFO] 2025-08-14 17:12:17,985: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 17:12:17,987: Started XML-RPC server [http://localhost:33831/]
+[rospy.init][INFO] 2025-08-14 17:12:17,987: ROS Slave URI: [http://localhost:33831/]
+[rospy.impl.masterslave][INFO] 2025-08-14 17:12:17,987: _ready: http://localhost:33831/
+[rospy.registration][INFO] 2025-08-14 17:12:17,990: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-14 17:12:17,990: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 17:12:18,088: registered with master
+[rospy.rosout][INFO] 2025-08-14 17:12:18,089: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 17:12:18,105: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 17:12:18,108: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 17:12:18,152: Creating input listener...
+[rosout][INFO] 2025-08-14 17:12:18,164: Input listener successfully initialised... Robot will now receive commands via Joy messages
+[rosout][INFO] 2025-08-14 17:12:18,168: Summary of current gait parameters:
+[rosout][INFO] 2025-08-14 17:12:18,173: overlap time: 0.04
+[rosout][INFO] 2025-08-14 17:12:18,178: swing time: 0.07
+[rosout][INFO] 2025-08-14 17:12:18,182: z clearance: 0.08
+[rosout][INFO] 2025-08-14 17:12:18,186: back leg x shift: 0.00
+[rosout][INFO] 2025-08-14 17:12:18,191: front leg x shift: 0.05
+[rosout][INFO] 2025-08-14 17:12:18,196: Manual robot control active. Currently not accepting external commands
+[rospy.internal][INFO] 2025-08-14 17:12:18,299: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-08-14 17:12:18,789: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:43213/], count 0
+[rospy.internal][INFO] 2025-08-14 17:12:18,808: topic[/kelpie/battery/voltage] adding connection to [http://localhost:43213/], count 0
+[rospy.internal][INFO] 2025-08-14 17:12:18,830: topic[/kelpie/imu] adding connection to [http://localhost:43213/], count 0
+[rospy.internal][INFO] 2025-08-14 17:12:18,924: topic[/kelpie/leg_control/joint_states] adding connection to [/hardware], count 0
+[rospy.internal][INFO] 2025-08-14 17:12:19,078: topic[/kelpie/command_input] adding connection to [http://localhost:43213/], count 0

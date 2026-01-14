@@ -1,0 +1,475 @@
+[rospy.client][INFO] 2025-08-19 16:04:06,772: init_node, name[/rosbridge_websocket], pid[1719]
+[xmlrpc][INFO] 2025-08-19 16:04:06,774: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:04:06,775: Started XML-RPC server [http://localhost:33903/]
+[rospy.init][INFO] 2025-08-19 16:04:06,776: ROS Slave URI: [http://localhost:33903/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:04:06,776: _ready: http://localhost:33903/
+[rospy.registration][INFO] 2025-08-19 16:04:06,779: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 16:04:06,779: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:04:06,878: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:04:06,879: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:04:06,888: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:04:06,891: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 16:04:06,966: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 16:04:07,109: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2025-08-19 16:04:16,429: init_node, name[/rosbridge_websocket], pid[1796]
+[xmlrpc][INFO] 2025-08-19 16:04:16,431: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:04:16,434: Started XML-RPC server [http://localhost:46381/]
+[rospy.init][INFO] 2025-08-19 16:04:16,434: ROS Slave URI: [http://localhost:46381/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:04:16,435: _ready: http://localhost:46381/
+[rospy.registration][INFO] 2025-08-19 16:04:16,443: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 16:04:16,446: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:04:16,536: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:04:16,536: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:04:16,552: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:04:16,557: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 16:04:16,637: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:04:16,638: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:04:16,645: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-19 16:04:16,651: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 16:04:16,851: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 16:04:21,669: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:04:26,677: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 16:04:29,101: signal_shutdown [atexit]
+[rosout][INFO] 2025-08-19 16:04:31,691: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.core][INFO] 2025-08-19 16:04:34,597: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 16:04:34,618: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 16:04:34,619: signal-2
+[rospy.core][INFO] 2025-08-19 16:04:35,207: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 16:05:40,960: init_node, name[/rosbridge_websocket], pid[1891]
+[xmlrpc][INFO] 2025-08-19 16:05:40,962: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:05:40,964: Started XML-RPC server [http://localhost:38151/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:05:40,966: _ready: http://localhost:38151/
+[rospy.registration][INFO] 2025-08-19 16:05:40,970: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 16:05:40,973: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:05:40,974: ROS Slave URI: [http://localhost:38151/]
+[rospy.init][INFO] 2025-08-19 16:05:40,976: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:05:40,977: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:05:40,984: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:05:40,988: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 16:05:41,082: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 16:05:41,168: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-19 16:05:47,811: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:05:49,043: [Client 0] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:05:49,065: [Client 0] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:05:49,089: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:38615/], count 0
+[rosout][INFO] 2025-08-19 16:05:49,084: [Client 0] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:05:49,108: topic[/kelpie/battery/voltage] adding connection to [http://localhost:38615/], count 0
+[rosout][INFO] 2025-08-19 16:05:49,110: [Client 0] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:05:49,136: topic[/kelpie/imu] adding connection to [http://localhost:38615/], count 0
+[rospy.internal][INFO] 2025-08-19 16:06:23,691: topic[/kelpie/leg_control/currents] removing connection to http://localhost:38615/
+[rospy.internal][INFO] 2025-08-19 16:06:23,692: topic[/kelpie/imu] removing connection to http://localhost:38615/
+[rospy.internal][INFO] 2025-08-19 16:06:23,694: topic[/kelpie/battery/voltage] removing connection to http://localhost:38615/
+[rospy.core][INFO] 2025-08-19 16:06:23,697: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 16:06:23,727: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 16:06:23,732: signal-2
+[rosout][INFO] 2025-08-19 16:06:24,303: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-19 16:06:24,312: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 16:06:55,230: init_node, name[/rosbridge_websocket], pid[2001]
+[xmlrpc][INFO] 2025-08-19 16:06:55,232: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:06:55,233: Started XML-RPC server [http://localhost:45197/]
+[rospy.init][INFO] 2025-08-19 16:06:55,234: ROS Slave URI: [http://localhost:45197/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:06:55,234: _ready: http://localhost:45197/
+[rospy.registration][INFO] 2025-08-19 16:06:55,237: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 16:06:55,237: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:06:55,335: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:06:55,335: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:06:55,346: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:06:55,351: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 16:06:55,441: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 16:06:55,530: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.client][INFO] 2025-08-19 16:07:06,465: init_node, name[/rosbridge_websocket], pid[2079]
+[xmlrpc][INFO] 2025-08-19 16:07:06,467: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:07:06,468: Started XML-RPC server [http://localhost:40447/]
+[rospy.init][INFO] 2025-08-19 16:07:06,468: ROS Slave URI: [http://localhost:40447/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:07:06,469: _ready: http://localhost:40447/
+[rospy.registration][INFO] 2025-08-19 16:07:06,471: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 16:07:06,472: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:07:06,569: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:07:06,570: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:07:06,578: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:07:06,582: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 16:07:06,594: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:07:06,595: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:07:06,611: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-19 16:07:06,664: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 16:07:06,833: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 16:07:11,674: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 16:07:14,503: signal_shutdown [atexit]
+[rosout][INFO] 2025-08-19 16:07:16,687: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rosout][INFO] 2025-08-19 16:07:19,273: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:07:20,297: [Client 0] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:07:20,317: [Client 0] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:07:20,326: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:44305/], count 0
+[rosout][INFO] 2025-08-19 16:07:20,343: [Client 0] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:07:20,352: topic[/kelpie/battery/voltage] adding connection to [http://localhost:44305/], count 0
+[rosout][INFO] 2025-08-19 16:07:20,367: [Client 0] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:07:20,382: topic[/kelpie/imu] adding connection to [http://localhost:44305/], count 0
+[rosout][INFO] 2025-08-19 16:07:22,925: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:07:22,930: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:07:22,934: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:07:22,935: topic[/kelpie/leg_control/currents] removing connection to http://localhost:44305/
+[rospy.internal][INFO] 2025-08-19 16:07:22,939: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:07:22,940: topic[/kelpie/battery/voltage] removing connection to http://localhost:44305/
+[rospy.internal][INFO] 2025-08-19 16:07:22,944: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:07:22,945: topic[/kelpie/imu] removing connection to http://localhost:44305/
+[rosout][INFO] 2025-08-19 16:07:22,996: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:07:23,067: [Client 1] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:07:23,085: [Client 1] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:07:23,096: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:44305/], count 0
+[rosout][INFO] 2025-08-19 16:07:23,111: [Client 1] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:07:23,125: topic[/kelpie/battery/voltage] adding connection to [http://localhost:44305/], count 0
+[rosout][INFO] 2025-08-19 16:07:23,141: [Client 1] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:07:23,150: topic[/kelpie/imu] adding connection to [http://localhost:44305/], count 0
+[rospy.internal][INFO] 2025-08-19 16:08:34,830: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:37367/], count 0
+[rospy.internal][INFO] 2025-08-19 16:08:35,669: topic[/kelpie/leg_control/currents] removing connection to http://localhost:44305/
+[rospy.internal][INFO] 2025-08-19 16:08:35,680: topic[/kelpie/battery/voltage] removing connection to http://localhost:44305/
+[rospy.internal][INFO] 2025-08-19 16:08:35,686: topic[/kelpie/imu] removing connection to http://localhost:44305/
+[rospy.client][INFO] 2025-08-19 16:08:35,774: init_node, name[/rosbridge_websocket], pid[2190]
+[xmlrpc][INFO] 2025-08-19 16:08:35,787: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:08:35,790: Started XML-RPC server [http://localhost:38057/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:08:35,792: _ready: http://localhost:38057/
+[rospy.init][INFO] 2025-08-19 16:08:35,793: ROS Slave URI: [http://localhost:38057/]
+[rospy.registration][INFO] 2025-08-19 16:08:35,802: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 16:08:35,802: xml rpc node: starting XML-RPC server
+[rospy.internal][INFO] 2025-08-19 16:08:35,875: topic[/kelpie/battery/voltage] adding connection to [http://localhost:45873/], count 0
+[rospy.internal][INFO] 2025-08-19 16:08:35,895: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:45873/], count 0
+[rospy.init][INFO] 2025-08-19 16:08:35,904: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:08:35,906: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:08:35,938: connected to core topic /rosout
+[rospy.internal][INFO] 2025-08-19 16:08:35,952: topic[/kelpie/imu] adding connection to [http://localhost:45873/], count 0
+[rospy.simtime][INFO] 2025-08-19 16:08:35,956: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 16:08:35,997: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:08:35,999: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:08:36,006: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 16:08:36,069: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:37367/
+[rospy.internal][INFO] 2025-08-19 16:08:36,070: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:37367/
+[rospy.internal][INFO] 2025-08-19 16:08:36,073: topic[/kelpie/leg_control/currents] removing connection to http://localhost:45873/
+[rospy.internal][INFO] 2025-08-19 16:08:36,074: topic[/kelpie/leg_control/currents] removing connection to http://localhost:45873/
+[rospy.internal][INFO] 2025-08-19 16:08:36,076: topic[/kelpie/battery/voltage] removing connection to http://localhost:45873/
+[rospy.internal][INFO] 2025-08-19 16:08:36,079: topic[/kelpie/imu] removing connection to http://localhost:45873/
+[rospy.internal][INFO] 2025-08-19 16:08:36,149: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 16:08:36,197: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:08:41,213: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:08:46,224: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:08:51,229: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:08:56,240: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:09:01,249: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][INFO] 2025-08-19 16:09:01,636: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-19 16:09:01,642: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:09:01,663: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:09:01,664: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:09:01,686: topic[/rosout] removing connection to /rosout
+[rospy.core][WARNING] 2025-08-19 16:09:06,259: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-08-19 16:09:06,260: Can't stop the reactor, it wasn't running
+[rospy.client][INFO] 2025-08-19 16:09:27,249: init_node, name[/rosbridge_websocket], pid[2322]
+[xmlrpc][INFO] 2025-08-19 16:09:27,252: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:09:27,255: Started XML-RPC server [http://localhost:40017/]
+[rospy.init][INFO] 2025-08-19 16:09:27,256: ROS Slave URI: [http://localhost:40017/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:09:27,257: _ready: http://localhost:40017/
+[rospy.registration][INFO] 2025-08-19 16:09:27,262: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 16:09:27,263: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:09:27,358: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:09:27,359: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:09:27,369: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:09:27,377: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 16:09:27,503: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 16:09:27,607: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-19 16:09:31,641: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:09:32,653: [Client 0] Subscribed to /kelpie/leg_control/joint_states
+[rospy.internal][INFO] 2025-08-19 16:09:32,682: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:32835/], count 0
+[rosout][INFO] 2025-08-19 16:09:32,673: [Client 0] Subscribed to /kelpie/leg_control/currents
+[rosout][INFO] 2025-08-19 16:09:32,703: [Client 0] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:09:32,721: topic[/kelpie/battery/voltage] adding connection to [http://localhost:32835/], count 0
+[rosout][INFO] 2025-08-19 16:09:32,737: [Client 0] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:09:32,746: topic[/kelpie/imu] adding connection to [http://localhost:32835/], count 0
+[rosout][INFO] 2025-08-19 16:13:46,693: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:13:46,699: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:13:46,708: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:13:46,709: topic[/kelpie/leg_control/currents] removing connection to http://localhost:32835/
+[rospy.internal][INFO] 2025-08-19 16:13:46,714: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:13:46,715: topic[/kelpie/battery/voltage] removing connection to http://localhost:32835/
+[rospy.internal][INFO] 2025-08-19 16:13:46,716: topic[/kelpie/battery/voltage] removing connection to http://localhost:32835/
+[rospy.internal][INFO] 2025-08-19 16:13:46,721: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:13:46,722: topic[/kelpie/imu] removing connection to http://localhost:32835/
+[rosout][INFO] 2025-08-19 16:13:46,758: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:13:54,718: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-19 16:13:54,949: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:13:55,070: [Client 2] Subscribed to /raspicam_node/image/compressed
+[rosout][INFO] 2025-08-19 16:13:57,510: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:13:57,516: topic impl's ref count is zero, deleting topic /raspicam_node/image/compressed...
+[rosout][INFO] 2025-08-19 16:13:57,567: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:13:57,644: [Client 3] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:13:57,663: [Client 3] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:13:57,675: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:32835/], count 0
+[rosout][INFO] 2025-08-19 16:13:57,689: [Client 3] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:13:57,702: topic[/kelpie/battery/voltage] adding connection to [http://localhost:32835/], count 0
+[rosout][INFO] 2025-08-19 16:13:57,713: [Client 3] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:13:57,723: topic[/kelpie/imu] adding connection to [http://localhost:32835/], count 0
+[rospy.internal][INFO] 2025-08-19 16:14:04,726: topic impl's ref count is zero, deleting topic /kelpie/command_input...
+[rospy.core][INFO] 2025-08-19 16:14:42,446: signal_shutdown [signal-2]
+[rospy.core][INFO] 2025-08-19 16:14:57,477: signal_shutdown [atexit]
+[rospy.internal][INFO] 2025-08-19 16:15:22,352: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:46311/], count 0
+[rospy.internal][INFO] 2025-08-19 16:15:23,456: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:35523/], count 1
+[rospy.internal][INFO] 2025-08-19 16:15:23,502: topic[/kelpie/battery/voltage] adding connection to [http://localhost:35523/], count 1
+[rospy.internal][INFO] 2025-08-19 16:15:23,513: topic[/kelpie/imu] adding connection to [http://localhost:35523/], count 1
+[rospy.internal][INFO] 2025-08-19 16:15:23,734: topic[/kelpie/battery/voltage] removing connection to http://localhost:32835/
+[rospy.internal][INFO] 2025-08-19 16:15:23,736: topic[/kelpie/leg_control/currents] removing connection to http://localhost:32835/
+[rospy.internal][INFO] 2025-08-19 16:15:23,739: topic[/kelpie/imu] removing connection to http://localhost:32835/
+[rospy.client][INFO] 2025-08-19 16:15:23,862: init_node, name[/rosbridge_websocket], pid[2624]
+[xmlrpc][INFO] 2025-08-19 16:15:23,863: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:15:23,866: Started XML-RPC server [http://localhost:38049/]
+[rospy.init][INFO] 2025-08-19 16:15:23,866: ROS Slave URI: [http://localhost:38049/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:15:23,866: _ready: http://localhost:38049/
+[rospy.registration][INFO] 2025-08-19 16:15:23,872: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 16:15:23,872: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:15:23,967: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:15:23,968: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:15:23,977: connected to core topic /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 16:15:23,979: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:15:23,979: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.simtime][INFO] 2025-08-19 16:15:23,981: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-08-19 16:15:23,999: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-19 16:15:24,000: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:46311/
+[rospy.internal][INFO] 2025-08-19 16:15:24,001: topic[/kelpie/leg_control/currents] removing connection to http://localhost:35523/
+[rospy.internal][INFO] 2025-08-19 16:15:24,004: topic[/kelpie/battery/voltage] removing connection to http://localhost:35523/
+[rospy.internal][INFO] 2025-08-19 16:15:24,007: topic[/kelpie/imu] removing connection to http://localhost:35523/
+[rospy.internal][INFO] 2025-08-19 16:15:24,007: topic[/kelpie/imu] removing connection to http://localhost:35523/
+[rosout][WARNING] 2025-08-19 16:15:24,073: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 16:15:24,223: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 16:15:29,081: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][INFO] 2025-08-19 16:15:32,796: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-19 16:15:32,803: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:15:32,842: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:15:32,843: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:15:32,862: topic[/rosout] removing connection to /rosout
+[rospy.core][WARNING] 2025-08-19 16:15:34,089: add_shutdown_hook called after shutdown
+[rosout][WARNING] 2025-08-19 16:15:34,090: Can't stop the reactor, it wasn't running
+[rospy.client][INFO] 2025-08-19 16:15:51,039: init_node, name[/rosbridge_websocket], pid[2754]
+[xmlrpc][INFO] 2025-08-19 16:15:51,040: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:15:51,042: Started XML-RPC server [http://localhost:39177/]
+[rospy.init][INFO] 2025-08-19 16:15:51,043: ROS Slave URI: [http://localhost:39177/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:15:51,043: _ready: http://localhost:39177/
+[xmlrpc][INFO] 2025-08-19 16:15:51,060: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2025-08-19 16:15:51,062: Registering with master node http://localhost:11311/
+[rospy.init][INFO] 2025-08-19 16:15:51,144: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:15:51,144: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:15:51,156: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:15:51,166: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 16:15:51,260: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 16:15:51,473: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2025-08-19 16:15:57,690: signal_shutdown [signal-2]
+[rospy.core][INFO] 2025-08-19 16:16:12,734: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 16:16:28,592: init_node, name[/rosbridge_websocket], pid[2828]
+[xmlrpc][INFO] 2025-08-19 16:16:28,594: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:16:28,596: Started XML-RPC server [http://localhost:46843/]
+[rospy.init][INFO] 2025-08-19 16:16:28,597: ROS Slave URI: [http://localhost:46843/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:16:28,598: _ready: http://localhost:46843/
+[rospy.registration][INFO] 2025-08-19 16:16:28,602: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 16:16:28,603: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:16:28,699: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:16:28,700: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:16:28,711: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:16:28,726: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 16:16:28,792: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:16:28,793: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:16:28,795: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-19 16:16:28,808: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 16:16:28,998: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 16:16:33,817: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:16:38,827: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 16:16:40,110: signal_shutdown [atexit]
+[rosout][INFO] 2025-08-19 16:16:43,838: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.client][INFO] 2025-08-19 16:16:58,422: init_node, name[/rosbridge_websocket], pid[2929]
+[xmlrpc][INFO] 2025-08-19 16:16:58,424: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:16:58,425: Started XML-RPC server [http://localhost:41467/]
+[rospy.init][INFO] 2025-08-19 16:16:58,426: ROS Slave URI: [http://localhost:41467/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:16:58,426: _ready: http://localhost:41467/
+[rospy.registration][INFO] 2025-08-19 16:16:58,429: Registering with master node http://localhost:11311/
+[xmlrpc][INFO] 2025-08-19 16:16:58,430: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 16:16:58,527: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:16:58,527: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 16:16:58,536: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:16:58,540: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.impl.masterslave][INFO] 2025-08-19 16:16:58,584: external shutdown request from [/master]: [/rosbridge_websocket] Reason: new node registered with same name
+[rospy.core][INFO] 2025-08-19 16:16:58,584: signal_shutdown [external shutdown request from [/master]: [[/rosbridge_websocket] Reason: new node registered with same name]]
+[rospy.internal][INFO] 2025-08-19 16:16:58,588: topic[/rosout] removing connection to /rosout
+[rosout][WARNING] 2025-08-19 16:16:58,630: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.internal][INFO] 2025-08-19 16:16:58,793: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][WARNING] 2025-08-19 16:17:03,637: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:17:08,645: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rosout][WARNING] 2025-08-19 16:17:13,654: Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+[rospy.core][INFO] 2025-08-19 16:17:13,784: signal_shutdown [atexit]
+[rosout][INFO] 2025-08-19 16:17:18,663: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rosout][INFO] 2025-08-19 16:17:21,473: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:17:22,561: [Client 0] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:17:22,585: [Client 0] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:17:22,600: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:17:22,620: [Client 0] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:17:22,636: topic[/kelpie/battery/voltage] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:17:22,653: [Client 0] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:17:22,663: topic[/kelpie/imu] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:17:45,780: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:17:45,786: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:17:45,790: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:17:45,791: topic[/kelpie/leg_control/currents] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:17:45,796: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:17:45,797: topic[/kelpie/battery/voltage] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:17:45,802: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:17:45,802: topic[/kelpie/imu] removing connection to http://localhost:42789/
+[rosout][INFO] 2025-08-19 16:17:45,837: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:17:51,994: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-19 16:17:52,048: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:17:52,111: [Client 2] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:17:52,130: [Client 2] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:17:52,148: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:17:52,155: [Client 2] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:17:52,178: topic[/kelpie/battery/voltage] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:17:52,183: [Client 2] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:17:52,196: topic[/kelpie/imu] adding connection to [http://localhost:42789/], count 0
+[rospy.internal][INFO] 2025-08-19 16:18:02,002: topic impl's ref count is zero, deleting topic /kelpie/command_input...
+[rosout][INFO] 2025-08-19 16:18:17,460: Client connected.  2 clients total.
+[rosout][INFO] 2025-08-19 16:18:17,513: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-19 16:19:59,152: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:19:59,156: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:19:59,160: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:19:59,161: topic[/kelpie/leg_control/currents] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:19:59,162: topic[/kelpie/leg_control/currents] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:19:59,165: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:19:59,166: topic[/kelpie/battery/voltage] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:19:59,171: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:19:59,172: topic[/kelpie/imu] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:19:59,172: topic[/kelpie/imu] removing connection to http://localhost:42789/
+[rosout][INFO] 2025-08-19 16:19:59,302: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:20:07,346: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-19 16:20:07,361: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:20:07,447: [Client 5] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:20:07,470: [Client 5] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:20:07,490: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:20:07,494: [Client 5] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:20:07,522: topic[/kelpie/battery/voltage] adding connection to [http://localhost:42789/], count 0
+[rosout][INFO] 2025-08-19 16:20:07,524: [Client 5] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:20:07,542: topic[/kelpie/imu] adding connection to [http://localhost:42789/], count 0
+[rospy.internal][INFO] 2025-08-19 16:20:17,352: topic impl's ref count is zero, deleting topic /kelpie/command_input...
+[rospy.core][INFO] 2025-08-19 16:20:46,142: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 16:20:46,163: topic[/kelpie/leg_control/currents] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:20:46,168: topic[/kelpie/battery/voltage] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:20:46,170: topic[/kelpie/imu] removing connection to http://localhost:42789/
+[rospy.internal][INFO] 2025-08-19 16:20:46,198: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 16:20:46,199: signal-2
+[rosout][INFO] 2025-08-19 16:20:46,749: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-19 16:20:46,764: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 16:27:31,745: init_node, name[/rosbridge_websocket], pid[3702]
+[xmlrpc][INFO] 2025-08-19 16:27:31,746: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 16:27:31,747: Started XML-RPC server [http://localhost:33553/]
+[rospy.impl.masterslave][INFO] 2025-08-19 16:27:31,748: _ready: http://localhost:33553/
+[rospy.registration][INFO] 2025-08-19 16:27:31,751: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2025-08-19 16:27:31,751: ROS Slave URI: [http://localhost:33553/]
+[rospy.init][INFO] 2025-08-19 16:27:31,752: registered with master
+[rospy.rosout][INFO] 2025-08-19 16:27:31,752: initializing /rosout core topic
+[xmlrpc][INFO] 2025-08-19 16:27:31,751: xml rpc node: starting XML-RPC server
+[rospy.rosout][INFO] 2025-08-19 16:27:31,760: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 16:27:31,763: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 16:27:31,844: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 16:27:32,011: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-19 16:33:35,845: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:33:36,681: [Client 0] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:33:36,697: [Client 0] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:33:36,709: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:33:36,718: [Client 0] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:33:36,728: topic[/kelpie/battery/voltage] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:33:36,741: [Client 0] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:33:36,752: topic[/kelpie/imu] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:34:00,698: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:34:00,705: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:34:00,710: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:34:00,711: topic[/kelpie/leg_control/currents] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:34:00,714: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:34:00,715: topic[/kelpie/battery/voltage] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:34:00,719: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:34:00,720: topic[/kelpie/imu] removing connection to http://localhost:39293/
+[rosout][INFO] 2025-08-19 16:34:00,772: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:34:00,965: [Client 1] Subscribed to /raspicam_node/image/compressed
+[rosout][INFO] 2025-08-19 16:34:06,082: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:34:06,090: topic impl's ref count is zero, deleting topic /raspicam_node/image/compressed...
+[rosout][INFO] 2025-08-19 16:34:06,100: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:34:15,143: Client disconnected. 0 clients total.
+[rosout][INFO] 2025-08-19 16:34:15,199: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:34:15,270: [Client 3] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:34:15,286: [Client 3] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:34:15,294: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:34:15,307: [Client 3] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:34:15,317: topic[/kelpie/battery/voltage] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:34:15,326: [Client 3] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:34:15,335: topic[/kelpie/imu] adding connection to [http://localhost:39293/], count 0
+[rospy.internal][INFO] 2025-08-19 16:34:25,152: topic impl's ref count is zero, deleting topic /kelpie/command_input...
+[rosout][INFO] 2025-08-19 16:39:17,586: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:39:17,592: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:39:17,597: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:39:17,598: topic[/kelpie/leg_control/currents] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:39:17,602: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:39:17,602: topic[/kelpie/battery/voltage] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:39:17,606: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:39:17,607: topic[/kelpie/imu] removing connection to http://localhost:39293/
+[rosout][INFO] 2025-08-19 16:39:17,755: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:39:17,820: [Client 4] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:39:17,837: [Client 4] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:39:17,845: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:39:17,856: [Client 4] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:39:17,864: topic[/kelpie/battery/voltage] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:39:17,875: [Client 4] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:39:17,883: topic[/kelpie/imu] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:42:48,764: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:42:48,772: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:42:48,776: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:42:48,777: topic[/kelpie/leg_control/currents] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:42:48,781: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:42:48,782: topic[/kelpie/battery/voltage] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:42:48,785: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:42:48,786: topic[/kelpie/imu] removing connection to http://localhost:39293/
+[rosout][INFO] 2025-08-19 16:42:48,886: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:42:48,951: [Client 5] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:42:48,968: [Client 5] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:42:48,977: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:42:48,987: [Client 5] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:42:48,996: topic[/kelpie/battery/voltage] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:42:49,007: [Client 5] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:42:49,014: topic[/kelpie/imu] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:43:40,453: Client disconnected. 0 clients total.
+[rospy.internal][INFO] 2025-08-19 16:43:40,459: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-19 16:43:40,463: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-19 16:43:40,464: topic[/kelpie/leg_control/currents] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:43:40,468: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-19 16:43:40,469: topic[/kelpie/battery/voltage] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 16:43:40,473: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-19 16:43:40,473: topic[/kelpie/imu] removing connection to http://localhost:39293/
+[rosout][INFO] 2025-08-19 16:43:40,572: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 16:43:40,641: [Client 6] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-19 16:43:40,657: [Client 6] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-19 16:43:40,665: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:43:40,677: [Client 6] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-19 16:43:40,686: topic[/kelpie/battery/voltage] adding connection to [http://localhost:39293/], count 0
+[rosout][INFO] 2025-08-19 16:43:40,695: [Client 6] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-19 16:43:40,705: topic[/kelpie/imu] adding connection to [http://localhost:39293/], count 0
+[rospy.core][INFO] 2025-08-19 17:05:08,568: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-19 17:05:08,609: topic[/kelpie/leg_control/currents] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 17:05:08,611: topic[/kelpie/battery/voltage] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 17:05:08,611: topic[/kelpie/imu] removing connection to http://localhost:39293/
+[rospy.internal][INFO] 2025-08-19 17:05:08,627: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2025-08-19 17:05:08,629: signal-2
+[rosout][INFO] 2025-08-19 17:05:09,172: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-19 17:05:09,194: signal_shutdown [atexit]
+[rospy.client][INFO] 2025-08-19 17:07:53,343: init_node, name[/rosbridge_websocket], pid[4766]
+[xmlrpc][INFO] 2025-08-19 17:07:53,344: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-19 17:07:53,345: Started XML-RPC server [http://localhost:42075/]
+[rospy.init][INFO] 2025-08-19 17:07:53,345: ROS Slave URI: [http://localhost:42075/]
+[rospy.impl.masterslave][INFO] 2025-08-19 17:07:53,346: _ready: http://localhost:42075/
+[rospy.registration][INFO] 2025-08-19 17:07:53,348: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-19 17:07:53,348: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-19 17:07:53,446: registered with master
+[rospy.rosout][INFO] 2025-08-19 17:07:53,447: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-19 17:07:53,454: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-19 17:07:53,457: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-19 17:07:53,530: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-19 17:07:53,593: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-19 17:08:07,156: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-19 17:08:07,992: [Client 0] Subscribed to /kelpie/leg_control/

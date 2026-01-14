@@ -1,0 +1,37 @@
+
+
+1755064896.558928074  Node Startup
+1755064897.866773843 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755064898.405807971 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755065140.580204010 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755065140.727821350 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065140.735954284 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065140.745103120 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065140.754890203 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 0] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065168.403288841 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /rosout, /connected_clients] Client disconnected. 0 clients total.
+1755065168.489280223 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755065169.605654478 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /raspicam_node/image/compressed, /connected_clients] [Client 1] Subscribed to /raspicam_node/image/compressed
+1755065171.527708530 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /rosout, /raspicam_node/image/compressed, /connected_clients] Client disconnected. 0 clients total.
+1755065171.546573400 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755065173.090139150 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /client_count, /rosout, /connected_clients] Client disconnected. 0 clients total.
+1755065173.099633455 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /client_count, /rosout, /connected_clients] Client connected.  1 clients total.
+1755065173.129906892 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 3] [id: subscribe:/kelpie/leg_control/joint_states:1] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065173.139928579 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 3] [id: subscribe:/kelpie/leg_control/currents:2] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065173.149362325 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 3] [id: subscribe:/kelpie/battery/voltage:3] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share
+1755065173.158987760 ERROR /rosbridge_websocket [protocol.py:399(RosbridgeProtocol.log)] [topics: /client_count, /rosout, /connected_clients] [Client 3] [id: subscribe:/kelpie/imu:4] subscribe: Unable to load the manifest for package kelpie. Caused by: kelpie
+ROS path [0]=/opt/ros/noetic/share/ros
+ROS path [1]=/opt/ros/noetic/share

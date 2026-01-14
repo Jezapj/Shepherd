@@ -1,0 +1,6 @@
+
+
+1757984350.970497088  Node Startup
+1757984794.555612087 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1757984794.732216358 WARN /kelpie [Kinematics.py:87(leg_explicit_inverse_kinematics)] [topics: /kelpie/command_input, /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/leg_control/currents] target coordinate: [0.023000 -0.011339 -0.203937]
+1757984795.353543281 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /client_count, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090

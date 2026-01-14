@@ -1,0 +1,17 @@
+[  0%] Built target _kelpie_generate_messages_check_deps_imu
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _kelpie_generate_messages_check_deps_joint_states
+[  0%] Built target _kelpie_generate_messages_check_deps_commands
+[  0%] Built target _kelpie_generate_messages_check_deps_leg_state
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _kelpie_generate_messages_check_deps_vec_3d_float32
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _kelpie_generate_messages_check_deps_att
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[ 18%] Built target kelpie_generate_messages_cpp
+[ 37%] Built target kelpie_generate_messages_nodejs
+[ 56%] Built target kelpie_generate_messages_lisp
+[ 78%] Built target kelpie_generate_messages_eus
+[100%] Built target kelpie_generate_messages_py
+[100%] Built target kelpie_generate_messages

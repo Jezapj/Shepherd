@@ -1,0 +1,14 @@
+[rosmaster.main][INFO] 2025-08-14 17:37:12,694: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2025-08-14 17:37:12,695: Starting ROS Master Node
+[xmlrpc][INFO] 2025-08-14 17:37:12,697: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2025-08-14 17:37:12,697: Started XML-RPC server [http://10.176.33.207:11311/]
+[rosmaster.master][INFO] 2025-08-14 17:37:12,698: Master initialized: port[11311], uri[http://10.176.33.207:11311/]
+[xmlrpc][INFO] 2025-08-14 17:37:12,698: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2025-08-14 17:37:12,814: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 17:37:12,817: +PARAM [/roslaunch/uris/host_10_176_33_207__37353] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 17:37:12,964: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 17:37:12,965: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2025-08-14 17:37:13,146: +SERVICE [/rosout/get_loggers] /rosout http://10.176.33.207:46409/
+[rosmaster.master][INFO] 2025-08-14 17:37:13,148: +SERVICE [/rosout/set_logger_level] /rosout http://10.176.33.207:46409/
+[rosmaster.master][INFO] 2025-08-14 17:37:13,152: +PUB [/rosout_agg] /rosout http://10.176.33.207:46409/
+[rosmaster.master][INFO] 2025-08-14 17:37:13,159: +SUB [/rosout] /rosout http://10.176.33.207:46409/

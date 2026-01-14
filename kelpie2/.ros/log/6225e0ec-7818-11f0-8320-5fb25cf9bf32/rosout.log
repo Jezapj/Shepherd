@@ -1,0 +1,25 @@
+
+
+1755070658.988998043  Node Startup
+1755070660.772278070 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755070660.832450151 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/imu, /rosout, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/command_input] Manual robot control active. Currently not accepting external commands
+1755070661.371598958 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755070686.400083638 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (Microsoft X-Box 360 pad). deadzone_: 0.050000.
+1755070703.995462179 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /connected_clients] Client connected.  1 clients total.
+1755070704.852414131 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /client_count, /kelpie/leg_control/joint_states, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755070704.868777990 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/leg_control/joint_states, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755070704.890359401 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /connected_clients] [Client 0] Subscribed to /kelpie/battery/voltage
+1755070704.908232212 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /connected_clients, /kelpie/imu] [Client 0] Subscribed to /kelpie/imu
+1755070717.190355539 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /connected_clients, /kelpie/imu] Client disconnected. 0 clients total.
+1755070717.238950490 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /connected_clients] Client connected.  1 clients total.
+1755070723.841179132 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /rosout, /client_count, /kelpie/command_input, /connected_clients] Client disconnected. 0 clients total.
+1755070724.019874572 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /kelpie/command_input, /connected_clients] Client connected.  1 clients total.
+1755070731.827685832 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /rosout, /client_count, /kelpie/command_input, /connected_clients] Client disconnected. 0 clients total.
+1755070731.863515615 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /kelpie/command_input, /connected_clients] Client connected.  1 clients total.
+1755070731.950597286 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /raspicam_node/image/compressed, /client_count, /connected_clients, /kelpie/command_input] [Client 3] Subscribed to /raspicam_node/image/compressed
+1755070735.310194015 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /rosout, /raspicam_node/image/compressed, /client_count, /connected_clients] Client disconnected. 0 clients total.
+1755070735.339082956 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /connected_clients] Client connected.  1 clients total.
+1755070735.364628076 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /client_count, /kelpie/leg_control/joint_states, /connected_clients] [Client 4] Subscribed to /kelpie/leg_control/joint_states
+1755070735.379661560 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/leg_control/joint_states, /connected_clients] [Client 4] Subscribed to /kelpie/leg_control/currents
+1755070735.398998260 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /connected_clients] [Client 4] Subscribed to /kelpie/battery/voltage
+1755070735.424812555 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/currents, /rosout, /client_count, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /connected_clients, /kelpie/imu] [Client 4] Subscribed to /kelpie/imu

@@ -1,0 +1,2972 @@
+
+
+1756880954.695635723  Node Startup
+1756880969.314812660 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1756880969.393659830 INFO /kelpie [main_driver.py:160(KelpieDriver.run)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/command_input, /rosout, /kelpie/battery/voltage, /kelpie/imu] Manual Control deactivated. Now accepting external commands
+1756880970.128299474 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /rosout, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1756881365.979868412 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1756881366.030259132 INFO /kelpie [main_driver.py:160(KelpieDriver.run)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/command_input] Manual Control deactivated. Now accepting external commands
+1756881366.594784259 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1756881548.405131578 INFO /kelpie [main_driver.py:160(KelpieDriver.run)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Manual Control deactivated. Now accepting external commands
+1756881548.394121885 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1756881548.960656166 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /client_count, /rosout, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1756881549.415805101 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881550.413795948 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881551.415246248 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881552.413886785 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881553.413464784 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881554.415206670 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881555.413002490 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881556.415283441 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881557.413267374 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881558.414586782 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881559.415332555 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881560.414031505 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881561.415391206 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881562.413245439 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881563.415067911 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881564.415450811 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881565.413172245 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881566.413572549 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881567.415829420 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881568.413523197 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881569.415416479 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881570.413401365 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881571.415435791 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881572.414679527 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881573.413041114 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881574.414794206 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881575.415559768 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881576.414019823 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881577.415454387 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881578.413144111 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881579.415036439 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881580.414881229 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881581.413451433 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881582.413489818 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881583.413333654 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881584.415382623 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881585.415669441 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881586.413949251 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881587.414622545 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881588.413075923 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881589.415008068 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881590.415517330 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881591.413492202 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881592.413625717 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881593.412559986 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881594.414927959 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881595.415630817 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881596.413259983 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881597.413640499 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881598.413941144 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881599.413963317 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881600.414750814 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881601.413677930 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881602.414369583 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881603.412925958 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881603.962735134 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (DualSense Wireless Controller). deadzone_: 0.050000.
+1756881604.414346933 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881605.414213657 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881606.412961721 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881607.414027452 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881608.413460731 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881609.414574861 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881610.415331602 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881611.413308382 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881612.414167404 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881613.414244651 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881614.414473056 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881615.416403055 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881616.413666486 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881617.414682626 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881618.413959980 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881619.413698911 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881620.415113925 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881621.412951231 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881622.413664340 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881623.421583175 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881624.413222312 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881625.414434194 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881626.414231300 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881627.414914608 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881628.414272785 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881629.413112640 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881630.413386821 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881631.414013862 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881632.413822650 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881633.414736747 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881634.413622617 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881635.414447784 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881636.414540767 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881637.414872646 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881638.415317296 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881639.413141250 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881640.414481878 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881641.414961576 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881642.413178682 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881643.414908647 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881644.413553714 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881645.414071321 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881646.414325475 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881647.413129806 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881648.415082216 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881649.415143489 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881650.413581371 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881651.414215087 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881652.413192033 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881653.414237499 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881654.415170192 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881655.414804220 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881656.414664506 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881657.413059234 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881658.412040233 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881659.411922454 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.035999998450279236
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881660.027033631 WARN /JOYSTICK [/tmp/binarydeb/ros-noetic-roscpp-1.17.4/src/libros/init.cpp:165(shutdownCallback)] [topics: /rosout, /diagnostics, /joy] Shutdown request received.
+1756881660.413831710 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881661.414437294 INFO /kelpie [current_saver.py:22(timer_function)] [topics: /rosout, /kelpie/command_input, /kelpie/leg_control/currents, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.00800000037997961
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756881661.724067211 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1756881662.609781026 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881667.619034528 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881672.636307239 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881677.649793386 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881682.664962768 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881687.682752609 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881692.690530538 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881697.711730003 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881702.721668720 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881707.743649959 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881712.757360458 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881717.773349523 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881722.786218166 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881727.799472570 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881732.812634706 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881737.825748205 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881742.838495016 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881747.851391553 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881752.863067626 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881757.878616094 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881762.893425703 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881767.906736612 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881772.922845602 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881777.938978195 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881782.950980186 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881787.964738607 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881792.975959539 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881797.989573001 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881802.998476266 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881808.013947725 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881813.027272462 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881818.043870210 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881823.054712772 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /rosout, /connected_clients, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756881828.064577817 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /connected_clients, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1756883767.549157857 INFO /kelpie [main_driver.py:160(KelpieDriver.run)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Manual Control deactivated. Now accepting external commands
+1756883767.548871278 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1756883768.065303087 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /rosout, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1756883768.557329177 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883769.560195922 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883770.559564828 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883771.558679342 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883772.560878753 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883773.558882236 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883774.557736396 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883775.560851573 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883776.559973478 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883777.557374715 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883778.557928800 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883779.559510469 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883780.563307285 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883781.557359933 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883782.559458732 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883783.560217380 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883784.558032989 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883785.568011760 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883786.558891534 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883787.560172080 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883788.559637784 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883789.557913064 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883790.562821388 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883791.559478759 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883792.559760332 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883793.560197591 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883794.558008909 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883795.562947273 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883796.559472322 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883797.558153629 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883798.559465885 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883799.557995319 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883800.591788053 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883801.559682607 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883802.558647155 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883803.557505846 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883804.559773921 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883805.562992572 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883806.560174703 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883807.558121204 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883808.559727430 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883809.559754610 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883810.562392950 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883811.559833049 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883812.560047626 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883813.558201551 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883814.559946537 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883815.564282178 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883816.559145212 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883817.559075355 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883818.557684421 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883819.558668136 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883820.562822580 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883821.559934377 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883822.559098482 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883823.557291269 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883824.558349847 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883825.560228586 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883826.558242797 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883827.559143304 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883828.557252645 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883829.558715105 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883830.559257268 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883831.558513879 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883832.563117265 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.02800000086426735
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883833.556426286 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03200000151991844
+  upper: -0.012000000104308128
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883834.556439399 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.035999998450279236
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883835.558210611 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.004000000189989805
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883836.558624267 INFO /kelpie [current_saver.py:24(timer_function)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] Saved the latest message: fl: 
+  roll: 0.004000000189989805
+  upper: 0.004000000189989805
+  lower: 0.012000000104308128
+fr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+rl: 
+  roll: -0.03999999910593033
+  upper: -0.01600000075995922
+  lower: -0.00800000037997961
+rr: 
+  roll: 0.0
+  upper: 0.0
+  lower: 0.0
+1756883836.969944715 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1756883837.110763311 WARN /kelpie [current_saver.py:28(shutdown_hook)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/imu, /kelpie/leg_control/joint_states, /kelpie/battery/voltage] >>> shutdown_hook CALLED <<<
+1756883837.750766277 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756883842.759425878 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756883847.774238348 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756883852.782766819 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756883857.791925430 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1756883862.804202795 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /rosout, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090

@@ -1,0 +1,62 @@
+[rospy.client][INFO] 2025-08-14 14:12:03,322: init_node, name[/rosbridge_websocket], pid[1712]
+[xmlrpc][INFO] 2025-08-14 14:12:03,324: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2025-08-14 14:12:03,325: Started XML-RPC server [http://localhost:35661/]
+[rospy.init][INFO] 2025-08-14 14:12:03,326: ROS Slave URI: [http://localhost:35661/]
+[rospy.impl.masterslave][INFO] 2025-08-14 14:12:03,326: _ready: http://localhost:35661/
+[rospy.registration][INFO] 2025-08-14 14:12:03,330: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2025-08-14 14:12:03,330: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-08-14 14:12:03,426: registered with master
+[rospy.rosout][INFO] 2025-08-14 14:12:03,427: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-08-14 14:12:03,433: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-08-14 14:12:03,435: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2025-08-14 14:12:03,493: Rosbridge WebSocket server started at ws://0.0.0.0:9090
+[rospy.internal][INFO] 2025-08-14 14:12:03,686: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2025-08-14 14:12:18,419: Client connected.  1 clients total.
+[rosout][INFO] 2025-08-14 14:12:19,432: [Client 0] Subscribed to /kelpie/leg_control/joint_states
+[rosout][INFO] 2025-08-14 14:12:19,448: [Client 0] Subscribed to /kelpie/leg_control/currents
+[rospy.internal][INFO] 2025-08-14 14:12:19,455: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:40135/], count 0
+[rosout][INFO] 2025-08-14 14:12:19,468: [Client 0] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-14 14:12:19,485: topic[/kelpie/battery/voltage] adding connection to [http://localhost:40135/], count 0
+[rospy.internal][INFO] 2025-08-14 14:12:19,493: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:44859/], count 0
+[rosout][INFO] 2025-08-14 14:12:19,487: [Client 0] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-14 14:12:19,495: topic[/kelpie/imu] adding connection to [http://localhost:40135/], count 0
+[rosout][INFO] 2025-08-14 14:12:26,495: Client connected.  2 clients total.
+[rosout][INFO] 2025-08-14 14:12:26,501: Client disconnected. 1 clients total.
+[rospy.internal][INFO] 2025-08-14 14:12:26,505: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-14 14:12:26,506: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:44859/
+[rospy.internal][INFO] 2025-08-14 14:12:26,509: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-14 14:12:26,510: topic[/kelpie/leg_control/currents] removing connection to http://localhost:40135/
+[rospy.internal][INFO] 2025-08-14 14:12:26,513: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-14 14:12:26,514: topic[/kelpie/battery/voltage] removing connection to http://localhost:40135/
+[rospy.internal][INFO] 2025-08-14 14:12:26,518: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-14 14:12:26,518: topic[/kelpie/imu] removing connection to http://localhost:40135/
+[rospy.internal][INFO] 2025-08-14 14:12:28,042: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rosout][INFO] 2025-08-14 14:14:14,953: Client connected.  2 clients total.
+[rosout][INFO] 2025-08-14 14:14:14,979: Client disconnected. 1 clients total.
+[rosout][INFO] 2025-08-14 14:14:15,042: [Client 2] Subscribed to /kelpie/leg_control/joint_states
+[rospy.internal][INFO] 2025-08-14 14:14:15,068: topic[/kelpie/leg_control/joint_states] adding connection to [http://localhost:44859/], count 0
+[rospy.internal][INFO] 2025-08-14 14:14:15,069: topic[/kelpie/leg_control/currents] adding connection to [http://localhost:40135/], count 0
+[rosout][INFO] 2025-08-14 14:14:15,059: [Client 2] Subscribed to /kelpie/leg_control/currents
+[rosout][INFO] 2025-08-14 14:14:15,085: [Client 2] Subscribed to /kelpie/battery/voltage
+[rospy.internal][INFO] 2025-08-14 14:14:15,095: topic[/kelpie/battery/voltage] adding connection to [http://localhost:40135/], count 0
+[rosout][INFO] 2025-08-14 14:14:15,104: [Client 2] Subscribed to /kelpie/imu
+[rospy.internal][INFO] 2025-08-14 14:14:15,113: topic[/kelpie/imu] adding connection to [http://localhost:40135/], count 0
+[rospy.internal][INFO] 2025-08-14 14:14:24,985: topic impl's ref count is zero, deleting topic /kelpie/command_input...
+[rospy.internal][INFO] 2025-08-14 14:14:24,986: topic[/kelpie/command_input] removing connection to /kelpie
+[rosout][INFO] 2025-08-14 14:14:37,520: Client connected.  2 clients total.
+[rosout][INFO] 2025-08-14 14:14:37,554: Client disconnected. 1 clients total.
+[rospy.internal][INFO] 2025-08-14 14:14:37,559: topic impl's ref count is zero, deleting topic /kelpie/leg_control/joint_states...
+[rospy.internal][INFO] 2025-08-14 14:14:37,560: topic[/kelpie/leg_control/joint_states] removing connection to http://localhost:44859/
+[rospy.internal][INFO] 2025-08-14 14:14:37,563: topic impl's ref count is zero, deleting topic /kelpie/leg_control/currents...
+[rospy.internal][INFO] 2025-08-14 14:14:37,564: topic[/kelpie/leg_control/currents] removing connection to http://localhost:40135/
+[rospy.internal][INFO] 2025-08-14 14:14:37,568: topic impl's ref count is zero, deleting topic /kelpie/battery/voltage...
+[rospy.internal][INFO] 2025-08-14 14:14:37,568: topic[/kelpie/battery/voltage] removing connection to http://localhost:40135/
+[rospy.internal][INFO] 2025-08-14 14:14:37,572: topic impl's ref count is zero, deleting topic /kelpie/imu...
+[rospy.internal][INFO] 2025-08-14 14:14:37,573: topic[/kelpie/imu] removing connection to http://localhost:40135/
+[rospy.internal][INFO] 2025-08-14 14:14:39,788: topic[/kelpie/command_input] adding connection to [/kelpie], count 0
+[rospy.core][INFO] 2025-08-14 14:20:03,705: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2025-08-14 14:20:03,723: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2025-08-14 14:20:03,724: topic[/kelpie/command_input] removing connection to /kelpie
+[rospy.impl.masterslave][INFO] 2025-08-14 14:20:03,725: signal-2
+[rosout][INFO] 2025-08-14 14:20:04,310: Client disconnected. 0 clients total.
+[rospy.core][INFO] 2025-08-14 14:20:04,333: signal_shutdown [atexit]

@@ -1,0 +1,4 @@
+kelpie_ground_station
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_ground_station/lib/pkgconfig/kelpie_ground_station.pc /home/kelpie2/Kelpie/kelpie_ws/devel/lib/pkgconfig/kelpie_ground_station.pc
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_ground_station/share/kelpie_ground_station/cmake/kelpie_ground_stationConfig.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_ground_station/cmake/kelpie_ground_stationConfig.cmake
+/home/kelpie2/Kelpie/kelpie_ws/devel/.private/kelpie_ground_station/share/kelpie_ground_station/cmake/kelpie_ground_stationConfig-version.cmake /home/kelpie2/Kelpie/kelpie_ws/devel/share/kelpie_ground_station/cmake/kelpie_ground_stationConfig-version.cmake

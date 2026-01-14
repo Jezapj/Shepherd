@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-background-panel.desktop" score="0" last-seen="0"/>
+    <application id="gnome-control-center.desktop" score="4" last-seen="1754547522"/>
+    <application id="debian-xterm.desktop" score="0" last-seen="1754547410"/>
+    <application id="yelp.desktop" score="0" last-seen="1754547504"/>
+  </context>
+</application-state>

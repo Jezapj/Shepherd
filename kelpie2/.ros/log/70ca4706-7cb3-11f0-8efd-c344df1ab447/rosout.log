@@ -1,0 +1,35 @@
+
+
+1755577060.071155280  Node Startup
+1755577442.001252174 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755577442.180733680 INFO /kelpie [main_driver.py:99(KelpieDriver.run)] [topics: /kelpie/battery/voltage, /rosout, /kelpie/command_input, /kelpie/leg_control/joint_states, /kelpie/imu, /kelpie/leg_control/currents] Manual robot control active. Currently not accepting external commands
+1755577442.628008604 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /rosout, /client_count, /connected_clients] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755577443.105129241 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /rosout, /client_count, /connected_clients] Client connected.  1 clients total.
+1755577444.032991170 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /kelpie/leg_control/joint_states, /client_count, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755577444.052730321 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /kelpie/leg_control/joint_states, /client_count, /connected_clients, /kelpie/leg_control/currents] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755577444.085506677 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/leg_control/joint_states, /client_count, /connected_clients, /kelpie/leg_control/currents] [Client 0] Subscribed to /kelpie/battery/voltage
+1755577444.113806247 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /rosout, /kelpie/battery/voltage, /kelpie/imu, /kelpie/leg_control/joint_states, /client_count, /connected_clients, /kelpie/leg_control/currents] [Client 0] Subscribed to /kelpie/imu
+1755577522.408228273 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:670(main)] [topics: /rosout, /diagnostics, /joy] Connection to joystick device lost unexpectedly. Will reopen.
+1755577522.408504322 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:415(main)] [topics: /rosout, /diagnostics, /joy] Couldn't open joystick /dev/input/js0. Will retry every second.
+1755577533.580125600 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (Sony Interactive Entertainment DualSense Wireless Controller). deadzone_: 0.050000.
+1755577548.760205682 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:670(main)] [topics: /rosout, /diagnostics, /joy] Connection to joystick device lost unexpectedly. Will reopen.
+1755577548.760497694 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:415(main)] [topics: /rosout, /diagnostics, /joy] Couldn't open joystick /dev/input/js0. Will retry every second.
+1755577556.900120436 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (Sony Interactive Entertainment DualSense Wireless Controller). deadzone_: 0.050000.
+1755577572.624297402 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:670(main)] [topics: /rosout, /diagnostics, /joy] Connection to joystick device lost unexpectedly. Will reopen.
+1755577572.624566748 ERROR /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:415(main)] [topics: /rosout, /diagnostics, /joy] Couldn't open joystick /dev/input/js0. Will retry every second.
+1755577577.668130321 INFO /JOYSTICK [/tmp/binarydeb/ros-noetic-joy-1.15.1/src/joy_node.cpp:464(main)] [topics: /rosout, /diagnostics, /joy] Opened joystick: /dev/input/js0 (DualSense Wireless Controller). deadzone_: 0.050000.
+1755577966.567486047 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755577966.540836095 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /kelpie/battery/voltage, /kelpie/imu, /rosout, /kelpie/leg_control/currents, /kelpie/command_input, /kelpie/leg_control/joint_states] front leg x shift: 0.05
+1755577967.189930677 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /client_count, /rosout] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755577981.365744875 WARN /JOYSTICK [/tmp/binarydeb/ros-noetic-roscpp-1.17.4/src/libros/init.cpp:165(shutdownCallback)] [topics: /rosout, /diagnostics, /joy] Shutdown request received.
+1755577983.031032085 INFO /rosapi [rosapi_node:202(<module>)] [topics: /rosout] Rosapi started
+1755577983.317951679 INFO /kelpie [main_driver.py:87(KelpieDriver.__init__)] [topics: /rosout, /kelpie/leg_control/currents, /kelpie/leg_control/joint_states, /kelpie/battery/voltage, /kelpie/imu, /kelpie/command_input] front leg x shift: 0.05
+1755577983.867050170 WARN /rosbridge_websocket [rosbridge_websocket:315(<module>)] [topics: /connected_clients, /rosout, /client_count] Unable to start server: Couldn't listen on any:9090: [Errno 98] Address already in use. Retrying in 5s.
+1755577988.878780364 INFO /rosbridge_websocket [rosbridge_websocket:312(<module>)] [topics: /connected_clients, /rosout, /client_count] Rosbridge WebSocket server started at ws://0.0.0.0:9090
+1755577988.974584341 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /connected_clients, /rosout, /client_count] Client connected.  1 clients total.
+1755577989.890319108 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /rosout, /kelpie/leg_control/joint_states, /client_count] [Client 0] Subscribed to /kelpie/leg_control/joint_states
+1755577989.909010171 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /rosout, /client_count, /connected_clients] [Client 0] Subscribed to /kelpie/leg_control/currents
+1755577989.930748224 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /connected_clients] [Client 0] Subscribed to /kelpie/battery/voltage
+1755577989.947758913 INFO /rosbridge_websocket [protocol.py:403(RosbridgeProtocol.log)] [topics: /connected_clients, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/imu] [Client 0] Subscribed to /kelpie/imu
+1755578000.688810586 INFO /rosbridge_websocket [autobahn_websocket.py:255(RosbridgeWebSocket.onClose)] [topics: /connected_clients, /kelpie/leg_control/joint_states, /kelpie/leg_control/currents, /kelpie/battery/voltage, /rosout, /client_count, /kelpie/imu] Client disconnected. 0 clients total.
+1755578000.705951690 INFO /rosbridge_websocket [autobahn_websocket.py:195(RosbridgeWebSocket.onOpen)] [topics: /kelpie/imu, /connected_clients, /rosout, /client_count] Client connected.  1 clients total.

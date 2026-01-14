@@ -1,0 +1,16 @@
+Current registers:
+data_rate: 0b101
+batch: 0b0
+fifo mode: 0b110
+sflp en: 0b1
+sflp init: 0b0
+fifo watermark: 0b0
+acc batch: 0b0
+gyro range: 0b100
+gyro rate: 0b1011
+acc range: 0b0
+acc rate: 0b1011
+=================================
+Initializing ROS: connecting to http://localhost:11311/
+started
+shutdown request: [/hardware] Reason: new node registered with same name
